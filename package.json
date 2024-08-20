@@ -16,8 +16,22 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource-variable/eb-garamond": "^5.0.20",
+    "@fontsource-variable/open-sans": "^5.0.30",
+    "framer-motion": "^11.3.28",
     "gatsby": "^5.13.5",
+    "gatsby-plugin-emotion": "^8.13.1",
+    "gatsby-plugin-facebook-pixel": "^1.0.8",
+    "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-posthog": "^1.0.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "posthog-js": "^1.157.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -25,6 +39,9 @@
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
+    "dotenv": "^16.4.5",
+    "gatsby-plugin-tsconfig-paths": "^1.0.6",
+    "prettier": "^3.3.3",
     "typescript": "^5.3.3"
   }
 }
