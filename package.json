@@ -21,6 +21,7 @@
     "@emotion/styled": "^11.13.0",
     "@fontsource-variable/eb-garamond": "^5.0.20",
     "@fontsource-variable/open-sans": "^5.0.30",
+    "ajv": "^8.17.1",
     "framer-motion": "^11.3.28",
     "gatsby": "^5.13.5",
     "gatsby-plugin-emotion": "^8.13.1",
