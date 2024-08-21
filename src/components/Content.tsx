@@ -20,10 +20,12 @@ import { SummaryComparisonChart } from "./sections/SummaryComparisonChart";
 import { TestingMethodology } from "./sections/TestingMethodology";
 import { Backstory } from "./sections/Backstory";
 import { Intro } from "./sections/Intro";
+import { Hero } from "./sections/Hero";
 
 export function Content() {
   return (
     <Box>
+      <Hero />
       <Intro />
       <Backstory />
       <TestingMethodology />

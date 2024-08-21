@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Section, SHeading } from "@components/components";
 
 export function FullComparisonChart() {
