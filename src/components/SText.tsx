@@ -11,6 +11,10 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "gatsby";
 
+export function Span(props: TextProps) {
+  return <Text as="span" {...props} />;
+}
+
 export function SHeading(props: HeadingProps) {
   return <Heading {...props} />;
 }
