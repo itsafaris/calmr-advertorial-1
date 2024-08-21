@@ -5,7 +5,8 @@ import { SEO } from "@components/SEO";
 import { Badge, Box, Container, Flex, Heading, Stack, Text } from "@chakra-ui/react";
 import { siteConfig } from "src/conf";
 import { StaticImage } from "gatsby-plugin-image";
-import { SGrid, Section, SHeading, SBoldText, SItalicText, SLink, SText } from "@components/SText";
+import { SGrid, Section, SItalicText, SLink, SText } from "@components/components";
+import { Content } from "@components/Content";
 
 export const Head: HeadFC = () => {
   return <SEO title={`My Weight Loss Journey - ${siteConfig.brandName}`} />;
@@ -77,35 +78,7 @@ const IndexPage: React.FC<PageProps> = () => {
           </SText>
         </Section>
 
-        <Section>
-          <SText>
-            <SBoldText>Want the short version?</SBoldText> I personally tried 10 different weight
-            loss methods. All the solutions I experimented with are shown in the image below.{" "}
-            <SLink to="">Click to skip to the winner that worked best for me.</SLink>
-          </SText>
-
-          <StaticImage src="../images/all_weight_loss_methods_1.png" alt="" />
-
-          <SItalicText>
-            I reviewed all these weight loss methods, and{" "}
-            <SBoldText>the Biome Secret Superfood Weight Loss Shake</SBoldText> came out on top.
-          </SItalicText>
-
-          <SText>
-            Opting for Contrave felt right—it seemed to match what I was looking for in my weight
-            loss journey. It wasn’t just about shedding weight but about managing my eating habits
-            in a way that felt more natural and kept me feeling balanced. ‍
-          </SText>
-
-          <SItalicText>
-            Hydroxycut + Women: Curbed my appetite, but the high caffeine made regular use tough.
-          </SItalicText>
-
-          <SGrid columns={[1, 2]}>
-            <StaticImage src="../images/biome_1.jpeg" alt="" />
-            <StaticImage src="../images/biome_1.jpeg" alt="" />
-          </SGrid>
-        </Section>
+        <Content />
       </Container>
     </Box>
   );
