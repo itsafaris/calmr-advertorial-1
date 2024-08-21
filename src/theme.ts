@@ -4,7 +4,7 @@ import "@fontsource-variable/eb-garamond";
 
 const extensions: DeepPartial<ChakraTheme> = {
   fonts: {
-    heading: `'EB Garamond Variable', serif`,
+    heading: `'Open Sans Variable', sans-serif`,
     body: `'Open Sans Variable', sans-serif`,
   },
   components: {
