@@ -45,39 +45,6 @@ const IndexPage: React.FC<PageProps> = () => {
           </Flex>
         </Box>
 
-        <Section>
-          <SGrid columns={2}>
-            <Stack>
-              <SItalicText>Before weight loss. 174 lbs. Feb 6, 2023</SItalicText>
-              <StaticImage alt="before weight loss journey" src="../images/me-before.jpg" />
-            </Stack>
-
-            <Stack>
-              <SItalicText>After weight loss. 143 lbs. Mar 9, 2024</SItalicText>
-              <StaticImage alt="after weight loss journey" src="../images/me-after.jpg" />
-            </Stack>
-          </SGrid>
-
-          <SText>
-            As a mother of three, navigating the constant demands of family life while transitioning
-            from my career as an elementary school teacher to a full-time wellness coach, finding an
-            effective weight loss method that could seamlessly fit into my busy routine was no easy
-            task. The daily pressures of parenting, coupled with the challenges of maintaining a
-            healthy lifestyle amidst school runs, meal preps, and family commitments, made it
-            difficult to stick to any weight management plan.
-          </SText>
-
-          <SText>
-            Despite trying a variety of solutions—from diet plans to exercise routines and natural
-            supplements—nothing seemed to truly work.
-          </SText>
-
-          <SText>
-            But now, I'm thrilled to share that I've finally discovered a weight loss strategy that
-            genuinely works for me.
-          </SText>
-        </Section>
-
         <Content />
       </Container>
     </Box>
