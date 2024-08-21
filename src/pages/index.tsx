@@ -5,8 +5,9 @@ import { SEO } from "@components/SEO";
 import { Badge, Box, Container, Flex, Heading, Stack, Text } from "@chakra-ui/react";
 import { siteConfig } from "src/conf";
 import { StaticImage } from "gatsby-plugin-image";
-import { SGrid, Section, SBoldText, SItalicText, SLink, SText } from "@components/SText";
 import { ProductCard } from "@components/ProductCard";
+import { SGrid, Section, SBoldText, SItalicText, SLink, SText } from "@components/components";
+import { Content } from "@components/Content";
 
 export const Head: HeadFC = () => {
   return <SEO title={`My Weight Loss Journey - ${siteConfig.brandName}`} />;
@@ -566,6 +567,7 @@ const IndexPage: React.FC<PageProps> = () => {
             ]}
           />
         </Stack>
+        <Content />
       </Container>
     </Box>
   );
