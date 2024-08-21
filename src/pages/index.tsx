@@ -28,6 +28,7 @@ import { Backstory } from "@components/sections/Backstory";
 import { Intro } from "@components/sections/Intro";
 import { Hero } from "@components/sections/Hero";
 import { Header } from "@components/Header";
+import { Footer } from "@components/Footer";
 
 export const Head: HeadFC = () => {
   return <SEO title={`My Weight Loss Journey - ${siteConfig.brandName}`} />;
@@ -520,6 +521,8 @@ const IndexPage: React.FC<PageProps> = () => {
           />
         </Stack>
       </Container>
+
+      <Footer />
     </Box>
   );
 };
