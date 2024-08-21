@@ -1,7 +1,7 @@
 import { Box, Button, Card, Flex, Icon, Stack, Text } from "@chakra-ui/react";
 import * as React from "react";
 import { FaBan, FaCheckCircle, FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
-import { SBoldText, Span } from "./SText";
+import { SBoldText, Span } from "./components";
 
 export interface IProductCardProps {
   bannerText?: string;
