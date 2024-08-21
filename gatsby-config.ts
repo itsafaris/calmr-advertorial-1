@@ -24,8 +24,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-posthog`,
       options: {
-        apiKey: "",
-        apiHost: "",
+        apiKey: "phc_8GZnMTIRMuj7aNKBpluPe46MiqUaFn4RiuH4TtCnmme",
+        apiHost: "https://us.i.posthog.com",
         head: true,
         isEnabledDevMode: false,
         initOptions: {
@@ -40,7 +40,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: "",
+        pixelId: "1151210512780170",
       },
     },
 
