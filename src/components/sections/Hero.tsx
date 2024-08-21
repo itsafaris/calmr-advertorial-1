@@ -4,11 +4,16 @@ import { Badge, Box, Flex, Heading, Text } from "@chakra-ui/react";
 import { StaticImage } from "gatsby-plugin-image";
 import { siteConfig } from "src/conf";
 
+import "@fontsource-variable/eb-garamond";
+
 export function Hero() {
   return (
     <Section mb={0}>
       <Box my={4}>
-        <Heading textAlign={"center"}>Hey! I'm {siteConfig.personaName}</Heading>
+        <Heading fontFamily={"'EB Garamond Variable', serif"} textAlign={"center"}>
+          Hey! I'm {siteConfig.personaName}
+        </Heading>
+
         <Flex flexWrap={"wrap"} justifyContent={"center"} my={2}>
           <StaticImage
             alt="personal weight loss blogger picture"
@@ -18,12 +23,18 @@ export function Hero() {
             style={{ flexShrink: 0, width: 80, height: 80, borderRadius: "100%" }}
           />
         </Flex>
-        <Text fontSize={"md"} textAlign={"center"} px={4}>
+
+        <Text
+          fontFamily={"'EB Garamond Variable', serif"}
+          fontSize={"xl"}
+          textAlign={"center"}
+          px={4}
+        >
           A mother of three, ex elementary school teacher, now a full-time wellness blogger
         </Text>
       </Box>
 
-      <Box my={10}>
+      <Box mb={10} mt={4}>
         <Heading as="h2" my={2} fontSize={"2xl"}>
           My 3-year long weight loss journey... And how I finally conquered it
         </Heading>

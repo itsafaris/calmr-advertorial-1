@@ -2,11 +2,11 @@ import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 
 import { SEO } from "@components/SEO";
-import { Badge, Box, Container, Flex, Heading, Stack, Text } from "@chakra-ui/react";
+import { Box, Container, Stack } from "@chakra-ui/react";
 import { siteConfig } from "src/conf";
 import { StaticImage } from "gatsby-plugin-image";
 import { ProductCard } from "@components/ProductCard";
-import { SGrid, Section, SBoldText, SItalicText, SLink, SText } from "@components/components";
+import { Section } from "@components/components";
 
 import { FullComparisonChart } from "@components/sections/FullComparisonChart";
 import { Verdict } from "@components/sections/Verdict";
@@ -28,6 +28,8 @@ import { Backstory } from "@components/sections/Backstory";
 import { Intro } from "@components/sections/Intro";
 import { Hero } from "@components/sections/Hero";
 import ComparisonTable from "@components/ComparisonTable";
+import { Header } from "@components/Header";
+import { Footer } from "@components/Footer";
 
 export const Head: HeadFC = () => {
   return <SEO title={`My Weight Loss Journey - ${siteConfig.brandName}`} />;
@@ -37,6 +39,8 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <Box>
       <Container maxW="container.md">
+        <Header />
+
         <Hero />
         <Intro />
         <Backstory />
@@ -644,6 +648,8 @@ const IndexPage: React.FC<PageProps> = () => {
           />
         </Section>
       </Container>
+
+      <Footer />
     </Box>
   );
 };
