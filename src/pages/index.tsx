@@ -27,6 +27,7 @@ import { TestingMethodology } from "@components/sections/TestingMethodology";
 import { Backstory } from "@components/sections/Backstory";
 import { Intro } from "@components/sections/Intro";
 import { Hero } from "@components/sections/Hero";
+import ComparisonTable from "@components/ComparisonTable";
 
 export const Head: HeadFC = () => {
   return <SEO title={`My Weight Loss Journey - ${siteConfig.brandName}`} />;
@@ -516,6 +517,132 @@ const IndexPage: React.FC<PageProps> = () => {
             ]}
           />
         </Stack>
+
+        <Section>
+          <ComparisonTable
+            data={[
+              {
+                method: "Biome Secret Superfood Weight Loss Shake",
+                initialWeightLoss: "5 / 5",
+                weightMaintenance: "5 / 5",
+                sideEffects: "None",
+                monthlyCost: "$$",
+                easeOfUse: "easy",
+                overallRating: "5 / 5",
+                ratingComment:
+                  "Highly recommended for sustainable weight loss, banishing bloating and constipation, and providing a daily supercharge of essential vitamins and minerals. It's easy to integrate into your current lifestyle and diet.",
+              },
+              {
+                method: "WeightWatchers Weight-Loss Program",
+                initialWeightLoss: "4 / 5",
+                weightMaintenance: "4 / 5",
+                sideEffects: "None",
+                monthlyCost: "$$$",
+                easeOfUse: "medium",
+                overallRating: "4 / 5",
+                ratingComment:
+                  "It's recommended for those who seek a sustainable lifestyle and diet change. This method requires more personal commitment, yet it's very effective and comes with comprehensive support.",
+              },
+              {
+                method: "Huel Original Complete Meal",
+                initialWeightLoss: "4 / 5",
+                weightMaintenance: "3 / 5",
+                sideEffects: "None",
+                monthlyCost: "$$",
+                easeOfUse: "easy",
+                overallRating: "3 / 5",
+                ratingComment:
+                  "It's recommended for modest weight loss, but overall it's a good product that's very filling. Expect mild weight loss, and it's easy to sustain those results using this product.",
+              },
+              {
+                method: "Contrave Weight Loss Pill",
+                initialWeightLoss: "3 / 5",
+                weightMaintenance: "3 / 5",
+                sideEffects: "Nausea, constipation, headache, potential mood changes",
+                monthlyCost: "$$$$",
+                easeOfUse: "medium",
+                overallRating: "3 / 5",
+                ratingComment:
+                  "It's recommended due to its effectiveness for weight loss, but the side effects can be challenging, and it requires medical supervision.",
+              },
+              {
+                method: "Ozempic",
+                initialWeightLoss: "5 / 5",
+                weightMaintenance: "1 / 5",
+                sideEffects: "Stomach pain, vomiting, constipation",
+                monthlyCost: "$$$$$",
+                easeOfUse: "easy",
+                overallRating: "2 / 5",
+                ratingComment:
+                  "Least recommended due to high costs, severe health issues, and risk of regaining more weight after stopping. Requires medical supervision.",
+              },
+              {
+                method: "Hydroxycut Weight Loss Pills",
+                initialWeightLoss: "1 / 5",
+                weightMaintenance: "1 / 5",
+                sideEffects: "Jitters, anxiety, elevated heart rate",
+                monthlyCost: "$$",
+                easeOfUse: "easy",
+                overallRating: "1 / 5",
+                ratingComment: "Not recommended, potential health risks outweigh benefits.",
+
+                isRuledOut: true,
+              },
+              {
+                method: "Burn-XT Fat Burner",
+                initialWeightLoss: "1 / 5",
+                weightMaintenance: "1 / 5",
+                sideEffects: "Jitters, headaches, potential for energy crash",
+                monthlyCost: "$$",
+                easeOfUse: "easy",
+                overallRating: "1 / 5",
+                ratingComment:
+                  "It's effective for moderate weight loss and boosts energy, but it's not highly recommended due to its potential for severe side effects.",
+
+                isRuledOut: true,
+              },
+              {
+                method: "Stripfast5000 Fire Bullet Weight-Loss Supplement",
+                initialWeightLoss: "1 / 5",
+                weightMaintenance: "1 / 5",
+                sideEffects: "Altered taste, extreme thirst",
+                monthlyCost: "$$",
+                easeOfUse: "easy",
+                overallRating: "1 / 5",
+                ratingComment:
+                  "Not recommended due to side effects and lack of long-term effectiveness.",
+
+                isRuledOut: true,
+              },
+              {
+                method: "Vitauthority Multi Collagen Burn",
+                initialWeightLoss: "1 / 5",
+                weightMaintenance: "1 / 5",
+                sideEffects: "Minimal, occasional gastrointestinal discomfort",
+                monthlyCost: "$$$",
+                easeOfUse: "easy",
+                overallRating: "1 / 5",
+                ratingComment:
+                  "It's not primarily recommended for weight loss due to its moderate weight loss results, but it does offer benefits for skin and joints.",
+
+                isRuledOut: true,
+              },
+              {
+                method: "NOW Foods Acetyl-L-Carnitine",
+                initialWeightLoss: "1 / 5",
+                weightMaintenance: "1 / 5",
+                sideEffects: "None",
+                monthlyCost: "$",
+                easeOfUse: "easy",
+                overallRating: "1 / 5",
+                ratingComment:
+                  "It's not primarily recommended for weight loss due to its mild results, but it provides a noticeable cognitive and energy boost.",
+
+                isRuledOut: true,
+              },
+            ]}
+          />
+        </Section>
       </Container>
     </Box>
   );
