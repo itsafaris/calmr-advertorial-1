@@ -43,10 +43,10 @@ export function SLink({ to, ...rest }: TextProps & { to: string }) {
   );
 }
 
-export function SImageGrid(props: SimpleGridProps) {
+export function SGrid(props: SimpleGridProps) {
   return <SimpleGrid gap={6} {...props} />;
 }
 
 export function Section(props: StackProps) {
-  return <Stack spacing={5} mb={20} {...props} />;
+  return <Stack spacing={5} mb={12} {...props} />;
 }
