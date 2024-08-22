@@ -1,6 +1,5 @@
 import React from "react";
 import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
-import { StaticImage } from "gatsby-plugin-image";
 import { Flex, Stack } from "@chakra-ui/react";
 
 export function TenMethods() {

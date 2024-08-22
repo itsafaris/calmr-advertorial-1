@@ -33,8 +33,8 @@ export function SupWeightWatchers() {
       </SText>
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/WW_1.png" />
-        <StaticImage alt="" src="../../images/WW_2.png" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-wwapp-2.jpg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-wwapp-3.jpg" />
       </SGrid>
 
       <SItalicText>Here's a glimpse of what I was eating in a day on WeightWatchers</SItalicText>

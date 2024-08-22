@@ -7,7 +7,7 @@ export function Verdict() {
     <Section>
       <SHeading>The verdict</SHeading>
 
-      <StaticImage alt="" src="../../images/verdict.png" />
+      <StaticImage height={500} alt="winner" src="../../images/verdict-1.jpg" />
 
       <SItalicText>
         Out of all weight loss methods tried, ultimately chose Biome Secret Superfood Weight Loss
@@ -58,11 +58,11 @@ export function Verdict() {
         nutritional treasure trove that slotted right into my daily life without any hassle.
       </SText>
 
-      <StaticImage alt="" src="../../images/Biome_Verdict_3.jpeg" />
+      <StaticImage height={400} alt="winner" src="../../images/verdict-4.jpeg" />
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/Verdict_biome_1.jpeg" />
-        <StaticImage alt="" src="../../images/Verdict_biome_2.jpeg" />
+        <StaticImage height={400} alt="winner" src="../../images/verdict-2.jpeg" />
+        <StaticImage height={400} alt="winner" src="../../images/verdict-3.jpeg" />
       </SGrid>
 
       <SItalicText>
@@ -91,13 +91,17 @@ export function Verdict() {
       </SGrid>
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/Scales_before.jpeg" />
-        <StaticImage alt="" src="../../images/Scales_after.jpeg" />
+        <StaticImage height={400} alt="weight before" src="../../images/scales-before.jpeg" />
+        <StaticImage height={400} alt="weight after" src="../../images/scales-after.jpeg" />
       </SGrid>
 
       <SGrid columns={2}>
-        <StaticImage alt="before weight loss journey" src="../../images/me-before.jpg" />
-        <StaticImage alt="after weight loss journey" src="../../images/me-after.jpg" />
+        <StaticImage
+          height={700}
+          alt="before weight loss journey"
+          src="../../images/me-before.jpg"
+        />
+        <StaticImage height={700} alt="after weight loss journey" src="../../images/me-after.jpg" />
       </SGrid>
 
       <SItalicText>

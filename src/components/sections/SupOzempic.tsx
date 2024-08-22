@@ -32,7 +32,7 @@ export function SupOzempic() {
         motivated.
       </SText>
 
-      <StaticImage alt="" src="../../images/Ozempic-2.png" />
+      <StaticImage height={500} alt="supplement" src="../../images/sup-ozempic-1.jpg" />
 
       <SItalicText>
         On November 3 rd 2023 I began my weight loss journey using Ozempic. As on February 22nd2023

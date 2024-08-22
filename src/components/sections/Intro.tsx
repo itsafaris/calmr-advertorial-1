@@ -17,12 +17,20 @@ export function Intro() {
       <SGrid columns={2}>
         <Stack>
           <SItalicText>Before weight loss. 174 lbs. Feb 6, 2023</SItalicText>
-          <StaticImage alt="before weight loss journey" src="../../images/me-before.jpg" />
+          <StaticImage
+            height={700}
+            alt="before weight loss journey"
+            src="../../images/me-before.jpg"
+          />
         </Stack>
 
         <Stack>
           <SItalicText>After weight loss. 143 lbs. Mar 9, 2024</SItalicText>
-          <StaticImage alt="after weight loss journey" src="../../images/me-after.jpg" />
+          <StaticImage
+            height={700}
+            alt="after weight loss journey"
+            src="../../images/me-after.jpg"
+          />
         </Stack>
       </SGrid>
 
@@ -51,7 +59,7 @@ export function Intro() {
         <SLink to="">Click to skip to the winner that worked best for me.</SLink>
       </SText>
 
-      <StaticImage src="../../images/all_weight_loss_methods_1.png" alt="" />
+      <StaticImage src="../../images/all-products.jpg" alt="all supplements" />
 
       <SItalicText>
         I reviewed all these weight loss methods, and{" "}

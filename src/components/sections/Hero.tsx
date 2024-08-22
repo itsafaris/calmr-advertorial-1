@@ -17,7 +17,7 @@ export function Hero() {
         <Flex flexWrap={"wrap"} justifyContent={"center"} my={2}>
           <StaticImage
             alt="personal weight loss blogger picture"
-            src="../../images/main-avatar.png"
+            src="../../images/main-avatar.jpg"
             height={200}
             width={200}
             style={{ flexShrink: 0, width: 80, height: 80, borderRadius: "100%" }}

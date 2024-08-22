@@ -43,8 +43,12 @@ export function Backstory() {
       <SItalicText>During my weight loss journey. 185 - 164 lbs. Mar. 1- Oct. 28 2023.</SItalicText>
 
       <SGrid columns={2}>
-        <StaticImage alt="before weight loss journey" src="../../images/me-before.jpg" />
-        <StaticImage alt="after weight loss journey" src="../../images/me-after.jpg" />
+        <StaticImage
+          height={700}
+          alt="before weight loss journey"
+          src="../../images/me-before.jpg"
+        />
+        <StaticImage height={700} alt="after weight loss journey" src="../../images/me-after.jpg" />
       </SGrid>
     </Section>
   );

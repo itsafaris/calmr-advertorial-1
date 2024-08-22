@@ -7,7 +7,7 @@ export function TestingMethodology() {
   return (
     <Section>
       <SHeading>Testing methodology 👩🔬</SHeading>
-      <StaticImage alt="" src="../../images/comparison.png" />
+      <StaticImage height={500} alt="supplement comparison" src="../../images/comparison-1.jpg" />
       <SItalicText>Lineup of all the weight loss methods that I tested.</SItalicText>
 
       <SText>
@@ -40,7 +40,11 @@ export function TestingMethodology() {
         progress you've made for the long term.
       </SText>
 
-      <StaticImage alt="" src="../../images/testing_methodology_2.jpeg" />
+      <StaticImage
+        height={500}
+        alt="supplement comparison"
+        src="../../images/comparison-methodology.jpeg"
+      />
       <SItalicText>Comparing weight loss solutions: a personal journey</SItalicText>
     </Section>
   );

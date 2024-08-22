@@ -57,11 +57,11 @@ export function SupContrave() {
         cravings and the weight I lost truly made it all worth it.
       </SText>
 
-      <StaticImage alt="" src="../../images/table.png" />
+      <StaticImage height={200} alt="supplement" src="../../images/sup-contrave-1.jpg" />
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/contrave_1.png" />
-        <StaticImage alt="" src="../../images/contrave_2.jpg" />
+        <StaticImage height={350} alt="supplement" src="../../images/sup-contrave-2.jpg" />
+        <StaticImage height={350} alt="supplement" src="../../images/sup-contrave-3.jpg" />
       </SGrid>
 
       <SItalicText>

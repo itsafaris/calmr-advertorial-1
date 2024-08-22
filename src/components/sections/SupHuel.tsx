@@ -38,11 +38,11 @@ export function SupHuel() {
       </SText>
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/huel_1.jpeg" />
-        <StaticImage alt="" src="../../images/huel_2.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-huel-1.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-huel-2.jpeg" />
       </SGrid>
 
-      <StaticImage alt="" src="../../images/huel_3.jpeg" />
+      <StaticImage height={400} alt="supplement" src="../../images/sup-huel-3.jpeg" />
 
       <SItalicText>
         Huel Original Complete Meal Shake requires only water, so my lunch was ready in just a
@@ -66,7 +66,7 @@ export function SupHuel() {
         of what you put in your mouth; otherwise, you risk gaining weight instead of losing it.
       </SText>
 
-      <StaticImage alt="" src="../../images/huel_4.jpeg" />
+      <StaticImage height={500} alt="supplement" src="../../images/sup-huel-4.jpeg" />
 
       <SItalicText>
         I am continuing my research and analyzing Huel shakes to decide which weight loss method is

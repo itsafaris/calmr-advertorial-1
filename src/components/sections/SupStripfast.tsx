@@ -55,8 +55,8 @@ export function SupStripfast() {
       </SText>
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/fireB_1.jpeg" />
-        <StaticImage alt="" src="../../images//fireB_2.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-stripf-1.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-stripf-2.jpeg" />
       </SGrid>
 
       <SItalicText>

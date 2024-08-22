@@ -50,13 +50,13 @@ export function BestSolution() {
       </SText>
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/biome_1.jpeg" />
-        <StaticImage alt="" src="../../images/biome_2.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-1.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-2.jpeg" />
       </SGrid>
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/biome_3.jpeg" />
-        <StaticImage alt="" src="../../images/biome_4.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-3.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-4.jpeg" />
       </SGrid>
 
       <SItalicText>
@@ -98,11 +98,11 @@ export function BestSolution() {
       </SGrid>
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/Scales_before.jpeg" />
-        <StaticImage alt="" src="../../images/Scales_after.jpeg" />
+        <StaticImage alt="weight before" src="../../images/scales-before.jpeg" />
+        <StaticImage alt="weight after" src="../../images/scales-after.jpeg" />
       </SGrid>
 
-      <StaticImage alt="" src="../../images/biome_5.jpeg" />
+      <StaticImage alt="supplement" src="../../images/sup-ag-5.jpeg" />
 
       <SItalicText>
         Finally Found: A Sustainable Weight Loss Solution Without Compromising Health

@@ -36,11 +36,11 @@ export function SupHydroxycut() {
       </SText>
 
       <SGrid columns={2}>
-        <StaticImage height={400} alt="" src="../../images/hydroxycut_1.jpeg" />
-        <StaticImage height={400} alt="" src="../../images/Hydroxycut_2.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-hydroxycut-1.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-Hydroxycut-2.jpeg" />
       </SGrid>
 
-      <StaticImage height={500} alt="" src="../../images/Hydroxycut_3.jpeg" />
+      <StaticImage height={500} alt="supplement" src="../../images/sup-Hydroxycut-3.jpeg" />
 
       <SItalicText>
         Hydroxycut + Women: Curbed my appetite, but the high caffeine made regular use tough.

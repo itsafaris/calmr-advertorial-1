@@ -47,8 +47,8 @@ const IndexPage: React.FC<PageProps> = () => {
         <SummaryComparisonChart />
         <ShortTermMethods />
         <TenMethods />
-        <BestSolution />
 
+        <BestSolution />
         <SupWeightWatchers />
         <SupHuel />
         <SupContrave />

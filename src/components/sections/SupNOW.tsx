@@ -49,11 +49,11 @@ export function SupNOW() {
       </SText>
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/Now_1.jpeg" />
-        <StaticImage alt="" src="../../images/Now_3.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-now-1.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-now-2.jpeg" />
       </SGrid>
 
-      <StaticImage height={500} alt="" src="../../images/Now_2.jpeg" />
+      <StaticImage height={500} alt="supplement" src="../../images/sup-now-3.jpeg" />
 
       <SItalicText>
         I've incorporated Acetyl-L Carnitine into my daily routine, taking a 500 mg capsule every

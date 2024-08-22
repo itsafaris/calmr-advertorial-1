@@ -47,8 +47,8 @@ export function SupBurnXT() {
       </SText>
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/burn_XT_1.jpeg" />
-        <StaticImage alt="" src="../../images/burnXT_2.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-burnxt-1.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-burnxt-2.jpeg" />
       </SGrid>
 
       <SItalicText>

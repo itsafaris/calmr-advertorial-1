@@ -33,11 +33,11 @@ export function SupVitauthority() {
       </SText>
 
       <SGrid columns={2}>
-        <StaticImage alt="" src="../../images/vitouthority_1.jpeg" />
-        <StaticImage alt="" src="../../images/Vitouthority_3.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-vitout-1.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-vitout-2.jpeg" />
       </SGrid>
 
-      <StaticImage height={400} alt="" src="../../images/vitouthority_4.jpeg" />
+      <StaticImage height={400} alt="supplement" src="../../images/sup-vitout-3.jpeg" />
 
       <SItalicText>
         I typically blended Vitauthority Multi Collagen Burn into my morning coffee.
