@@ -9,12 +9,24 @@ import {
   SText,
 } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
-import { Stack } from "@chakra-ui/react";
+import { Badge, Box, Flex, Heading, Stack, Text } from "@chakra-ui/react";
 import { siteConfig } from "src/conf";
 
 export function Intro() {
   return (
     <Section>
+      <Box mb={10} mt={4}>
+        <Heading as="h2" my={2} fontSize={"2xl"}>
+          My 3-year long weight loss battle... And how I found my winner product
+        </Heading>
+
+        <Text fontSize={"sm"}>Updated by {siteConfig.personaName} 14 days ago</Text>
+        <Flex gap={2} my={2} flexWrap={"wrap"}>
+          <Badge colorScheme="blue">#WeightLoss</Badge>
+          <Badge colorScheme="blue">#3-year-long experiment</Badge>
+          <Badge colorScheme="blue">#ProductComparison</Badge>
+        </Flex>
+      </Box>
       <SGrid columns={2}>
         <Stack>
           <SItalicText>Before weight loss. 189 lbs. Feb 6, 2023</SItalicText>

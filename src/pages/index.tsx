@@ -33,7 +33,12 @@ import { Footer } from "@components/Footer";
 import { productData } from "src/productData";
 
 export const Head: HeadFC = () => {
-  return <SEO title={`My Weight Loss Journey - ${siteConfig.brandName}`} />;
+  return (
+    <SEO
+      title={`My Weight Loss Journey - ${siteConfig.brandName}`}
+      description="I've tested 10 different weight loss products in my 3 year long weight loss experiment... And I found my winner"
+    />
+  );
 };
 
 const IndexPage: React.FC<PageProps> = () => {

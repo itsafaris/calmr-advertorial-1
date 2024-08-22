@@ -1,6 +1,5 @@
-import React from "react";
-import { Section, SHeading } from "@components/components";
-import { Badge, Box, Flex, Heading, Text } from "@chakra-ui/react";
+import { Section } from "@components/components";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import { StaticImage } from "gatsby-plugin-image";
 import { siteConfig } from "src/conf";
 
@@ -32,19 +31,6 @@ export function Hero() {
         >
           A mother of two, ex elementary school teacher, now a full-time wellness blogger
         </Text>
-      </Box>
-
-      <Box mb={10} mt={4}>
-        <Heading as="h2" my={2} fontSize={"2xl"}>
-          My 3-year long weight loss journey... And how I finally conquered it
-        </Heading>
-
-        <Text fontSize={"sm"}>Updated by {siteConfig.personaName} 14 days ago</Text>
-        <Flex gap={2} my={2} flexWrap={"wrap"}>
-          <Badge colorScheme="blue">Weight loss experiments</Badge>
-          <Badge colorScheme="blue">3 years of research</Badge>
-          <Badge colorScheme="blue">Product comparison</Badge>
-        </Flex>
       </Box>
     </Section>
   );
