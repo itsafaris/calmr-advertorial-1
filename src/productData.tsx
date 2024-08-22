@@ -20,7 +20,7 @@ export type Product = {
 export const productData: Product[] = [
   {
     method: "Calmr - Sleep & Burn (with Ashwagandha)",
-    image: <StaticImage height={240} src="./images/calmr.png" alt="Calmr - Sleep & Burn" />,
+    image: <StaticImage height={240} src="./images/sup-calmr-1.png" alt="Calmr - Sleep & Burn" />,
     initialWeightLoss: 5,
     weightMaintenance: 5,
     sideEffects: "None",
@@ -78,7 +78,7 @@ export const productData: Product[] = [
     method: "WeightWatchers Weight-Loss Program",
     image: (
       <StaticImage
-        src="./images/weightwatchers.png"
+        src="./images/sup-wwapp-1.png"
         alt="WeightWatchers Weight-Loss Program"
         height={240}
       />
@@ -134,7 +134,9 @@ export const productData: Product[] = [
   },
   {
     method: "Huel Original Complete Meal",
-    image: <StaticImage height={240} src="../images/huel.jpg" alt="Huel Original Complete Meal" />,
+    image: (
+      <StaticImage height={240} src="./images/sup-huel-5.JPG" alt="Huel Original Complete Meal" />
+    ),
     initialWeightLoss: 4,
     weightMaintenance: 3,
     sideEffects: "None",
@@ -188,7 +190,11 @@ export const productData: Product[] = [
   {
     method: "Contrave Weight Loss Pill",
     image: (
-      <StaticImage height={240} src="../images/contrave.jpg" alt="Contrave Weight Loss Pills" />
+      <StaticImage
+        height={240}
+        src="./images/sup-contrave-4.jpg"
+        alt="Contrave Weight Loss Pills"
+      />
     ),
     initialWeightLoss: 3,
     weightMaintenance: 3,
@@ -237,7 +243,7 @@ export const productData: Product[] = [
   },
   {
     method: "Weight Loss Injection - Ozempic",
-    image: <StaticImage height={240} src="../images/ozempic.png" alt="Ozempic Injection" />,
+    image: <StaticImage height={240} src="./images/sup-ozempic-2.png" alt="Ozempic Injection" />,
     initialWeightLoss: 5,
     weightMaintenance: 1,
     sideEffects: "Stomach pain, vomiting, constipation",
@@ -290,7 +296,11 @@ export const productData: Product[] = [
   {
     method: "Hydroxycut Weight Loss Pills",
     image: (
-      <StaticImage height={240} src="../images/hydroxycut.jpg" alt="Hydroxycut Weight Loss Pills" />
+      <StaticImage
+        height={240}
+        src="./images/sup-hydroxycut-4.jpg"
+        alt="Hydroxycut Weight Loss Pills"
+      />
     ),
     initialWeightLoss: 1,
     weightMaintenance: 1,
@@ -344,7 +354,7 @@ export const productData: Product[] = [
   },
   {
     method: "Burn-XT Fat Burner",
-    image: <StaticImage height={240} src="../images/burn-xt.jpg" alt="Burn-XT Fat Burner" />,
+    image: <StaticImage height={240} src="./images/sup-burnxt-3.jpg" alt="Burn-XT Fat Burner" />,
     initialWeightLoss: 1,
     weightMaintenance: 1,
     sideEffects: "Jitters, headaches, potential for energy crash",
@@ -385,7 +395,7 @@ export const productData: Product[] = [
     image: (
       <StaticImage
         height={240}
-        src="../images/stripfast500.jpg"
+        src="./images/sup-stripf-3.jpg"
         alt="Stripfast5000 Fire Bullet Weight-Loss Supplement"
       />
     ),
@@ -431,7 +441,7 @@ export const productData: Product[] = [
     image: (
       <StaticImage
         height={240}
-        src="../images/collagen.jpg"
+        src="./images/sup-vitout-4.jpg"
         alt="Vitauthority Multi Collagen Burn"
       />
     ),
@@ -476,7 +486,7 @@ export const productData: Product[] = [
   {
     method: "NOW Foods Acetyl-L-Carnitine",
     image: (
-      <StaticImage height={240} src="../images/nowfoods.jpg" alt="NOW Foods Acetyl-L-Carnitine" />
+      <StaticImage height={240} src="./images/sup-now-4.jpg" alt="NOW Foods Acetyl-L-Carnitine" />
     ),
     initialWeightLoss: 1,
     weightMaintenance: 1,
