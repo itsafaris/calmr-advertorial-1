@@ -1,8 +1,7 @@
-import React from "react";
-import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
+import { SBoldText, Section, SHeading, SItalicText, SLink, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
-import { Flex, Stack } from "@chakra-ui/react";
-import { mainProduct, productData } from "src/productData";
+
+import { mainProduct } from "src/productData";
 
 export function TestingMethodology() {
   return (
@@ -35,8 +34,9 @@ export function TestingMethodology() {
 
       <SText>
         <SBoldText>My #1 Weight Loss Product:</SBoldText> If you're pressed for time, my top
-        recommendation is the {mainProduct.method}. It's not only effective for quick results but
-        also offers a sustainable solution designed to help you keep the weight off in the long run.
+        recommendation is the <SLink to="/#winner">{mainProduct.method}</SLink>. It's not only
+        effective for quick results but also offers a sustainable solution designed to help you keep
+        the weight off in the long run.
       </SText>
 
       <StaticImage

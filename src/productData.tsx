@@ -65,10 +65,6 @@ export const mainProduct: Product & { shortTitle: string } = {
   ],
   negatives: [
     {
-      title: "Investment in Health",
-      text: "While it's pricier than some other options I've tried, the multiple benefits I'm experiencing make Calmr absolutely worth every penny.",
-    },
-    {
       title: "Patience Pays Off",
       text: "It took a few weeks before I started noticing significant changes, but staying consistent with Calmr has truly paid off in the long run.",
     },

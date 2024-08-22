@@ -25,11 +25,11 @@ export function BestSolution() {
 
       <SText>
         Balancing work and family made losing weight without added stress seem nearly impossible. I
-        was constantly bloated, hungry from dieting, exhausted, and struggling to focus. Then, I
-        discovered Calmr - Sleep & Burn. It offered a straightforward solution, helping me manage my
-        weight while also promoting better sleep and reducing stress. The convenience of addressing
-        both sleep and weight management without the hassle of traditional diets was exactly what I
-        needed in my busy life.
+        was constantly feeling stressed, exhausted, and struggling to focus. Then, I discovered
+        Calmr - Sleep & Burn. It offered a straightforward solution, helping me manage my weight
+        while also promoting better sleep and reducing stress. The convenience of addressing both
+        sleep and weight management without the need for restrictive diets was exactly what I needed
+        in my busy life.
       </SText>
 
       <SText>
@@ -39,27 +39,24 @@ export function BestSolution() {
       <SText>
         From the moment I started using Calmr - Sleep & Burn, I noticed a significant change—I lost
         about 14 pounds in just the first month. It felt like my body had undergone a reset. After
-        that, I settled into a steady rhythm, shedding around 2 pounds each week.
+        that, I settled into a steady rhythm, consistently shedding around 2 pounds each week.
       </SText>
 
       <SText>
-        Before discovering Calmr - Sleep & Burn, I was exhausted by the endless diet
-        cycle—constantly planning meals, shopping for specific ingredients, and spending too much
-        time preparing food. It was overwhelming, especially with my family and work commitments.
-        But with Calmr, everything became simpler. Incorporating just one supplement into my daily
-        routine reduced all that stress. It seamlessly fit into my busy life.
+        Before discovering Calmr - Sleep & Burn, I was drained by the endless cycle of
+        dieting—constantly worrying about what to eat, feeling deprived, and dealing with the stress
+        of meal planning. It was overwhelming, especially with my family and work commitments. But
+        with Calmr, everything became simpler. Incorporating just two capsules into my daily routine
+        reduced all that stress. It seamlessly fit into my busy life.
       </SText>
 
       <SText>
-        Calmr was a real game-changer for me. It helped curb my appetite, boosted my energy, and
-        improved my focus, eliminating those midday slumps. The best part? I didn’t have to
-        sacrifice my favorite meals. By simply incorporating Calmr twice a day, I could enjoy the
-        foods I love and still look forward to traditional Saturday dinners with my family.
+        Calmr was a real game-changer for me. It helped reduce my stress levels, improved my sleep,
+        and boosted my energy, eliminating those midday slumps.{" "}
         <SBoldText>
-          The best part? I just added Calmr to my routine, without having to give up any of the
-          foods I love. This allowed me to still enjoy my favorite high-calorie meals—whether it was
-          breakfast, lunch, or dinner—and continue savoring traditional Saturday dinners with my
-          family.
+          The best part? I didn’t have to give up my favorite meals or follow a restrictive diet. By
+          simply adding Calmr to my routine, I could enjoy the foods I love and still look forward
+          to traditional Saturday dinners with my family.
         </SBoldText>
       </SText>
 
