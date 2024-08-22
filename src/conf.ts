@@ -9,6 +9,7 @@ export type SiteConfig = {
   version: string;
   image: string;
   description: string;
+  linkToMainProduct: string;
 };
 
 export const siteConfig: SiteConfig = {
@@ -21,4 +22,5 @@ export const siteConfig: SiteConfig = {
   description:
     "Join me on my journey to holistic wellness, where she shares tips on clean eating, mindfulness, and family health to help you live your best life.",
   websiteHostname: "https://lindaharper.blog",
+  linkToMainProduct: "https://trycalmr.com/sleep-and-burn",
 };

@@ -17,63 +17,66 @@ export type Product = {
   negatives: Array<{ title: string; text: string }>;
 };
 
+export const mainProduct: Product & { shortTitle: string } = {
+  shortTitle: "Calmr",
+  method: "Calmr - Sleep & Burn (with Ashwagandha)",
+  image: <StaticImage height={240} src="./images/calmr.png" alt="Calmr - Sleep & Burn" />,
+  initialWeightLoss: 5,
+  weightMaintenance: 5,
+  sideEffects: "None",
+  monthlyCost: 2,
+  easeOfUse: "easy",
+  overallRating: 5,
+  ratingComment:
+    "Highly recommended for sustainable weight loss, banishing bloating and constipation, and providing a daily supercharge of essential vitamins and minerals. It's easy to integrate into your current lifestyle and diet.",
+  positives: [
+    {
+      title: "Impressive Weight Loss",
+      text: "I lost an amazing 12 pounds in my first month of using Calmr, all while enjoying better sleep. It's been a game-changer for me!",
+    },
+    {
+      title: "Two-in-One Solution",
+      text: "I love how Calmr tackles both my weight issues and sleep problems. It's like getting two supplements in one, which is incredibly convenient.",
+    },
+    {
+      title: "Sleep Like a Baby",
+      text: "The Mood and Sleep Blend in Calmr has transformed my nights. I'm falling asleep faster and waking up feeling refreshed like never before.",
+    },
+    {
+      title: "Stress? What Stress?",
+      text: "Since starting Calmr, I've noticed a significant drop in my stress and anxiety levels. I feel more relaxed and composed throughout the day.",
+    },
+    {
+      title: "Gentle on My System",
+      text: "Unlike other supplements I've tried, Calmr hasn't given me any nasty side effects. It's been smooth sailing from day one.",
+    },
+    {
+      title: "Energized Days",
+      text: "Surprisingly, even though it helps me sleep better, I'm feeling more energetic during the day. I'm tackling my tasks with newfound vigor!",
+    },
+    {
+      title: "Goodbye, Midnight Snacks",
+      text: "My late-night cravings have practically vanished, and I'm finding it much easier to stick to my diet. It's like my appetite is finally under control.",
+    },
+    {
+      title: "Happier Me",
+      text: "I've noticed a significant uplift in my mood since starting Calmr. I feel more balanced and positive, which has improved various aspects of my life.",
+    },
+  ],
+  negatives: [
+    {
+      title: "Investment in Health",
+      text: "While it's pricier than some other options I've tried, the multiple benefits I'm experiencing make Calmr absolutely worth every penny.",
+    },
+    {
+      title: "Patience Pays Off",
+      text: "It took a few weeks before I started noticing significant changes, but staying consistent with Calmr has truly paid off in the long run.",
+    },
+  ],
+};
+
 export const productData: Product[] = [
-  {
-    method: "Calmr - Sleep & Burn (with Ashwagandha)",
-    image: <StaticImage height={240} src="./images/calmr.png" alt="Calmr - Sleep & Burn" />,
-    initialWeightLoss: 5,
-    weightMaintenance: 5,
-    sideEffects: "None",
-    monthlyCost: 2,
-    easeOfUse: "easy",
-    overallRating: 5,
-    ratingComment:
-      "Highly recommended for sustainable weight loss, banishing bloating and constipation, and providing a daily supercharge of essential vitamins and minerals. It's easy to integrate into your current lifestyle and diet.",
-    positives: [
-      {
-        title: "Impressive Weight Loss",
-        text: "I lost an amazing 12 pounds in my first month of using Calmr, all while enjoying better sleep. It's been a game-changer for me!",
-      },
-      {
-        title: "Two-in-One Solution",
-        text: "I love how Calmr tackles both my weight issues and sleep problems. It's like getting two supplements in one, which is incredibly convenient.",
-      },
-      {
-        title: "Sleep Like a Baby",
-        text: "The Mood and Sleep Blend in Calmr has transformed my nights. I'm falling asleep faster and waking up feeling refreshed like never before.",
-      },
-      {
-        title: "Stress? What Stress?",
-        text: "Since starting Calmr, I've noticed a significant drop in my stress and anxiety levels. I feel more relaxed and composed throughout the day.",
-      },
-      {
-        title: "Gentle on My System",
-        text: "Unlike other supplements I've tried, Calmr hasn't given me any nasty side effects. It's been smooth sailing from day one.",
-      },
-      {
-        title: "Energized Days",
-        text: "Surprisingly, even though it helps me sleep better, I'm feeling more energetic during the day. I'm tackling my tasks with newfound vigor!",
-      },
-      {
-        title: "Goodbye, Midnight Snacks",
-        text: "My late-night cravings have practically vanished, and I'm finding it much easier to stick to my diet. It's like my appetite is finally under control.",
-      },
-      {
-        title: "Happier Me",
-        text: "I've noticed a significant uplift in my mood since starting Calmr. I feel more balanced and positive, which has improved various aspects of my life.",
-      },
-    ],
-    negatives: [
-      {
-        title: "Investment in Health",
-        text: "While it's pricier than some other options I've tried, the multiple benefits I'm experiencing make Calmr absolutely worth every penny.",
-      },
-      {
-        title: "Patience Pays Off",
-        text: "It took a few weeks before I started noticing significant changes, but staying consistent with Calmr has truly paid off in the long run.",
-      },
-    ],
-  },
+  mainProduct,
   {
     method: "WeightWatchers Weight-Loss Program",
     image: (

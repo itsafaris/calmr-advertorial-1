@@ -2,45 +2,48 @@ import React from "react";
 import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
 import { Flex, Stack } from "@chakra-ui/react";
+import { siteConfig } from "src/conf";
 
 export function Backstory() {
   return (
     <Section>
-      <SHeading>A little backstory…</SHeading>
+      <SHeading>A bit of background...</SHeading>
 
       <SText>
-        I'm Jennifer, a 51-year-old mother of three wonderful kids: Sarah (19), Mark (16), and Emily
-        (13). With my supportive husband by my side, managing my career while raising a family is
-        rewarding but leaves little time for myself.
+        I'm {siteConfig.personaName}, a 38-year-old mother of two fantastic kids: Emma (9) and
+        Joseph (11). With my caring husband by my side, juggling a career and raising a family is
+        gratifying, but it leaves little room for focusing on myself.
       </SText>
 
       <SText>
-        I've been struggling with my weight. I've always been on the heavier side, never quite
-        fitting those slim ideals we see everywhere. My journey has been full of ups and downs,
-        trying everything from weight management programs and appetite control medications to weight
-        loss injections and fat burners/metabolism boosters.
+        I've always had challenges with my weight. I've never been the slim type, constantly feeling
+        out of place with the narrow beauty standards around us. My journey has been a series of
+        highs and lows, trying out everything from weight loss programs and appetite suppressants to
+        fat-burning injections and metabolism boosters.
       </SText>
 
       <SText>
-        I've felt the hunger, ridden the waves of cravings, and dealt with side effects like
-        digestive discomfort, jitters, constipation, mood swings, and the frustration of not seeing
-        the numbers on the scale drop.
+        I've experienced hunger pangs, battled intense cravings, and dealt with side effects like
+        digestive issues, nervousness, constipation, mood swings, and the frustration of seeing
+        little to no progress on the scale.
       </SText>
 
       <SText>
-        In moments of desperation, I've turned to quick fixes—fat burners, appetite control
-        medications, and even weight loss injections like Ozempic. Sure, I'd lose some weight and
-        feel a brief triumph, but then the weight would come back, sometimes even more than I lost.
+        In moments of desperation, I've turned to quick-fix solutions—fat burners, appetite
+        suppressants, and even injections like Ozempic. Sure, I'd lose some weight and feel a brief
+        sense of achievement, but the weight always returned, sometimes even more than before.
       </SText>
 
       <SText>
-        The struggle has been real. Constant hunger, battling cravings, and the cycle of short-term
-        success followed by gaining it all back (and then some) was exhausting. It wasn't just about
-        finding a 'healthier me,' but about shedding the weight, feeling lighter, and escaping the
-        endless loop of dieting frustration.
+        This struggle has been real. Constant hunger, fighting off cravings, and the cycle of
+        short-lived success followed by regaining the weight (and more) left me exhausted. My goal
+        wasn't just to find a "healthier me", but to lose the weight, feel lighter, and break free
+        from the endless loop of diet frustrations.
       </SText>
 
-      <SItalicText>During my weight loss journey. 185 - 164 lbs. Mar. 1- Oct. 28 2023.</SItalicText>
+      <SItalicText>
+        The progress of my weight loss experiments. 174 - 143 lbs. Feb 6 2023 - Mar 9 2024.
+      </SItalicText>
 
       <SGrid columns={2}>
         <StaticImage

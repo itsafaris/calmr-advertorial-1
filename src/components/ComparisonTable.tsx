@@ -23,7 +23,6 @@ export function ComparisonTable({ data }: { data: TableData }) {
   return (
     <TableContainer>
       <Table variant="simple" size="sm" layout="fixed">
-        <TableCaption>Weight loss solutions comparison</TableCaption>
         <Thead>
           <Tr>
             <Th width={widths[0]} whiteSpace={"pre-line"}>
