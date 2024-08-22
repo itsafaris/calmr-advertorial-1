@@ -5,7 +5,6 @@ import {
   Tr,
   Th,
   Td,
-  TableCaption,
   TableContainer,
   Text,
   Badge,
@@ -14,6 +13,7 @@ import {
 import { FaBan, FaCheck } from "react-icons/fa";
 import { Product } from "src/productData";
 import { Span } from "./components";
+import { siteConfig } from "src/conf";
 
 export type TableData = Array<Product>;
 
@@ -61,6 +61,12 @@ export function ComparisonTable({ data }: { data: TableData }) {
                 textDecoration={item.isRuledOut ? "line-through" : undefined}
                 background={isWinner ? "green.100" : item.isRuledOut ? "red.50" : undefined}
                 fontWeight={isWinner ? "bold" : undefined}
+                cursor={isWinner ? "pointer" : undefined}
+                onClick={() => {
+                  if (isWinner) {
+                    window.location.href = siteConfig.linkToMainProduct;
+                  }
+                }}
               >
                 <Td maxWidth={widths[0]} whiteSpace={"pre-line"}>
                   <Text>

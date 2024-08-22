@@ -7,7 +7,7 @@ import { siteConfig } from "src/conf";
 
 export function BestSolution() {
   return (
-    <Section>
+    <Section id="winner">
       <SHeading>🏆 The best weight loss solution for me:</SHeading>
 
       <ProductCard

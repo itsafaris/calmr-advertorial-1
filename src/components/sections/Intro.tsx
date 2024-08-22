@@ -53,14 +53,15 @@ export function Intro() {
       " "
       <SText>
         <SBoldText>Want the quick summary?</SBoldText> I personally experimented with 10 distinct
-        solutions. The image below displays all tested solutions{" "}
-        <SLink to="">👉 Click to jump to the most effective option that worked for me.</SLink>
+        solutions. The image below displays all of them{" "}
+        <SLink to="/#winner">
+          👉 Or... just skip to the most effective one that worked for me.
+        </SLink>
       </SText>
       <StaticImage src="../../images/all-products.jpg" alt="all supplements" />
       <SItalicText>
         After evaluating various methods, the{" "}
-        <SLink to={siteConfig.linkToMainProduct}>Calmr - Sleep & Burn supplement</SLink> came out on
-        top.
+        <SLink to="/#winner">Calmr - Sleep & Burn supplement</SLink> came out on top.
       </SItalicText>
     </Section>
   );
