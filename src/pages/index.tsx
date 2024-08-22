@@ -39,7 +39,7 @@ export const Head: HeadFC = () => {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Box>
-      <Container maxW="container.md">
+      <Container maxW="container.lg">
         <Header />
 
         <Hero />

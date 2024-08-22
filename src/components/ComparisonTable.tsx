@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Table,
   Thead,
@@ -8,18 +7,18 @@ import {
   Td,
   TableCaption,
   TableContainer,
-  Box,
   Text,
   Badge,
   Icon,
 } from "@chakra-ui/react";
 import { FaBan, FaCheck } from "react-icons/fa";
 import { Product } from "src/productData";
+import { Span } from "./components";
 
 export type TableData = Array<Product>;
 
 export function ComparisonTable({ data }: { data: TableData }) {
-  const widths = [200, 120, 120, 220, 120, 160, 160, 280];
+  const widths = [200, 120, 130, 220, 120, 160, 160, 280];
 
   return (
     <TableContainer>
@@ -58,7 +57,12 @@ export function ComparisonTable({ data }: { data: TableData }) {
             const isWinner = index === 0;
             const isRunnerUp = index === 1;
             return (
-              <Tr key={index} bg={isWinner ? "green.50" : "white"}>
+              <Tr
+                key={index}
+                textDecoration={item.isRuledOut ? "line-through" : undefined}
+                background={isWinner ? "green.100" : item.isRuledOut ? "red.50" : undefined}
+                fontWeight={isWinner ? "bold" : undefined}
+              >
                 <Td maxWidth={widths[0]} whiteSpace={"pre-line"}>
                   <Text>
                     {isWinner && (
@@ -71,11 +75,11 @@ export function ComparisonTable({ data }: { data: TableData }) {
                         🥈 runner up
                       </Badge>
                     )}
-                    <Text fontWeight="bold">{item.method}</Text>
+                    <Text fontWeight={isWinner ? "bold" : "semibold"}>{item.method}</Text>
                   </Text>
                 </Td>
                 <Td width={widths[1]} whiteSpace={"pre-line"}>
-                  {renderRating(item.initialWeightLoss)}
+                  <Text>{renderRating(item.initialWeightLoss)} </Text>
                 </Td>
                 <Td width={widths[2]} whiteSpace={"pre-line"}>
                   {renderRating(item.weightMaintenance)}
@@ -89,11 +93,7 @@ export function ComparisonTable({ data }: { data: TableData }) {
                     .map(() => "$")
                     .join("")}
                 </Td>
-                <Td
-                  width={widths[5]}
-                  whiteSpace={"pre-line"}
-                  color={getEaseOfUseColor(item.easeOfUse)}
-                >
+                <Td width={widths[5]} whiteSpace={"pre-line"}>
                   {item.easeOfUse}
                 </Td>
                 <Td width={widths[6]} whiteSpace={"pre-line"}>
@@ -113,26 +113,19 @@ export function ComparisonTable({ data }: { data: TableData }) {
 
 const renderRating = (rating: number) => {
   const [value, total] = [rating, 5];
-  return (
-    <Box>
-      {value === 5 ? <Icon as={FaCheck} color="green.500" /> : null}
-      {value === 1 ? <Icon as={FaBan} color="red.500" /> : null}
-      <Text display="inline" ml={2}>
-        {rating}
-      </Text>
-    </Box>
-  );
-};
 
-const getEaseOfUseColor = (ease: "easy" | "medium") => {
-  switch (ease.toLowerCase()) {
-    case "easy":
-      return "green.500";
-    case "medium":
-      return "orange.500";
-    default:
-      return "inherit";
-  }
+  const color = value === 5 ? "green.600" : value === 1 ? "red.500" : undefined;
+  const icon = value === 5 ? FaCheck : value === 1 ? FaBan : undefined;
+
+  return (
+    <Text>
+      <Icon visibility={icon ? "visible" : "hidden"} as={icon} color={color} />
+      <Span display="inline" ml={2}>
+        {rating}
+      </Span>{" "}
+      / {total}
+    </Text>
+  );
 };
 
 export default ComparisonTable;

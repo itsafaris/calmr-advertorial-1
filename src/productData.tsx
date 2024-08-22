@@ -1,12 +1,14 @@
 import { StaticImage } from "gatsby-plugin-image";
 
+export type ScoreOf5 = 1 | 2 | 3 | 4 | 5;
+
 export type Product = {
   method: string;
   image: React.ReactNode;
-  initialWeightLoss: number;
-  weightMaintenance: number;
+  initialWeightLoss: ScoreOf5;
+  weightMaintenance: ScoreOf5;
   sideEffects: string;
-  monthlyCost: 1 | 2 | 3 | 4 | 5;
+  monthlyCost: ScoreOf5;
   easeOfUse: "easy" | "medium";
   overallRating: number;
   ratingComment: string;
