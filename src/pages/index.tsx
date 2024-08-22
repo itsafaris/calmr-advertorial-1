@@ -59,7 +59,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <SupBurnXT />
         <SupStripfast />
         <SupVitauthority />
-        <SupNOW />
+        {/* <SupNOW /> */}
 
         <Verdict />
         <FullComparisonChart />
