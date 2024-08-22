@@ -6,7 +6,7 @@ export type Product = {
   initialWeightLoss: number;
   weightMaintenance: number;
   sideEffects: string;
-  monthlyCost: string;
+  monthlyCost: 1 | 2 | 3 | 4 | 5;
   easeOfUse: "easy" | "medium";
   overallRating: number;
   ratingComment: string;
@@ -22,7 +22,7 @@ export const productData: Product[] = [
     initialWeightLoss: 5,
     weightMaintenance: 5,
     sideEffects: "None",
-    monthlyCost: "$$",
+    monthlyCost: 2,
     easeOfUse: "easy",
     overallRating: 5,
     ratingComment:
@@ -84,7 +84,7 @@ export const productData: Product[] = [
     initialWeightLoss: 4,
     weightMaintenance: 4,
     sideEffects: "None",
-    monthlyCost: "$$$",
+    monthlyCost: 3,
     easeOfUse: "medium",
     overallRating: 4.5,
     ratingComment:
@@ -136,7 +136,7 @@ export const productData: Product[] = [
     initialWeightLoss: 4,
     weightMaintenance: 3,
     sideEffects: "None",
-    monthlyCost: "$$",
+    monthlyCost: 2,
     easeOfUse: "easy",
     overallRating: 3.5,
     ratingComment:
@@ -191,7 +191,7 @@ export const productData: Product[] = [
     initialWeightLoss: 3,
     weightMaintenance: 3,
     sideEffects: "Nausea, constipation, headache, potential mood changes",
-    monthlyCost: "$$$$",
+    monthlyCost: 4,
     easeOfUse: "medium",
     overallRating: 4,
     ratingComment:
@@ -239,7 +239,7 @@ export const productData: Product[] = [
     initialWeightLoss: 5,
     weightMaintenance: 1,
     sideEffects: "Stomach pain, vomiting, constipation",
-    monthlyCost: "$$$$$",
+    monthlyCost: 5,
     easeOfUse: "easy",
     overallRating: 2,
     ratingComment:
@@ -293,7 +293,7 @@ export const productData: Product[] = [
     initialWeightLoss: 1,
     weightMaintenance: 1,
     sideEffects: "Jitters, anxiety, elevated heart rate",
-    monthlyCost: "$$",
+    monthlyCost: 2,
     easeOfUse: "easy",
     overallRating: 1,
     ratingComment: "Not recommended, potential health risks outweigh benefits.",
@@ -346,7 +346,7 @@ export const productData: Product[] = [
     initialWeightLoss: 1,
     weightMaintenance: 1,
     sideEffects: "Jitters, headaches, potential for energy crash",
-    monthlyCost: "$$",
+    monthlyCost: 2,
     easeOfUse: "easy",
     overallRating: 1,
     ratingComment:
@@ -390,7 +390,7 @@ export const productData: Product[] = [
     initialWeightLoss: 1,
     weightMaintenance: 1,
     sideEffects: "Altered taste, extreme thirst",
-    monthlyCost: "$$",
+    monthlyCost: 2,
     easeOfUse: "easy",
     overallRating: 1,
     ratingComment: "Not recommended due to side effects and lack of long-term effectiveness.",
@@ -436,7 +436,7 @@ export const productData: Product[] = [
     initialWeightLoss: 1,
     weightMaintenance: 1,
     sideEffects: "Minimal, occasional gastrointestinal discomfort",
-    monthlyCost: "$$$",
+    monthlyCost: 3,
     easeOfUse: "easy",
     overallRating: 1,
     ratingComment:
@@ -479,7 +479,7 @@ export const productData: Product[] = [
     initialWeightLoss: 1,
     weightMaintenance: 1,
     sideEffects: "None",
-    monthlyCost: "$",
+    monthlyCost: 1,
     easeOfUse: "easy",
     overallRating: 1,
     ratingComment:

@@ -84,7 +84,10 @@ export function ComparisonTable({ data }: { data: TableData }) {
                   {item.sideEffects}
                 </Td>
                 <Td width={widths[4]} whiteSpace={"pre-line"}>
-                  {item.monthlyCost}
+                  {Array(item.monthlyCost)
+                    .fill("")
+                    .map(() => "$")
+                    .join("")}
                 </Td>
                 <Td
                   width={widths[5]}
