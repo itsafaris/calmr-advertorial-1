@@ -6,28 +6,25 @@ export function TenMethods() {
   return (
     <Section>
       <SHeading>
-        Focusing on 10 Weight Loss Methods and Evaluating Them for Both Immediate Impact and Long
-        Term Effectiveness
+        Trying out 10 Weight Loss Methods for Their Immediate Results and Long-Term Effectiveness
       </SHeading>
 
       <SText>
-        decided to try out 10 weight loss methods to see which one really worked for me. I didn't
-        just want to see the pounds drop; I also wanted to see how well each method fit into my
-        everyday life. I checked out each one by looking at how fast I lost weight, how long it
-        stayed off, if there were any bad side effects, how much it cost, and how easy it was to
-        make it part of my daily routine.
+        I chose to test 10 different weight loss methods to determine which one truly worked for me.
+        My goal wasn't just to lose weight quickly, but also to see how well each approach fit into
+        my daily life. I evaluated each method based on the speed of weight loss, how long the
+        results lasted, any potential side effects, the cost, and how easy it was to incorporate
+        into my routine.
       </SText>
 
-      <SText>
-        Here is my own weight loss method evaluation methodology that I took into consideration:
-      </SText>
+      <SText>Here's the evaluation criteria I used for assessing each weight loss method: </SText>
 
       <Stack>
         <Flex alignItems={"center"} gap={4}>
           <SText fontSize={"lg"}>⬇️</SText>
 
           <SText>
-            <SBoldText>Initial Weight Loss:</SBoldText> How quickly did I start to see results?
+            <SBoldText>Speed of Results:</SBoldText> How soon did I notice the weight coming off?
           </SText>
         </Flex>
 
@@ -35,7 +32,8 @@ export function TenMethods() {
           <SText fontSize={"lg"}>✔️</SText>
 
           <SText>
-            <SBoldText>Weight Maintenance:</SBoldText> Could I keep the weight off long-term?
+            <SBoldText>Long-Term Success:</SBoldText> Was I able to maintain the weight loss over
+            time?
           </SText>
         </Flex>
 
@@ -43,7 +41,7 @@ export function TenMethods() {
           <SText fontSize={"lg"}>⚠️</SText>
 
           <SText>
-            <SBoldText>Side Effects:</SBoldText> What were the negative impacts on my health?
+            <SBoldText>Health Impact:</SBoldText> What were the adverse effects on my health?
           </SText>
         </Flex>
 
@@ -51,7 +49,7 @@ export function TenMethods() {
           <SText fontSize={"lg"}>💰</SText>
 
           <SText>
-            <SBoldText>Cost:</SBoldText> How much did it set me back financially?
+            <SBoldText>Expense:</SBoldText> What was the financial cost?
           </SText>
         </Flex>
 
@@ -59,8 +57,8 @@ export function TenMethods() {
           <SText fontSize={"lg"}>✅</SText>
 
           <SText>
-            <SBoldText>Ease of Integration:</SBoldText> How well could I incorporate it into my
-            lifestyle?
+            <SBoldText>Lifestyle Compatibility:</SBoldText> How easily could I integrate it into my
+            daily routine?
           </SText>
         </Flex>
       </Stack>

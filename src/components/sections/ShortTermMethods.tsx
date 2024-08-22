@@ -6,36 +6,37 @@ import { Flex, Stack } from "@chakra-ui/react";
 export function ShortTermMethods() {
   return (
     <Section>
-      <SHeading>Learning from Short-Term Weight Loss Methods</SHeading>
+      <SHeading>Insights from Short-Term Weight Loss Methods</SHeading>
 
       <SText>
-        Right from the start, I experimented with various convenient solutions such as fat burners
-        and metabolism boosters, including Hydroxycut Weight Loss Pills, Burn-XT Fat Burner,
-        Stripfast 5000 Fire Bullet Weight-Loss Supplement, Vitauthority Multi Collagen Burn, and NOW
-        Foods Acetyl-L-Carnitine. Initially, these products appeared promising, offering a
-        noticeable boost in energy and accelerated fat loss.
+        From the beginning, I tested various quick-fix solutions like fat burners and metabolism
+        boosters, including Hydroxycut Weight Loss Pills, Burn-XT Fat Burner, Stripfast 5000 Fire
+        Bullet Weight-Loss Supplement, Vitauthority Multi Collagen Burn, and NOW Foods
+        Acetyl-L-Carnitine. At first, these products seemed promising, providing a noticeable
+        increase in energy and faster fat loss.
       </SText>
 
       <SText>
-        However, the initial benefits soon gave way less desirable effects. The surge in energy from
-        these pills often left me feeling jittery and uneasy, with some even posing risks to heart
-        health. Over time, I realized that while they might accelerate fat loss, they could also
-        lead to unsustainable weight loss and potential health risks.
+        However, the initial benefits were overshadowed by less favorable effects. The energy boost
+        from these pills often left me feeling jittery and uncomfortable, with some even posing
+        potential risks to heart health. Over time, I realized that while they might speed up fat
+        loss, they also led to unsustainable results and possible health concerns.
       </SText>
 
       <SText>
-        After seeing the true impact of these fat burners and metabolism boosters, I understood they
-        weren’t the long-term solution I was looking for. Often, I’d find myself back at square one,
-        feeling worse off than before in both body and mind. It became clear that rapid weight loss
-        tactics were not worth sacrificing my health. Instead, I needed a lasting, healthy approach
-        to weight loss, focusing on good nutrition and consistent habits, rather than effortless
-        solutions that failed to deliver long-lasting results.
+        After understanding the true impact of these fat burners and metabolism boosters, it became
+        clear they weren't the long-term solution I had hoped for. I often ended up back where I
+        started, feeling worse both physically and mentally. It became evident that rapid weight
+        loss methods weren't worth compromising my health. Instead, I needed a sustainable, healthy
+        approach to weight loss that emphasized proper nutrition and consistent habits, rather than
+        relying on quick fixes that failed to deliver lasting results.
       </SText>
 
       <StaticImage height={500} alt="supplement comparison" src="../../images/comparison-2.jpg" />
 
       <SItalicText>
-        Feeling desperate about my weight loss I tried quick fixes with no sustainable result.
+        In my quest for weight loss, I resorted to quick solutions that didn't provide lasting
+        results.
       </SItalicText>
     </Section>
   );

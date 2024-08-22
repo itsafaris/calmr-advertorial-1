@@ -2,6 +2,8 @@ import { Box, Button, Card, Flex, Icon, Stack, Text } from "@chakra-ui/react";
 import * as React from "react";
 import { FaBan, FaCheckCircle, FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { SBoldText, Span } from "./components";
+import { Link } from "gatsby";
+import { siteConfig } from "src/conf";
 
 export interface IProductCardProps {
   bannerText?: string;
@@ -37,6 +39,8 @@ export function ProductCard({
             </Text>
             <Flex justifyContent={"center"}>{productImage}</Flex>
             <Button
+              as={Link}
+              to={siteConfig.linkToMainProduct}
               colorScheme="green"
               my={4}
               width={"full"}

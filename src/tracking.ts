@@ -1,5 +1,4 @@
 import { PostHog } from "posthog-js";
-import { isProdMode } from "./utils";
 
 type TrackingEvent = {
   name: string;

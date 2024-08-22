@@ -16,30 +16,30 @@ export function SupVitauthority() {
       />
 
       <SText>
-        <SBoldText>Why I Chose Vitauthority Multi Collagen Burn</SBoldText>
+        <SBoldText>How I Chose Vitauthority Multi Collagen Burn</SBoldText>
       </SText>
 
       <SText>
-        After weeks of searching for the right supplement, I chose Vitauthority Multi Collagen Burn
-        because it seemed to offer everything I was looking for in a collagen product. Not only did
-        it promise to enhance my skin and support weight management, but it also aimed to suppress
-        my appetite and aid in fat burning—all without the use of caffeine. I was particularly drawn
-        to the positive reviews about its effects on overall wellness. Additionally, the inclusion
-        of Hyaluronic Acid and Vitamin C, which are great for skin hydration and immune support,
-        made it even more appealing. This blend of benefits convinced me that it was the perfect
-        supplement to enhance my daily routine.
+        After weeks of researching supplements, I decided on Vitauthority Multi Collagen Burn
+        because it seemed to meet all my needs in a collagen product. It not only promised to
+        enhance my skin and assist with weight management, but it also aimed to curb my appetite and
+        promote fat burning—all without caffeine. The glowing reviews about its overall wellness
+        benefits caught my attention. Plus, the inclusion of Hyaluronic Acid and Vitamin C, both
+        great for skin hydration and immune support, made it even more appealing. The combination of
+        these benefits convinced me that this was the perfect supplement to integrate into my daily
+        routine.
       </SText>
 
       <SText>
-        <SBoldText>My Experience Using Vitauthority Multi Collagen Burn</SBoldText>
+        <SBoldText>My Journey Using Vitauthority Multi Collagen Burn</SBoldText>
       </SText>
 
       <SText>
-        My journey with Vitauthority Multi Collagen Burn started when I decided to integrate it into
-        my daily regimen. I usually mixed it with my morning coffee, unflavored almond milk or just
-        water, and found it quite pleasant to consume. Within a couple of weeks, I noticed my skin
-        becoming smoother and more radiant, my joints felt less achy, and my body overall started
-        feeling more robust.
+        I began my journey with Vitauthority Multi Collagen Burn by incorporating it into my daily
+        routine. I usually mixed it with my morning coffee, unflavored almond milk, or just water,
+        and found it quite enjoyable. After a couple of weeks, I noticed my skin becoming smoother
+        and more radiant, my joints felt less achy, and I experienced an overall improvement in how
+        strong and resilient my body felt.
       </SText>
 
       <SGrid columns={2}>
@@ -50,22 +50,22 @@ export function SupVitauthority() {
       <StaticImage height={400} alt="supplement" src="../../images/sup-vitout-3.jpeg" />
 
       <SItalicText>
-        I typically blended Vitauthority Multi Collagen Burn into my morning coffee.
+        I usually mixed Vitauthority Multi Collagen Burn into my morning coffee.
       </SItalicText>
 
       <SText>
-        <SBoldText>Summary</SBoldText>
+        <SBoldText>Summing-up:</SBoldText>
       </SText>
 
       <SText>
-        Vitauthority Multi Collagen Burn has proven to be a valuable addition to my wellness
-        routine. While the impact on weight loss was relatively modest, with a slight reduction of
-        about 3 pounds per month, the product excelled in other areas. The enhancements in my skin
-        quality, energy levels, and overall physical comfort were quite impressive. Although there
-        were some minor setbacks with packaging and an unpleasant smell, the substantial benefits
-        far outweighed these issues. This product is well-suited for anyone in search of a collagen
-        supplement that offers comprehensive health benefits beyond just improving skin health.
-        However, for weight loss purposes, it did not perform as well.
+        Vitauthority Multi Collagen Burn has been a valuable addition to my wellness routine. While
+        the weight loss effects were modest, with a slight reduction of about 3 pounds per month,
+        the product truly excelled in other areas. The improvements in my skin quality, energy
+        levels, and overall physical comfort were impressive. Although there were minor drawbacks,
+        such as packaging issues and an unpleasant smell, the substantial benefits far outweighed
+        these concerns. This product is ideal for anyone looking for a collagen supplement that
+        offers a wide range of health benefits beyond just enhancing skin health. However, it did
+        not perform as strongly for weight loss.
       </SText>
     </Section>
   );

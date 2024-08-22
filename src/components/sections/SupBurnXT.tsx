@@ -16,44 +16,44 @@ export function SupBurnXT() {
       />
 
       <SText>
-        <SBoldText>Why I Chose Burn-XT Fat Burner</SBoldText>
+        <SBoldText>How I Chose Burn-XT Fat Burner</SBoldText>
       </SText>
 
       <SText>
-        I decided to try Burn-XT fat burner because I was looking for something to help me manage my
-        weight more effectively. The promise of day time fat loss, boosted metabolism, and appetite
-        suppression really caught my attention. Plus, the added benefit of helping with wakefulness
-        seemed like a great fit for my busy lifestyle.
+        I decided to give Burn-XT fat burner a try because I was looking for a more effective way to
+        manage my weight. The promise of daytime fat loss, a boosted metabolism, and appetite
+        suppression really appealed to me. Additionally, the added benefit of increased alertness
+        seemed like a perfect fit for my busy lifestyle.
       </SText>
 
       <SText>
-        <SBoldText>My Weight Loss Experience Using Burn-XT Fat Burner</SBoldText>
+        <SBoldText>My Journey Using Burn-XT Fat Burner</SBoldText>
       </SText>
 
       <SText>
-        ‍Starting out, I followed the package’s advice carefully: I took one capsule each day with a
-        big glass of water and my breakfast, to see how my body would handle it. That first week, I
-        noticed I was waking up feeling more alert and less groggy than usual. My stomach felt a bit
-        off at times, but it wasn’t too bad.{" "}
+        I started by carefully following the package instructions: I took one capsule each morning
+        with a large glass of water and my breakfast to see how my body would respond. During that
+        first week, I noticed that I was waking up feeling more alert and less groggy than usual.
+        Although I experienced some mild stomach discomfort, it was manageable.
       </SText>
 
       <SText>
-        Encouraged by the first week, I moved up to the regular usage—taking one capsule with
-        breakfast and another with lunch. I made sure to drink lots of water, as suggested, to keep
-        hydrated. Almost immediately, I felt my appetite starting to lessen. I wasn’t snacking as
-        much between meals, which was a big win for me.{" "}
+        Encouraged by the initial results, I moved on to the regular dosage—taking one capsule with
+        breakfast and another with lunch. I made sure to stay well-hydrated, as recommended. Almost
+        immediately, I noticed my appetite beginning to decrease. I wasn’t snacking as much between
+        meals, which was a significant win for me.
       </SText>
 
       <SText>
-        However, the increased caffeine really made itself known. I’m not a big coffee drinker, so
-        the surge in energy was quite intense.I felt energized during the day, which was great, but
-        when it came time to wind down for the night, I struggled. Sleeplessness became a bit of an
-        issue, especially during the first few nights after upping the dose.{" "}
+        However, the increased caffeine content became quite apparent. Since I’m not a regular
+        coffee drinker, the surge in energy was intense. While I felt more energized during the day,
+        winding down at night became a challenge. Sleeplessness became an issue, especially in the
+        first few nights after increasing the dose.
       </SText>
 
       <SText>
-        During this period, I managed to lose about 10 pounds in 12 weeks, which was aligned with my
-        expectations without being overly drastic.
+        Over the course of 12 weeks, I managed to lose about 10 pounds, which was in line with my
+        expectations, offering steady progress without being overly drastic.
       </SText>
 
       <SGrid columns={2}>
@@ -62,21 +62,22 @@ export function SupBurnXT() {
       </SGrid>
 
       <SItalicText>
-        Burn-XT Fat Burner capsules brought less hunger and more energy, but made sleeping tough.
+        Burn-XT Fat Burner capsules reduced my hunger and boosted my energy, but made it difficult
+        to sleep.
       </SItalicText>
 
       <SText>
-        <SBoldText>Summary</SBoldText>
+        <SBoldText>Summing-up:</SBoldText>
       </SText>
 
       <SText>
-        Burn-XT Fat Burner offered some great benefits like appetite control and enhanced energy,
-        which fit well into my daily routine and helped with my weight loss goals. However, the
-        strong effects of caffeine and some inconsistency in how it worked from day to day were
-        challenges. I stopped taking it once I reached my weight goal, and when I tried it again
-        months later, it still helped, but the magic wasn’t quite the same. For anyone considering
-        it, it’s a good tool for specific goals but be mindful of the potential for side effects and
-        ensure it fits your lifestyle.
+        Burn-XT Fat Burner provided some valuable benefits like appetite suppression and increased
+        energy, which aligned well with my daily routine and supported my weight loss goals.
+        However, the potent caffeine effects and inconsistency in how it worked from day to day
+        posed some challenges. I stopped taking it once I reached my target weight, and when I tried
+        it again months later, it still had an effect, but the results weren’t quite as impactful.
+        For anyone considering it, Burn-XT can be an effective tool for achieving specific goals,
+        but be aware of the potential side effects and make sure it suits your lifestyle.
       </SText>
     </Section>
   );

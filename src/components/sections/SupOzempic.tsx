@@ -15,60 +15,61 @@ export function SupOzempic() {
       />
 
       <SText>
-        <SBoldText>Why I Chose Weight Loss Injection - Ozempic</SBoldText>
+        <SBoldText>How I Chose Weight Loss Injection - Ozempic</SBoldText>
       </SText>
 
       <SText>
-        After years of struggling with my weight and trying every diet, weight loss supplements
-        under the sun, I felt stuck. My doctor mentioned Ozempic, primarily used for diabetes but
-        noted for its weight loss benefits in patients. The thought of a simple injection doing what
-        years of dieting couldn't was both intriguing and a glimmer of hope. My decision was also
-        swayed by success stories from friends and online testimonials praising its effectiveness.
+        After years of struggling with my weight and trying every diet and weight loss supplement
+        out there, I felt stuck. My doctor suggested Ozempic, a medication primarily used for
+        diabetes but noted for its weight loss benefits in patients. The idea of a simple injection
+        achieving what years of dieting couldn’t was both intriguing and gave me a sense of hope.
+        Hearing success stories from friends and reading online testimonials praising its
+        effectiveness also played a big role in my decision.
       </SText>
 
       <SText>
-        <SBoldText>My Weight Loss Experience on Weight Loss Injection - Ozempic</SBoldText>
+        <SBoldText>My Weight Loss Journey with Ozempic</SBoldText>
       </SText>
 
       <SText>
-        Starting Ozempic was a leap of faith. The weekly injections were straight forward, and I
-        quickly adapted to the routine. In the first few months,I noticed a significant decrease in
-        my appetite, which made smaller portions satisfying and curbed my snacking habits.
-        Gradually, the weight started to come off, and my energy levels increased. However, it
-        wasn't all smooth sailing. The side effects, particularly nausea and occasional digestive
-        discomfort, were challenging at times but became more manageable as my body adjusted.
-        Despite these hurdles, the consistent weight loss and improved health markers kept me
-        motivated.
+        Starting on, the weekly injections were easy to manage, and I quickly adapted to the
+        routine. Within the first few months, I noticed a significant drop in my appetite, which
+        made smaller portions more satisfying and greatly reduced my snacking. Slowly but surely,
+        the weight began to come off, and my energy levels started to rise. However, it wasn’t
+        without challenges. The side effects, particularly nausea and occasional digestive
+        discomfort, were tough at times but became more manageable as my body adjusted. Despite
+        these hurdles, the steady weight loss and improved health markers kept me motivated.
       </SText>
 
       <StaticImage height={500} alt="supplement" src="../../images/sup-ozempic-1.jpg" />
 
       <SItalicText>
-        On November 3 rd 2023 I began my weight loss journey using Ozempic. As on February 22nd2023
-        I’m officially down 18 pounds.
+        On April 11 2023 I began my weight loss journey using Ozempic. As on June 22 2023 I’m
+        officially down 18 pounds.
       </SItalicText>
 
       <SText>
-        <SBoldText>Summary</SBoldText>
+        <SBoldText>Summing-up:</SBoldText>
       </SText>
 
       <SText>
-        My time with Ozempic was eye-opening, revealing that the path to weight loss is not without
-        its dark sides. While it did aid in shedding pounds, the downsides were significant and, at
-        times, overshadowed the benefits. The financial cost alone was a burden, but the side
-        effects were far more troubling. Nausea, stomach pain, and vomiting were just the start; the
-        possibility of severe complications like pancreatitis, kidney failure, gallbladder disease,
-        and gastro paresis loomed large, making the decision to continue the medication fraught with
-        anxiety.
+        My experience with Ozempic was eye-opening, revealing that the journey to weight loss comes
+        with its own set of challenges. While it did help me lose weight, the downsides were
+        substantial and, at times, overshadowed the benefits. The financial cost was a significant
+        burden, but the side effects were even more concerning. Nausea, stomach pain, and vomiting
+        were just the beginning; the risk of severe complications like pancreatitis, kidney failure,
+        gallbladder disease, and gastroparesis added a layer of anxiety to my decision to continue
+        the medication.
       </SText>
 
       <SText>
-        The necessity to potentially stay on the medication indefinitely to avoid weight regain
-        added another layer of complexity, underscoring the harsh reality that this "solution" comes
-        with strings attached. The severe health risks, some of which could lead to hospitalization
-        or demand further medical attention, highlighted the stark trade-offs involved in using
-        Ozempic for weight loss. This journey was a stark reminder that what might seem like a quick
-        fix for weight loss can carry consequences that demand serious consideration.
+        The prospect of potentially needing to stay on the medication indefinitely to prevent
+        regaining the weight added another layer of complexity, emphasizing the harsh reality that
+        this "solution" comes with significant strings attached. The severe health risks, some of
+        which could lead to hospitalization or require further medical intervention, highlighted the
+        serious trade-offs involved in using Ozempic for weight loss. This experience served as a
+        stark reminder that what might appear to be a quick fix for weight loss can come with
+        consequences that require careful consideration.
       </SText>
     </Section>
   );

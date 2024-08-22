@@ -1,43 +1,42 @@
-import React from "react";
-import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
+import { SBoldText, Section, SHeading, SItalicText, SLink, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
-import { Flex, Stack } from "@chakra-ui/react";
+
+import { mainProduct } from "src/productData";
 
 export function TestingMethodology() {
   return (
     <Section>
-      <SHeading>Testing methodology 👩🔬</SHeading>
+      <SHeading>My Testing Approach 🔬👇</SHeading>
       <StaticImage height={500} alt="supplement comparison" src="../../images/comparison-1.jpg" />
-      <SItalicText>Lineup of all the weight loss methods that I tested.</SItalicText>
+      <SItalicText>A list of all the weight loss methods I tried.</SItalicText>
 
       <SText>
-        After trying many different ways to lose weight and seeing all kinds of results, I decided
-        to take a more organized approach to find the best weight loss solution for myself. I spent
-        over 90 hours researching and then tried multiple of these methods. The entire process took
-        more than 3 years and involved lots of experimenting, trials, and learning from mistakes as
-        I explored various weight loss methods. This journey was specifically aimed at identifying
-        sustainable weight loss practices that could enhance my health without any adverse side
-        effects.
+        After experimenting with various weight loss methods and getting mixed results, I decided to
+        take a more systematic approach to discover the best solution for myself. I invested over
+        100+ hours in research and tested multiple strategies. This entire process spanned more than
+        3 years and involved extensive experimentation, trials, and learning from my mistakes as I
+        explored different weight loss options. My goal was to find sustainable weight loss
+        practices that could improve my health without causing any negative side effects.
       </SText>
 
       <SText>
-        After looking over a bunch of weight loss methods, I decided to take this research project
-        of mine through two different stages.
+        After reviewing several weight loss methods, I structured my research project into two
+        stages:
       </SText>
 
       <SText>
-        <SBoldText>Stage 1</SBoldText> – how to quickly lose weight?
+        <SBoldText>Stage 1</SBoldText> - How to lose weight quickly?
       </SText>
 
       <SText>
-        <SBoldText>Stage 2</SBoldText> – how to maintain weight loss?
+        <SBoldText>Stage 2</SBoldText> - How to maintain weight loss?
       </SText>
 
       <SText>
-        <SBoldText>My Top Weight Loss Solution:</SBoldText> If you're short on time, my top choice
-        is the Biome Secret Superfood Weight Loss Shake. Not only is it a great option for quick
-        results, but it's also a sustainable weight loss solution designed to help you maintain the
-        progress you've made for the long term.
+        <SBoldText>My #1 Weight Loss Product:</SBoldText> If you're pressed for time, my top
+        recommendation is the <SLink to="/#winner">{mainProduct.method}</SLink>. It's not only
+        effective for quick results but also offers a sustainable solution designed to help you keep
+        the weight off in the long run.
       </SText>
 
       <StaticImage
@@ -45,7 +44,7 @@ export function TestingMethodology() {
         alt="supplement comparison"
         src="../../images/comparison-methodology.jpg"
       />
-      <SItalicText>Comparing weight loss solutions: a personal journey</SItalicText>
+      <SItalicText>Comparing weight loss products - my 3+ year long experiment</SItalicText>
     </Section>
   );
 }

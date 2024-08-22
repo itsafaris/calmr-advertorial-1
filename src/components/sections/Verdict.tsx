@@ -5,57 +5,57 @@ import { StaticImage } from "gatsby-plugin-image";
 export function Verdict() {
   return (
     <Section>
-      <SHeading>The verdict</SHeading>
+      <SHeading>My verdict</SHeading>
 
       <StaticImage height={500} alt="winner" src="../../images/verdict-1.jpg" />
 
       <SItalicText>
-        Out of all weight loss methods tried, ultimately chose Biome Secret Superfood Weight Loss
-        Shake
+        After trying several weight management methods, I ultimately chose Calmr - Sleep & Burn as
+        my top solution.
       </SItalicText>
 
       <SText>
-        In my quest to lose weight, I've pretty much tried everything you can think of from weight
-        management programs and appetite control medications to weight loss injections, and fat
-        burners/metabolism boosters. Each of these methods came with its own set of drawbacks.
+        In my journey to lose weight, I’ve tried almost every method imaginable—from weight
+        management programs and appetite suppressants to weight loss injections and fat
+        burners/metabolism boosters. Each method had its own set of challenges.
       </SText>
 
       <SText>
-        Joining a weight loss program really taught me about dedication. It's not just a quick fix;
-        it requires real changes to your lifestyle and diet, which I appreciated for its sustainable
-        approach. Despite the high level of commitment needed, the comprehensive support provided
-        made it truly effective.
+        Joining a weight loss program taught me the importance of commitment. It wasn’t just a quick
+        fix; it required real changes to my lifestyle and eating habits, which I appreciated for its
+        focus on sustainability. Despite the level of dedication needed, the comprehensive support
+        provided was highly effective.
       </SText>
 
       <SText>
-        I then tried appetite control medication, hoping for a simpler solution. It was effective in
-        managing my weight, but the side effects were tough to handle. Nausea, constipation,
-        headaches, and even mood changes made it clear that this method required careful medical
-        supervision, which was a bit daunting.
+        Next, I turned to appetite control medication, hoping for a more straightforward solution.
+        While it did help manage my weight, the side effects were hard to ignore. Nausea,
+        constipation, headaches, and mood swings made it clear that this approach required careful
+        medical oversight, which was a bit intimidating.
       </SText>
 
       <SText>
-        Afterward, I experimented with a weight loss injection, intrigued by the promise of rapid
-        results. However, the high costs and severe health risks, including stomach pain, vomiting,
-        and constipation, made it the least recommendable option for me. Not to mention, the risk of
-        regaining even more weight after discontinuing the injections was disheartening.
+        Following that, I experimented with weight loss injections, drawn to the promise of rapid
+        results. However, the high costs and severe health risks—such as stomach pain, vomiting, and
+        constipation—made this the least appealing option. Additionally, the risk of regaining even
+        more weight after stopping the injections was discouraging.
       </SText>
 
       <SText>
-        Finally, I gave fat burners and metabolism boosters a shot. They did provide a moderate
-        boost in energy and helped with weight loss initially, but the side effects, such as
-        jitters, anxiety, an elevated heart rate, altered taste, and extreme thirst, were
-        overwhelming. The potential health risks seemed to outweigh the benefits, confirming that
-        this method also lacked long-term effectiveness.
+        I then tried fat burners and metabolism boosters. While they did offer a slight energy boost
+        and helped with initial weight loss, the side effects—like jitters, anxiety, elevated heart
+        rate, altered taste, and extreme thirst—were overwhelming. The potential health risks far
+        outweighed the benefits, confirming that this method lacked long-term viability.
       </SText>
 
       <SText>
-        Then I found the Biome Secret Superfood Weight Loss Shake, and let me tell you, it was a
-        game-changer. This shake felt like I was feeding my body everything good it had been missing
-        out on. Imagine getting the protein you'd find in a whole chicken breast, the fiber of three
-        whole heads of broccoli, and all the vitamins and minerals of a huge, colorful salad, all in
-        one tasty drink. It was more than just a convenient meal substitute; it was like a
-        nutritional treasure trove that slotted right into my daily life without any hassle.
+        Finally, I discovered Calmr - Sleep & Burn, and it was a game-changer. This supplement felt
+        like it was giving my body everything it had been missing. Imagine getting the benefits of
+        restful sleep, reduced stress, and effective weight management all in one. Calmr wasn’t just
+        a convenient solution—it was like a holistic wellness package that fit seamlessly into my
+        daily life. The combination of targeted ingredients not only supported my weight loss goals
+        but also improved my sleep and overall well-being, making it the clear winner in my quest
+        for a sustainable, effective solution.
       </SText>
 
       <StaticImage height={400} alt="winner" src="../../images/verdict-4.jpeg" />
@@ -66,23 +66,26 @@ export function Verdict() {
       </SGrid>
 
       <SItalicText>
-        Now I can feel happy, relaxed and not to focus so much on my weight loss as I found this
-        amazing product.
+        Now, I can finally feel happy and relaxed without obsessing over weight loss, thanks to this
+        incredible product.
       </SItalicText>
 
       <SText>
-        What really set this shake apart for me was how it tackled all my weight loss and health
-        needs in one go. It helped me lose weight and keep it off by burning fat. The bloating and
-        constipation I suffered - gone, thanks to the shake's rich fiber content, along with a
-        helpful mix of prebiotics, probiotics, and digestive enzymes that got my gut health back on
-        track. No more feeling like I was five months pregnant all the time!
+        What truly set Calmr - Sleep & Burn apart for me was how it addressed all my weight
+        management and health needs in one comprehensive solution. It helped me lose weight and keep
+        it off by supporting fat burning. The constant bloating and constipation I used to
+        experience—completely gone. Calmr's carefully selected ingredients, including fiber-rich
+        components, along with stress-reducing and digestion-supporting elements, got my gut health
+        back on track. No more feeling like I was perpetually bloated!
       </SText>
 
       <SText>
-        But the benefits didn't stop there. I was supercharging my body with 80% of my daily protein
-        needs and 27 essential vitamins and minerals every single day. And the best part? It was all
-        from whole-food sourced ingredients, without any of the stuff I try to avoid, like gluten,
-        GMOs, lactose, nuts, soy, hormones, added sugars, and trans fats.
+        But the benefits didn’t end there. I was nourishing my body every day with essential
+        nutrients like Vitamin D, Magnesium, and Melatonin, which not only supported my weight loss
+        journey but also improved my sleep and overall well-being. And the best part? It was all
+        from a clean, thoughtfully formulated supplement, without any unwanted additives like
+        gluten, GMOs, lactose, nuts, soy, hormones, added sugars, or trans fats. Calmr was the
+        all-in-one solution I had been searching for—a product that truly delivered on its promises.
       </SText>
 
       <SGrid columns={2}>
@@ -105,16 +108,16 @@ export function Verdict() {
       </SGrid>
 
       <SItalicText>
-        My journey of transformation, where the Biome Secret Superfood Weight Loss Shake was my ally
-        in shedding 46 lbs within six months.
+        My transformation journey, where Calmr - Sleep & Burn was my trusted companion in losing 46
+        pounds over six months.
       </SItalicText>
 
       <SText>
-        So, when I weigh all my options, choosing the Biome Secret Superfood Weight Loss Shake is a
-        no-brainer. It's not just another product; it's a comprehensive health boost that's perfect
-        for anyone looking to lose weight and feel amazing. After all the diets, supplements,
-        medications and weight loss plans I've tried, nothing has made me feel as good as this
-        shake. It's been a real winner for me.
+        When I consider all the options, choosing Calmr - Sleep & Burn is an easy decision. This
+        isn’t just another supplement; it’s a complete health enhancer that's perfect for anyone
+        looking to lose weight and feel their best. After all the diets, supplements, medications,
+        and weight loss plans I've tried, nothing has made me feel as great as Calmr. It’s truly
+        been a winning solution for me.
       </SText>
     </Section>
   );
