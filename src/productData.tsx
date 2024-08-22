@@ -93,45 +93,45 @@ export const productData: Product[] = [
     easeOfUse: "medium",
     overallRating: 4.5,
     ratingComment:
-      "It's recommended for those who seek a sustainable lifestyle and diet change. This method requires more personal commitment, yet it's very effective and comes with comprehensive support.",
+      "Ideal for those looking to make a lasting lifestyle and diet change. This approach demands more personal dedication but is highly effective and comes with extensive support.",
     positives: [
       {
         title: "Weight Loss",
-        text: "Lost 10 pounds in the first month by following the point-based system.",
+        text: "Dropped 10 pounds in the first month by following the points-based program.",
       },
       {
         title: "Maintaining Weight Loss",
-        text: "Kept the weight off by sticking to the WeightWatchers guidelines and learning portion control.",
+        text: "Successfully maintained weight by adhering to the guidelines and mastering portion control.",
       },
       {
-        title: "Flexibility of the Points System",
-        text: "I was able to enjoy a wide range of foods without strict calorie counting and it was liberating.",
+        title: "Points System Flexibility",
+        text: "I enjoyed a variety of foods without the need for strict calorie counting, which felt freeing.",
       },
       {
-        title: "Comprehensive Support",
-        text: "I had access to both online and in-person community support that helped me stay motivated and connected with others on the same journey.",
+        title: "Extensive Support",
+        text: "I had access to both online and in-person communities that kept me motivated and connected with others on the same path.",
       },
       {
-        title: "Inclusive Mobile App",
-        text: "The app provided me helpful features like meal planning tools, recipes, workouts, and meditations, making daily tracking and planning easier.",
+        title: "User-Friendly Mobile App",
+        text: "The app offered useful features like meal planning tools, recipes, workouts, and meditations, making daily tracking and planning more convenient.",
       },
       {
-        title: "More Energy",
-        text: "Felt more energetic throughout the day, which was unexpected and delightful.",
+        title: "Increased Energy",
+        text: "Experienced a noticeable boost in energy throughout the day, which was a pleasant surprise.",
       },
     ],
     negatives: [
       {
-        title: "Tough Start",
-        text: "Initially, adapting to the points system was challenging and took some time to understand fully.",
+        title: "Challenging Start",
+        text: "Initially, getting used to the points system was difficult and required some time to fully grasp.",
       },
       {
         title: "Cost",
-        text: "The subscription cost, plus a membership starter fee, was a concern initially, although it paid off in the long run. Additionally, there are optional add-ons, such as weight loss medications and coach-led workshops, which also require payment.",
+        text: "The subscription fee, along with an initial membership fee, was a concern at first, though it proved worthwhile in the long run. There are also optional extras like weight loss medications and coach-led workshops that come with additional costs.",
       },
       {
-        title: "Lack of Guaranteed Nutrition Balance",
-        text: "While flexible, the program doesn't always ensure a balanced diet, which might require additional planning.",
+        title: "Potential Nutritional Imbalance",
+        text: "While flexible, the program doesn't always guarantee a balanced diet, which may require extra planning.",
       },
     ],
   },
@@ -147,46 +147,49 @@ export const productData: Product[] = [
     easeOfUse: "easy",
     overallRating: 3.5,
     ratingComment:
-      "It's recommended for modest weight loss, but overall it's a good product that's very filling. Expect mild weight loss, and it's easy to sustain those results using this product.",
+      "It's a solid choice for moderate weight loss, and overall, it’s a reliable product that keeps you feeling satisfied. Expect gradual results that are easy to sustain with this supplement.",
     positives: [
-      { title: "Effective Weight Loss", text: "I lost 8 pounds in the first month." },
       {
-        title: "Consistent Weight Management",
-        text: "Each week, I continued to lose 0.5-1 pound, without feeling hungry.",
+        title: "Weight Loss Success",
+        text: "I managed to lose 8 pounds in the first month.",
       },
       {
-        title: "Balanced Nutrients",
-        text: "The shakes provide a robust mix of protein, fats, and carbs, plus essential vitamins and minerals, including vitamin B12 to boost my metabolism.",
+        title: "Ongoing Weight Management",
+        text: "I consistently lost around 0.5-1 pound each week, without experiencing hunger.",
       },
       {
-        title: "Affordability",
-        text: "Each shake costs less than typical fast food options.",
+        title: "Well-Balanced Nutrition",
+        text: "The supplement offers a balanced combination of protein, fats, and carbohydrates, along with essential vitamins and minerals, including vitamin B12 to support metabolism.",
       },
       {
-        title: "No Compromise on Meals",
-        text: "I replaced my daily lunch with the shake and managed my favorite foods by controlling portion sizes.",
+        title: "Budget-Friendly",
+        text: "Each serving is more affordable than most fast food options.",
       },
       {
-        title: "Convenience",
-        text: "Quicker to prepare than a full meal, which is ideal for busy workdays.",
+        title: "No Meal Compromises",
+        text: "I swapped my regular lunch with the supplement and managed my favorite foods by keeping portion sizes in check.",
       },
       {
-        title: "Socially Flexible",
-        text: "I could easily fit the meal replacement shake into my social life without impacting dining out.",
+        title: "Quick & Convenient",
+        text: "It's faster to prepare than a full meal, which is perfect for hectic workdays.",
+      },
+      {
+        title: "Socially Compatible",
+        text: "I could easily incorporate the supplement into social situations without disrupting dining out.",
       },
     ],
     negatives: [
       {
-        title: "Not Satisfying",
-        text: "Despite Huel's claim that it should keep you feeling fuller for longer without cravings or the need for snacks, I still found it challenging to avoid reaching for an extra snack like a granola or protein bar to achieve fullness.",
+        title: "Not Fully Satisfying",
+        text: "Despite claims that it keeps you full, I still found myself reaching for an extra snack like a granola or protein bar to feel completely satisfied.",
       },
       {
-        title: "Average Taste",
-        text: "The flavors are a bit bland and don't compare well to real food.",
+        title: "Flavor Could Be Better",
+        text: "The taste is somewhat bland and doesn't quite match the satisfaction of real food.",
       },
       {
         title: "Grainy Texture",
-        text: "When shaken, the powder doesn't mix well, leaving a gritty feeling that's less enjoyable to drink.",
+        text: "The powder doesn’t mix smoothly, leaving a gritty texture that’s not as enjoyable to drink.",
       },
     ],
   },
@@ -206,41 +209,41 @@ export const productData: Product[] = [
     easeOfUse: "medium",
     overallRating: 4,
     ratingComment:
-      "It's recommended due to its effectiveness for weight loss, but the side effects can be challenging, and it requires medical supervision.",
+      "It's effective for weight loss, but the side effects can be difficult, and it should be used under medical supervision.",
     positives: [
       {
-        title: "Effective Weight Loss",
-        text: "I started noticing a difference in my weight within just four weeks and lost 10 pounds.",
+        title: "Noticeable Weight Loss",
+        text: "I began seeing changes in my weight within just four weeks, losing a total of 10 pounds.",
       },
       {
-        title: "Reduced Appetite",
-        text: "I'm no longer as hungry as I used to be, which makes it so much easier to eat smaller portions and not feel like I'm missing out.",
+        title: "Appetite Suppression",
+        text: "I no longer feel as hungry as before, which makes it much easier to eat smaller portions without feeling deprived.",
       },
       {
-        title: "Reduced Cravings",
-        text: "My cravings for snacks and sweets have really dropped off. This change has been a huge help in sticking to my weight loss goals.",
+        title: "Less Cravings",
+        text: "My cravings for snacks and sweets have significantly decreased. This shift has been a major factor in helping me stick to my weight loss goals.",
       },
       {
-        title: "Convenience",
-        text: "Taking the pills daily is so straightforward compared to keeping up with a strict diet. It fits seamlessly into my routine.",
+        title: "Ease of Use",
+        text: "Taking these pills daily is so much simpler than following a strict diet. It easily fits into my daily routine.",
       },
       {
-        title: "Enhanced Mood",
-        text: "The pills have had a bonus effect; I feel happier and more stable, thanks to the mood-enhancing effects of the bupropion. It's like getting a boost of positivity along with the weight loss benefits.",
+        title: "Mood Improvement",
+        text: "The pills have also had an unexpected benefit; I feel more positive and emotionally balanced, thanks to bupropion's mood-enhancing effects. It's like getting an emotional uplift along with the weight loss.",
       },
     ],
     negatives: [
       {
-        title: "Side Effects",
-        text: "While taking Contrave, I've had to deal with some annoying side effects like hot flashes, constipation, and headache.",
+        title: "Unpleasant Side Effects",
+        text: "While using Contrave, I've had to deal with some bothersome side effects like hot flashes, constipation, and headaches.",
       },
       {
-        title: "Requires Prescription and Medical Dependency",
-        text: "Getting started with Contrave was more complicated than picking up something over-the-counter. I had to see my doctor for a prescription and attend regular check-ups. Additionally, it feels unsettling to rely on medication for weight loss, and I'm concerned about becoming too dependent on these pills rather than focusing on sustainable lifestyle changes.",
+        title: "Requires Medical Oversight",
+        text: "Starting Contrave wasn't as simple as buying an over-the-counter product. I needed a prescription from my doctor and had to attend regular check-ups. Additionally, it feels uneasy relying on medication for weight loss, and I'm concerned about becoming too dependent on it rather than focusing on lasting lifestyle changes.",
       },
       {
-        title: "Not Suitable for Everyone",
-        text: "Contrave really isn't a one-size-fits-all solution. It has potential side effects, including an increased risk of suicidal thoughts and behaviors. It's important to be cautious and talk thoroughly with a healthcare provider before starting it.",
+        title: "Not for Everyone",
+        text: "Contrave isn't a universal solution. It comes with potential side effects, including an increased risk of suicidal thoughts and behaviors. It's important to exercise caution and have a thorough discussion with a healthcare provider before starting it.",
       },
     ],
   },
@@ -254,45 +257,45 @@ export const productData: Product[] = [
     easeOfUse: "easy",
     overallRating: 2,
     ratingComment:
-      "Least recommended due to high costs, severe health issues, and risk of regaining more weight after stopping. Requires medical supervision.",
+      "Least recommended due to high costs, serious health concerns, and the risk of regaining more weight after discontinuation. Requires close medical supervision.",
     positives: [
       {
-        title: "Effective Weight Loss",
-        text: "Started seeing weight loss results quickly.",
+        title: "Quick Weight Loss",
+        text: "Noticed weight loss results fairly quickly.",
       },
       {
-        title: "Reduced Appetite",
-        text: "My hunger levels dropped significantly, making it easier to eat less without feeling deprived.",
+        title: "Appetite Suppression",
+        text: "My hunger levels dropped noticeably, making it easier to eat less without feeling deprived.",
       },
       {
-        title: "Convenience",
-        text: "Just a weekly injection, which was much simpler than remembering daily pills or sticking to a strict diet.",
+        title: "Simple Routine",
+        text: "Only required a weekly injection, which was much simpler than managing daily pills or adhering to a strict diet.",
       },
       {
-        title: "Improved Blood Sugar Levels",
-        text: "Noticed my blood sugar levels were more stable.",
+        title: "Better Blood Sugar Control",
+        text: "Observed more stable blood sugar levels.",
       },
     ],
     negatives: [
       {
-        title: "Bad Side Effects",
-        text: "Experienced some nausea, digestion issues and stomach pain.",
+        title: "Unpleasant Side Effects",
+        text: "Experienced nausea, digestive issues, and stomach discomfort.",
       },
       {
-        title: "Temporary Solution",
-        text: "Worried that the weight might come back if I stopped the injections, questioning the long-term sustainability.",
+        title: "Short-Term Fix",
+        text: "Concerned that the weight could return if I stopped the injections, raising doubts about long-term effectiveness.",
       },
       {
-        title: "Cost",
-        text: "The injections were expensive, making it a significant financial consideration.",
+        title: "High Cost",
+        text: "The injections were pricey, making it a significant financial burden.",
       },
       {
-        title: "Injection Site Reactions",
-        text: "Sometimes the area where I injected would get red and itchy.",
+        title: "Injection Site Irritation",
+        text: "Occasionally, the injection site would become red and itchy.",
       },
       {
-        title: "Medical Dependency",
-        text: "Felt uneasy about relying on a medication for weight loss rather than lifestyle changes alone.",
+        title: "Reliance on Medication",
+        text: "Felt uneasy about depending on medication for weight loss instead of focusing solely on lifestyle changes.",
       },
     ],
   },
@@ -311,47 +314,50 @@ export const productData: Product[] = [
     monthlyCost: 2,
     easeOfUse: "easy",
     overallRating: 1,
-    ratingComment: "Not recommended, potential health risks outweigh benefits.",
     isRuledOut: true,
+    ratingComment: "Not recommended, potential health risks outweigh the benefits.",
     positives: [
       {
         title: "Weight Loss",
-        text: "It did help me lose 5 lbs over a few weeks by reducing my food intake on the days I used it.",
+        text: "It did help me shed 5 pounds over a few weeks by reducing my food intake on the days I used it.",
       },
       {
-        title: "Appetite Suppression",
-        text: "Hydroxycut was effective at curbing my hunger, particularly on days filled with temptations or when I noticed I was more prone to snacking.",
+        title: "Appetite Control",
+        text: "Hydroxycut was effective at suppressing my hunger, especially on days when I was more tempted to snack or indulge.",
       },
       {
-        title: "Designed for Women",
-        text: "Hydroxycut +Women is enriched with nutrients important for women's health, like Iron, Folate, and Biotin, which help maintain healthy hair, skin, and nails, and Collagen for additional health benefits.",
+        title: "Formulated for Women",
+        text: "Hydroxycut + Women is fortified with essential nutrients like Iron, Folate, and Biotin, which support healthy hair, skin, and nails, along with Collagen for added benefits.",
       },
       {
-        title: "Energy Boost",
-        text: "The supplement significantly increased my energy levels, which enhanced my physical activity, helping burn more calories.",
+        title: "Boost in Energy",
+        text: "The supplement provided a significant energy boost, which helped increase my physical activity and burn more calories.",
       },
       {
-        title: "Energy and Metabolism Boost",
-        text: "The key ingredient, C. Canephora Robusta, was effective in boosting my metabolism.",
+        title: "Metabolism Enhancement",
+        text: "The key ingredient, C. Canephora Robusta, effectively boosted my metabolism.",
       },
       {
-        title: "Convenience",
-        text: "The capsules were easy to take on the go, had no smell, and were tasteless, making them easy to incorporate into my daily routine.",
+        title: "Convenient to Use",
+        text: "The capsules were easy to take on the go, had no odor, and were tasteless, making them simple to include in my daily routine.",
       },
-      { title: "Taste", text: "The capsules had no smell, and were tasteless." },
+      {
+        title: "No Taste",
+        text: "The capsules were odorless and tasteless.",
+      },
     ],
     negatives: [
       {
-        title: "Long-term Concerns",
-        text: "While Hydroxycut was effective for temporary weight loss, I was concerned about using it over the long term due to the potential health risks, such as mood changes and how the high stimulant levels affected my body.",
+        title: "Long-Term Health Concerns",
+        text: "Although Hydroxycut was effective for short-term weight loss, I was worried about its long-term use due to potential health risks, such as mood changes and the impact of high stimulant levels on my body.",
       },
       {
-        title: "Tough Side Effects",
-        text: "The caffeine (150mg per dose) caused uncomfortable jitters and restlessness.",
+        title: "Uncomfortable Side Effects",
+        text: "The caffeine (150mg per dose) led to uncomfortable jitters and restlessness.",
       },
       {
-        title: "Usage Issues",
-        text: "I couldn't use Hydroxycut every day. On the days I did, it helped control my hunger, but I often felt really sick afterwards, with my heart racing uncomfortably fast.",
+        title: "Usage Limitations",
+        text: "I couldn't use Hydroxycut daily. On the days I did, it helped curb my appetite, but I often felt quite unwell afterwards, with my heart racing uncomfortably fast.",
       },
     ],
   },
@@ -364,32 +370,35 @@ export const productData: Product[] = [
     monthlyCost: 2,
     easeOfUse: "easy",
     overallRating: 1,
-    ratingComment:
-      "It's effective for moderate weight loss and boosts energy, but it's not highly recommended due to its potential for severe side effects.",
     isRuledOut: true,
+    ratingComment:
+      "It's effective for moderate weight loss and provides an energy boost, but it's not highly recommended due to the risk of severe side effects.",
     positives: [
-      { title: "Weight Loss", text: "I managed to lose about 6 pounds in 8 weeks." },
       {
-        title: "Controlled Appetite",
-        text: "It really did help manage my cravings and control my eating patterns.",
+        title: "Weight Loss",
+        text: "I was able to lose about 6 pounds over the course of 8 weeks.",
       },
       {
-        title: "Energy Boost",
-        text: "I loved the extra energy during the day. It kept me moving and more active than usual.",
+        title: "Appetite Control",
+        text: "It definitely helped me manage my cravings and keep my eating habits in check.",
       },
       {
-        title: "Digestive Aid",
-        text: "It seemed to help with my digestion, making me feel less bloated and more comfortable.",
+        title: "Increased Energy",
+        text: "I enjoyed the extra energy throughout the day. It kept me more active and on the move.",
+      },
+      {
+        title: "Digestive Support",
+        text: "It seemed to aid in digestion, reducing bloating and helping me feel more comfortable.",
       },
     ],
     negatives: [
       {
         title: "Side Effects",
-        text: "The caffeine led to some jitters and sleepless nights, which were manageable but not ideal. The initial stomach upset was also a downside.",
+        text: "The caffeine caused some jitters and sleepless nights, which were manageable but less than ideal. The initial stomach discomfort was also a drawback.",
       },
       {
-        title: "Inconsistency",
-        text: "Some days the effects were stronger than others, which made it hard to predict how I'd feel.",
+        title: "Inconsistent Effects",
+        text: "The effects varied from day to day, making it difficult to predict how I'd feel.",
       },
     ],
   },
@@ -408,34 +417,34 @@ export const productData: Product[] = [
     monthlyCost: 2,
     easeOfUse: "easy",
     overallRating: 1,
-    ratingComment: "Not recommended due to side effects and lack of long-term effectiveness.",
     isRuledOut: true,
+    ratingComment: "Not recommended due to side effects and lack of sustained effectiveness.",
     positives: [
       {
-        title: "Weight Loss",
-        text: "Over the course of three months, I steadily lost a total of 7 pounds.",
+        title: "Gradual Weight Loss",
+        text: "I steadily lost 7 pounds over three months.",
       },
       {
-        title: "Good Tolerance",
-        text: "My body adjusted well to the supplement without any harsh side effects.",
+        title: "Well Tolerated",
+        text: "My body adjusted smoothly to the supplement without experiencing any significant side effects.",
       },
       {
-        title: "Weight Loss Support",
-        text: "It effectively supported my weight loss, especially when combined with my increased activities and better diet.",
+        title: "Supportive for Weight Loss",
+        text: "It provided solid support for my weight loss, especially when combined with more exercise and an improved diet.",
       },
       {
-        title: "Controlled Appetite",
-        text: "I felt less inclined to snack, particularly in the evenings, which has always been a challenge for me.",
+        title: "Reduced Appetite",
+        text: "I found myself snacking less, particularly in the evenings, which has always been a struggle for me.",
       },
     ],
     negatives: [
       {
-        title: "Altered Taste",
-        text: "The change in how food tasted helped reduce my snacking but also made meals less enjoyable.",
+        title: "Altered Food Flavor",
+        text: "The change in how food tasted helped curb my snacking but made meals less enjoyable overall.",
       },
       {
-        title: "Extreme Thirst",
-        text: "The increased thirst was beneficial for my water intake but sometimes felt excessive.",
+        title: "Excessive Thirst",
+        text: "While the increased thirst encouraged me to drink more water, it sometimes felt overwhelming.",
       },
     ],
   },
@@ -454,35 +463,35 @@ export const productData: Product[] = [
     monthlyCost: 3,
     easeOfUse: "easy",
     overallRating: 1,
-    ratingComment:
-      "It's not primarily recommended for weight loss due to its moderate weight loss results, but it does offer benefits for skin and joints.",
     isRuledOut: true,
+    ratingComment:
+      "It's not primarily recommended for weight loss due to its moderate results in that area, but it does offer benefits for skin and joint health.",
     positives: [
       {
-        title: "Taste and Mixability",
-        text: "The collagen powder tastes good and mixes seamlessly with both coffee and water, making it easy to consume regularly without any hassle.",
+        title: "Flavor and Easy Mixing",
+        text: "The collagen powder has a pleasant taste and mixes effortlessly with both coffee and water, making it simple to include in my daily routine.",
       },
       {
-        title: "Skin Improvement",
-        text: "My skin started glowing, and signs of aging such as smile lines and crow's feet visibly reduced.",
+        title: "Improved Skin Appearance",
+        text: "My skin started to glow, and noticeable signs of aging like smile lines and crow's feet visibly diminished.",
       },
       {
-        title: "Hair and Nail Growth",
-        text: "I saw noticeable improvements in the strength and growth of my hair and nails, contributing to my overall feeling of wellness.",
+        title: "Enhanced Hair and Nail Growth",
+        text: "I observed significant improvements in the strength and growth of my hair and nails, contributing to an overall sense of wellness.",
       },
       {
-        title: "Appetite Suppression",
-        text: "It effectively curbed my appetite, making me feel less hungry throughout the day.",
+        title: "Appetite Control",
+        text: "It successfully curbed my appetite, making me feel less hungry throughout the day.",
       },
     ],
     negatives: [
       {
-        title: "Minimal Weight Loss",
-        text: "The weight loss result was extremely minor, less significant than I had hoped, making it a less effective solution for those primarily seeking weight reduction.",
+        title: "Limited Weight Loss",
+        text: "The weight loss results were minimal and not as significant as I had hoped, making it less effective for those focused primarily on shedding pounds.",
       },
       {
-        title: "Packaging Issues",
-        text: "The packaging was messy despite being sealed, which was a bit frustrating. Retrieving the scoop from the powder also created an unnecessary mess.",
+        title: "Packaging Problems",
+        text: "The packaging was messy, even though it was sealed, which was frustrating. Retrieving the scoop from the powder also caused unnecessary mess.",
       },
     ],
   },

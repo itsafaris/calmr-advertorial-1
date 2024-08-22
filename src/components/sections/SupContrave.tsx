@@ -16,55 +16,53 @@ export function SupContrave() {
       />
 
       <SText>
-        <SBoldText>Why I Chose Contrave Weight Loss Pills</SBoldText>
+        <SBoldText>How I Chose Contrave Weight Loss Pills</SBoldText>
       </SText>
 
       <SText>
-        When it came time to choose a weight loss pill, I was torn between Orlistat and
-        Contrave—both seemed promising but functioned quite differently. Orlistat works by blocking
-        some of the fat from your meals from being absorbed, which sounded straightforward. However,
-        after careful consideration, I opted for Contrave. This FDA-approved combination of
-        bupropion and naltrexone was designed to do more than just reduce eating. These medications
-        worked together to curb my appetite, keep me feeling full longer, and provide a slight
-        energy boost. Naltrexone, typically used for addiction treatment, helped reduce my food
-        cravings, while bupropion, an antidepressant, aided in further appetite suppression.
+        When I was looking for a weight loss pill, I ultimately opted for Contrave. This
+        FDA-approved combination of bupropion and naltrexone was designed to do more than just
+        reduce food intake. These medications worked together to suppress my appetite, help me feel
+        full longer, and provide a slight energy boost. Naltrexone, commonly used in addiction
+        treatment, helped reduce my food cravings, while bupropion, an antidepressant, further
+        supported appetite suppression.
       </SText>
 
       <SText>
-        Opting for Contrave felt right—it seemed to match what I was looking for in my weight loss
-        journey. It wasn’t just about shedding weight but about managing my eating habits in a way
-        that felt more natural and kept me feeling balanced.
+        Choosing Contrave felt like the right decision—it aligned with what I was seeking in my
+        weight loss journey. It wasn’t just about shedding pounds; it was about managing my eating
+        habits in a way that felt more natural and kept me balanced.
       </SText>
 
       <SText>
-        <SBoldText>My Weight Loss Experience Using Contrave Weight Loss Pills</SBoldText>
+        <SBoldText>My Weight Loss Experience with Contrave</SBoldText>
       </SText>
 
       <SText>
-        I began seeing some weight loss within the first four weeks of starting Contrave, which was
-        incredibly motivating. By the end of the second month, I had lost a total of 16 pounds. The
-        routine was simple but required a careful increase in dosage to ensure my body and mind
-        could adjust smoothly.
+        I started noticing some weight loss within the first four weeks of taking Contrave, which
+        was incredibly encouraging. By the end of the second month, I had lost a total of 16 pounds.
+        The regimen was straightforward but required a gradual increase in dosage to ensure a smooth
+        adjustment for both my body and mind.
       </SText>
 
       <SText>
-        I started with just one pill each morning during the first week. By the second week, I was
-        taking another pill in the evening. In the third week, the dosage was upped to two pills in
-        the morning and one at night. By the fourth week, I had reached the full dose—two pills
+        I began with just one pill each morning in the first week. In the second week, I added
+        another pill in the evening. By the third week, the dosage increased to two pills in the
+        morning and one at night. Finally, by the fourth week, I reached the full dose—two pills
         twice a day.
       </SText>
 
       <SText>
-        What I really valued about Contrave was its effectiveness in curbing my cravings and
-        significantly reducing my appetite. This made it much easier to manage both what and how
-        much I ate.
+        What I truly appreciated about Contrave was its effectiveness in curbing my cravings and
+        significantly reducing my appetite. This made it much easier to control both what I ate and
+        how much.
       </SText>
 
       <SText>
-        However, the journey wasn’t without challenges. The most notable side effect for me was hot
-        flashes, which were quite uncomfortable. I also dealt with some constipation and more
-        frequent headaches than usual. Despite these issues, the overall benefits of diminished
-        cravings and the weight I lost truly made it all worth it.
+        However, the journey wasn’t without its challenges. The most significant side effect for me
+        was experiencing hot flashes, which were quite uncomfortable. I also dealt with some
+        constipation and more frequent headaches than usual. Despite these issues, the overall
+        benefits of reduced cravings and the weight I lost made it all worthwhile.
       </SText>
 
       <StaticImage height={200} alt="supplement" src="../../images/sup-contrave-1.jpg" />
@@ -75,27 +73,28 @@ export function SupContrave() {
       </SGrid>
 
       <SItalicText>
-        Here's a glimpse of what my schedule looked like for taking Contrave Weight Loss Pills
+        Here's how my schedule looked like for taking Contrave Weight Loss Pills
       </SItalicText>
 
       <SText>
-        <SBoldText>Summary</SBoldText>
+        <SBoldText>Summing-up:</SBoldText>
       </SText>
 
       <SText>
-        I began taking Contrave with hopeful expectations and, fortunately, I started seeing visible
-        results within the first two months. I eased into the treatment, starting with a lower dose
-        and gradually increasing it, which helped minimize discomfort and allowed my body to adapt.
-        The medication worked well to suppress my hunger and curb my cravings, making it easier for
-        me to maintain healthier eating habits and amore active lifestyle. Despite these benefits,
-        the journey wasn't without its challenges. I faced several side effects such as nausea and
-        headaches, which were quite difficult to manage at times. More concerning, however, was the
-        need to monitor any potential mental health changes. Contrave includes bupropion, an
-        antidepressant, and carries warnings about possible mood alterations and the risk of
-        suicidal thoughts. This aspect required me to stay in constant communication with my doctor
-        and to inform my family to watch for any significant changes in my mood or behavior.
-        Overall, Contrave helped me make significant progress in my weight loss, but it was
-        important to balance that with careful monitoring of both my physical and mental health.
+        I started taking Contrave with hopeful expectations, and fortunately, I began seeing
+        noticeable results within the first two months. I eased into the treatment by beginning with
+        a lower dose and gradually increasing it, which helped minimize discomfort and allowed my
+        body to adjust more smoothly. The medication effectively suppressed my appetite and reduced
+        my cravings, making it easier for me to maintain healthier eating habits and a more active
+        lifestyle. However, the journey wasn’t without its difficulties. I experienced several side
+        effects, such as nausea and headaches, which were quite challenging to manage at times. More
+        concerning was the need to closely monitor any potential changes in my mental health. Since
+        Contrave contains bupropion, an antidepressant, there are warnings about possible mood
+        changes and the risk of suicidal thoughts. This required me to stay in constant
+        communication with my doctor and also inform my family to watch for any significant shifts
+        in my mood or behavior. Overall, while Contrave helped me make substantial progress in my
+        weight loss, it was crucial to carefully balance that with monitoring both my physical and
+        mental well-being.
       </SText>
     </Section>
   );
