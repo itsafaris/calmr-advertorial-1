@@ -30,7 +30,7 @@ export function Hero() {
           textAlign={"center"}
           px={4}
         >
-          A mother of three, ex elementary school teacher, now a full-time wellness blogger
+          A mother of two, ex elementary school teacher, now a full-time wellness blogger
         </Text>
       </Box>
 

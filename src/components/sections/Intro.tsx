@@ -17,7 +17,7 @@ export function Intro() {
     <Section>
       <SGrid columns={2}>
         <Stack>
-          <SItalicText>Before weight loss. 174 lbs. Feb 6, 2023</SItalicText>
+          <SItalicText>Before weight loss. 189 lbs. Feb 6, 2023</SItalicText>
           <StaticImage
             height={700}
             alt="before weight loss journey"
@@ -35,8 +35,8 @@ export function Intro() {
         </Stack>
       </SGrid>
       <SText>
-        As a mother of three, navigating the constant demands of family life while transitioning
-        from my career as an elementary school teacher to a full-time wellness coach, finding an
+        As a mother of two kids, navigating the constant demands of family life while transitioning
+        from my career as an elementary school teacher to a full-time wellness blogger, finding an
         effective weight loss method that could seamlessly fit into my busy routine was no easy
         task. The daily pressures of parenting, coupled with the challenges of maintaining a healthy
         lifestyle amidst school runs, meal preps, and family commitments, made it difficult to stick
@@ -51,10 +51,10 @@ export function Intro() {
         genuinely works for me.
       </SText>
       " "
-      <SText py={10}>
+      <SText>
         <SBoldText>Want the quick summary?</SBoldText> I personally experimented with 10 distinct
         solutions. The image below displays all tested solutions{" "}
-        <SLink to="">Click to jump to the most effective option that worked for me.</SLink>
+        <SLink to="">👉 Click to jump to the most effective option that worked for me.</SLink>
       </SText>
       <StaticImage src="../../images/all-products.jpg" alt="all supplements" />
       <SItalicText>

@@ -42,7 +42,7 @@ export function Backstory() {
       </SText>
 
       <SItalicText>
-        The progress of my weight loss experiments. 174 - 143 lbs. Feb 6 2023 - Mar 9 2024.
+        The progress of my weight loss experiments. 189 - 143 lbs. Feb 6 2023 - Mar 9 2024.
       </SItalicText>
 
       <SGrid columns={2}>
