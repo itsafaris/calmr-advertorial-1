@@ -1,10 +1,19 @@
-import React from "react";
-import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
+import { SBoldText, Section, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
+import { productData } from "src/productData";
+import { ProductCard } from "@components/ProductCard";
 
 export function SupOzempic() {
   return (
     <Section>
+      <ProductCard
+        productTitle={productData[4].method}
+        productImage={productData[4].image}
+        rating={productData[4].overallRating}
+        positives={productData[4].positives}
+        negatives={productData[4].negatives}
+      />
+
       <SText>
         <SBoldText>Why I Chose Weight Loss Injection - Ozempic</SBoldText>
       </SText>

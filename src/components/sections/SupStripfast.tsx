@@ -1,10 +1,20 @@
 import React from "react";
 import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
+import { ProductCard } from "@components/ProductCard";
+import { productData } from "src/productData";
 
 export function SupStripfast() {
   return (
     <Section>
+      <ProductCard
+        productTitle={productData[7].method}
+        productImage={productData[7].image}
+        rating={productData[7].overallRating}
+        positives={productData[7].positives}
+        negatives={productData[7].negatives}
+      />
+
       <SText>
         <SBoldText>Why I Chose Stripfast5000Fire Bullet Weight Loss Supplement</SBoldText>
       </SText>

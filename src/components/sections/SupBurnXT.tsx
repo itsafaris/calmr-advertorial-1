@@ -1,10 +1,20 @@
 import React from "react";
 import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
+import { productData } from "src/productData";
+import { ProductCard } from "@components/ProductCard";
 
 export function SupBurnXT() {
   return (
     <Section>
+      <ProductCard
+        productTitle={productData[6].method}
+        productImage={productData[6].image}
+        rating={productData[6].overallRating}
+        positives={productData[6].positives}
+        negatives={productData[6].negatives}
+      />
+
       <SText>
         <SBoldText>Why I Chose Burn-XT Fat Burner</SBoldText>
       </SText>

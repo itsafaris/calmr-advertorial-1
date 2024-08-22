@@ -1,10 +1,20 @@
 import React from "react";
 import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
+import { ProductCard } from "@components/ProductCard";
+import { productData } from "src/productData";
 
 export function SupContrave() {
   return (
     <Section>
+      <ProductCard
+        productTitle={productData[3].method}
+        productImage={productData[3].image}
+        rating={productData[3].overallRating}
+        positives={productData[3].positives}
+        negatives={productData[3].negatives}
+      />
+
       <SText>
         <SBoldText>Why I Chose Contrave Weight Loss Pills</SBoldText>
       </SText>

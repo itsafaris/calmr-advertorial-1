@@ -1,10 +1,20 @@
 import React from "react";
 import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
+import { ProductCard } from "@components/ProductCard";
+import { productData } from "src/productData";
 
 export function SupNOW() {
   return (
     <Section>
+      <ProductCard
+        productTitle={productData[9].method}
+        productImage={productData[9].image}
+        rating={productData[9].overallRating}
+        positives={productData[9].positives}
+        negatives={productData[9].negatives}
+      />
+
       <SText>
         <SBoldText>Why I Chose NOW Supplements, Acetyl-L Carnitine 500 mg</SBoldText>
       </SText>
