@@ -14,18 +14,9 @@ import {
   Icon,
 } from "@chakra-ui/react";
 import { FaBan, FaCheck } from "react-icons/fa";
+import { Product } from "src/productData";
 
-export type TableData = Array<{
-  method: string;
-  initialWeightLoss: string;
-  weightMaintenance: string;
-  sideEffects: string;
-  monthlyCost: string;
-  easeOfUse: "easy" | "medium";
-  overallRating: string;
-  ratingComment: string;
-  isRuledOut?: boolean;
-}>;
+export type TableData = Array<Product>;
 
 export function ComparisonTable({ data }: { data: TableData }) {
   const widths = [200, 120, 120, 220, 120, 160, 160, 280];
@@ -117,8 +108,8 @@ export function ComparisonTable({ data }: { data: TableData }) {
   );
 }
 
-const renderRating = (rating: string) => {
-  const [value, total] = rating.split("/").map((n) => parseInt(n.trim()));
+const renderRating = (rating: number) => {
+  const [value, total] = [rating, 5];
   return (
     <Box>
       {value === 5 ? <Icon as={FaCheck} color="green.500" /> : null}

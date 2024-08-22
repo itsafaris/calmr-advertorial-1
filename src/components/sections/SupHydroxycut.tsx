@@ -1,10 +1,20 @@
 import React from "react";
 import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
+import { ProductCard } from "@components/ProductCard";
+import { productData } from "src/productData";
 
 export function SupHydroxycut() {
   return (
     <Section>
+      <ProductCard
+        productTitle={productData[5].method}
+        productImage={productData[5].image}
+        rating={productData[5].overallRating}
+        positives={productData[5].positives}
+        negatives={productData[5].negatives}
+      />
+
       <SText>
         <SBoldText>Why I Chose Hydroxycut + Women Weight Loss Pills </SBoldText>
       </SText>

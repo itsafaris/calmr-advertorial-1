@@ -1,10 +1,21 @@
 import React from "react";
 import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
+import { ProductCard } from "@components/ProductCard";
+import { productData } from "src/productData";
 
 export function SupWeightWatchers() {
   return (
     <Section>
+      <ProductCard
+        bannerText="🥈 Runner Up 🥈"
+        productTitle={productData[1].method}
+        productImage={productData[1].image}
+        rating={productData[1].overallRating}
+        positives={productData[1].positives}
+        negatives={productData[1].negatives}
+      />
+
       <SText>
         <SBoldText>Why I Chose WeightWatchers Weight Loss Program</SBoldText>
       </SText>

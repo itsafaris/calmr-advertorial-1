@@ -1,10 +1,20 @@
 import React from "react";
 import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
+import { productData } from "src/productData";
+import { ProductCard } from "@components/ProductCard";
 
 export function SupHuel() {
   return (
     <Section>
+      <ProductCard
+        productTitle={productData[2].method}
+        productImage={productData[2].image}
+        rating={productData[2].overallRating}
+        positives={productData[2].positives}
+        negatives={productData[2].negatives}
+      />
+
       <SText>
         <SBoldText>Why I Chose Huel Complete Meal Shake for Weight Loss</SBoldText>
       </SText>

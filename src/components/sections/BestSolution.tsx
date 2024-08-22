@@ -1,11 +1,22 @@
 import React from "react";
 import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
+import { ProductCard } from "@components/ProductCard";
+import { productData } from "src/productData";
 
 export function BestSolution() {
   return (
     <Section>
       <SHeading>🏆 The best weight loss solution for me:</SHeading>
+
+      <ProductCard
+        bannerText="🏆 The Winner 🏆"
+        productTitle={productData[0].method}
+        productImage={productData[0].image}
+        rating={productData[0].overallRating}
+        positives={productData[0].positives}
+        negatives={productData[0].negatives}
+      />
 
       <SText>
         <SBoldText>Why I Chose Biome Secret Superfood Shake for Weight Loss</SBoldText>
