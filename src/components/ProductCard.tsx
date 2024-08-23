@@ -26,7 +26,7 @@ export function ProductCard({
     <Card
       as={Link}
       overflow={"hidden"}
-      to={siteConfig.linkToMainProduct}
+      to={siteConfig.linkToMainProduct()}
       _hover={{ transform: `scale(1.02)` }}
       transition={"all 0.2s"}
     >
@@ -46,7 +46,7 @@ export function ProductCard({
             <Flex justifyContent={"center"}>{productImage}</Flex>
             <Button
               as={Link}
-              to={siteConfig.linkToMainProduct}
+              to={siteConfig.linkToMainProduct()}
               colorScheme="green"
               my={4}
               width={"full"}

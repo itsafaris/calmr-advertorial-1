@@ -64,7 +64,7 @@ export function ComparisonTable({ data }: { data: TableData }) {
                 cursor={isWinner ? "pointer" : undefined}
                 onClick={() => {
                   if (isWinner) {
-                    window.location.href = siteConfig.linkToMainProduct;
+                    window.location.href = siteConfig.linkToMainProduct();
                   }
                 }}
               >

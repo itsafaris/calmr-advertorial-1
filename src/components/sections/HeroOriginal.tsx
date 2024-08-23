@@ -25,7 +25,7 @@ export function HeroOriginal() {
           </Heading>
         </Flex>
 
-        <Card mt={2} p={2} px={4} fontSize={"sm"}>
+        <Card mt={2} p={2} px={4} fontSize={"sm"} bg="white">
           <Text>
             As a busy mom of three juggling the endless responsibilities of family life and my
             demanding role as a marketing manager, discovering a weight loss solution that could
