@@ -1,14 +1,16 @@
 import { Section } from "@components/components";
-import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Card, Container, Flex, Heading, Text } from "@chakra-ui/react";
 import { StaticImage } from "gatsby-plugin-image";
 import { siteConfig } from "src/conf";
 
 import "@fontsource-variable/eb-garamond";
+import { Header } from "@components/Header";
 
 export function Hero() {
   return (
-    <Section mb={0}>
-      <Box my={4}>
+    <Section mb={0} pb={10} bgGradient="linear(to-b, yellow.200, transparent)">
+      <Header />
+      <Container as={Flex} flexDirection={"column"} alignItems={"center"}>
         <Heading fontFamily={"'EB Garamond Variable', serif"} textAlign={"center"}>
           Hey! I'm {siteConfig.personaName}
         </Heading>
@@ -23,15 +25,17 @@ export function Hero() {
           />
         </Flex>
 
-        <Text
-          fontFamily={"'EB Garamond Variable', serif"}
-          fontSize={"xl"}
-          textAlign={"center"}
-          px={4}
-        >
-          A mother of two, ex elementary school teacher, now a full-time wellness blogger
-        </Text>
-      </Box>
+        <Card mt={4} p={2} mx={2} maxWidth={["container.sm"]}>
+          <Text
+            fontFamily={"'EB Garamond Variable', serif"}
+            fontSize={"xl"}
+            textAlign={"center"}
+            px={4}
+          >
+            A mother of two, ex elementary school teacher, now a full-time wellness blogger
+          </Text>
+        </Card>
+      </Container>
     </Section>
   );
 }

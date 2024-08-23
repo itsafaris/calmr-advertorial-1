@@ -1,4 +1,3 @@
-import React from "react";
 import {
   SBoldText,
   Section,
@@ -11,6 +10,7 @@ import {
 import { StaticImage } from "gatsby-plugin-image";
 import { Badge, Box, Flex, Heading, Stack, Text } from "@chakra-ui/react";
 import { siteConfig } from "src/conf";
+import { Link } from "gatsby";
 
 export function Intro() {
   return (
@@ -70,7 +70,9 @@ export function Intro() {
           👉 Or... just skip to the most effective one that worked for me.
         </SLink>
       </SText>
-      <StaticImage src="../../images/all-products.jpg" alt="all supplements" />
+      <Box as={Link} to="/#winner" _hover={{ filter: "brightness(1.1)" }}>
+        <StaticImage src="../../images/all-products.jpg" alt="all supplements" />
+      </Box>
       <SItalicText>
         After evaluating various methods, the{" "}
         <SLink to="/#winner">Calmr - Sleep & Burn supplement</SLink> came out on top.

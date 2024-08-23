@@ -31,6 +31,7 @@ import ComparisonTable from "@components/ComparisonTable";
 import { Header } from "@components/Header";
 import { Footer } from "@components/Footer";
 import { productData } from "src/productData";
+import { FloatingBar } from "@components/FloatingBar";
 
 export const Head: HeadFC = () => {
   return (
@@ -44,10 +45,9 @@ export const Head: HeadFC = () => {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Box>
+      <FloatingBar />
+      <Hero />
       <Container maxW="container.md">
-        <Header />
-
-        <Hero />
         <Intro />
         <Backstory />
         <TestingMethodology />
