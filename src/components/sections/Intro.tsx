@@ -1,4 +1,3 @@
-import React from "react";
 import {
   SBoldText,
   Section,
@@ -11,20 +10,30 @@ import {
 import { StaticImage } from "gatsby-plugin-image";
 import { Badge, Box, Flex, Heading, Stack, Text } from "@chakra-ui/react";
 import { siteConfig } from "src/conf";
+import { Link } from "gatsby";
 
 export function Intro() {
   return (
     <Section>
-      <Box mb={10} mt={4}>
+      <Box mb={3} mt={4}>
         <Heading as="h2" my={2} fontSize={"2xl"}>
-          My 3-year long weight loss battle... And how I found my winner product
+          My Weight Loss Experiment: 10 Products and One Game-Changer
         </Heading>
 
         <Text fontSize={"sm"}>Updated by {siteConfig.personaName} 14 days ago</Text>
         <Flex gap={2} my={2} flexWrap={"wrap"}>
-          <Badge colorScheme="blue">#WeightLoss</Badge>
-          <Badge colorScheme="blue">#3-year-long experiment</Badge>
-          <Badge colorScheme="blue">#ProductComparison</Badge>
+          <Badge textTransform={"unset"} colorScheme="blue">
+            #PersonalJourney
+          </Badge>
+          <Badge textTransform={"unset"} colorScheme="blue">
+            #WeightLoss
+          </Badge>
+          <Badge textTransform={"unset"} colorScheme="blue">
+            #3-years-of-research
+          </Badge>
+          <Badge textTransform={"unset"} colorScheme="blue">
+            #SuccessStory
+          </Badge>
         </Flex>
       </Box>
       <SGrid columns={2}>
@@ -70,7 +79,9 @@ export function Intro() {
           👉 Or... just skip to the most effective one that worked for me.
         </SLink>
       </SText>
-      <StaticImage src="../../images/all-products.jpg" alt="all supplements" />
+      <Box as={Link} to="/#winner" _hover={{ filter: "brightness(1.1)" }}>
+        <StaticImage src="../../images/all-products.jpg" alt="all supplements" />
+      </Box>
       <SItalicText>
         After evaluating various methods, the{" "}
         <SLink to="/#winner">Calmr - Sleep & Burn supplement</SLink> came out on top.

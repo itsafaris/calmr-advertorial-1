@@ -2,10 +2,9 @@ import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 
 import { SEO } from "@components/SEO";
-import { Box, Container, Stack } from "@chakra-ui/react";
+import { Box, Container } from "@chakra-ui/react";
 import { siteConfig } from "src/conf";
-import { StaticImage } from "gatsby-plugin-image";
-import { ProductCard } from "@components/ProductCard";
+
 import { Section } from "@components/components";
 
 import { FullComparisonChart } from "@components/sections/FullComparisonChart";
@@ -26,11 +25,14 @@ import { SummaryComparisonChart } from "@components/sections/SummaryComparisonCh
 import { TestingMethodology } from "@components/sections/TestingMethodology";
 import { Backstory } from "@components/sections/Backstory";
 import { Intro } from "@components/sections/Intro";
-import { Hero } from "@components/sections/Hero";
+
 import ComparisonTable from "@components/ComparisonTable";
-import { Header } from "@components/Header";
+
 import { Footer } from "@components/Footer";
 import { productData } from "src/productData";
+import { FloatingBar } from "@components/FloatingBar";
+import { HeroOriginal } from "@components/sections/HeroOriginal";
+import { IntroOriginal } from "@components/sections/IntroOriginal";
 
 export const Head: HeadFC = () => {
   return (
@@ -44,11 +46,10 @@ export const Head: HeadFC = () => {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Box>
+      <FloatingBar />
+      <HeroOriginal />
       <Container maxW="container.md">
-        <Header />
-
-        <Hero />
-        <Intro />
+        <IntroOriginal />
         <Backstory />
         <TestingMethodology />
         <SummaryComparisonChart />

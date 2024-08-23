@@ -10,9 +10,9 @@ export function Backstory() {
       <SHeading>A bit of background...</SHeading>
 
       <SText>
-        I'm {siteConfig.personaName}, a 38-year-old mother of two fantastic kids: Emma (9) and
-        Joseph (11). With my caring husband by my side, juggling a career and raising a family is
-        gratifying, but it leaves little room for focusing on myself.
+        I'm {siteConfig.personaName}, a 51-year-old mother of three fantastic kids: Emma (9), Joseph
+        (11) and Mathew (15). With my caring husband by my side, juggling a career and raising a
+        family is gratifying, but it leaves little room for focusing on myself.
       </SText>
 
       <SText>
@@ -41,18 +41,7 @@ export function Backstory() {
         from the endless loop of diet frustrations.
       </SText>
 
-      <SItalicText>
-        The progress of my weight loss experiments. 189 - 143 lbs. Feb 6 2023 - Mar 9 2024.
-      </SItalicText>
-
-      <SGrid columns={2}>
-        <StaticImage
-          height={700}
-          alt="before weight loss journey"
-          src="../../images/me-before.jpg"
-        />
-        <StaticImage height={700} alt="after weight loss journey" src="../../images/me-after.jpg" />
-      </SGrid>
+      <StaticImage src="../../images/linda-in-garden.png" />
     </Section>
   );
 }

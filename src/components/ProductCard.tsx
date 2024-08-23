@@ -23,7 +23,13 @@ export function ProductCard({
   negatives,
 }: IProductCardProps) {
   return (
-    <Card overflow={"hidden"}>
+    <Card
+      as={Link}
+      overflow={"hidden"}
+      to={siteConfig.linkToMainProduct}
+      _hover={{ transform: `scale(1.02)` }}
+      transition={"all 0.2s"}
+    >
       {bannerText && (
         <Box bg="green.600" p={4}>
           <Text color="white" textAlign={"center"} fontWeight={"bold"}>
