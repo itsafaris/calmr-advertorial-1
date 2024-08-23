@@ -7,7 +7,7 @@ export function Verdict() {
     <Section>
       <SHeading>My verdict</SHeading>
 
-      <StaticImage height={500} alt="winner" src="../../images/verdict-1.jpg" />
+      <StaticImage alt="winner" src="../../images/verdict-1.jpg" style={{ maxHeight: 450 }} />
 
       <SItalicText>
         After trying several weight management methods, I ultimately chose Calmr - Sleep & Burn as
@@ -58,11 +58,16 @@ export function Verdict() {
         for a sustainable, effective solution.
       </SText>
 
-      <StaticImage height={400} alt="winner" src="../../images/verdict-4.jpeg" />
+      <StaticImage
+        height={700}
+        alt="winner"
+        src="../../images/verdict-2.jpg"
+        style={{ maxHeight: 600 }}
+      />
 
       <SGrid columns={2}>
-        <StaticImage height={400} alt="winner" src="../../images/verdict-2.jpeg" />
-        <StaticImage height={400} alt="winner" src="../../images/verdict-3.jpeg" />
+        <StaticImage height={700} alt="winner" src="../../images/verdict-3.jpeg" />
+        <StaticImage height={700} alt="winner" src="../../images/verdict-4.jpg" />
       </SGrid>
 
       <SItalicText>
