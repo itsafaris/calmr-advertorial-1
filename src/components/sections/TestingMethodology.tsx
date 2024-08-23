@@ -42,7 +42,7 @@ export function TestingMethodology() {
       <StaticImage
         height={500}
         alt="supplement comparison"
-        src="../../images/comparison-methodology.jpeg"
+        src="../../images/comparison-methodology.jpg"
       />
       <SItalicText>Comparing weight loss products - my 3+ year long experiment</SItalicText>
     </Section>

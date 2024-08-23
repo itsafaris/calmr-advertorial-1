@@ -32,7 +32,7 @@ export function ShortTermMethods() {
         relying on quick fixes that failed to deliver lasting results.
       </SText>
 
-      <StaticImage height={500} alt="supplement comparison" src="../../images/comparison-2.jpeg" />
+      <StaticImage height={500} alt="supplement comparison" src="../../images/comparison-2.jpg" />
 
       <SItalicText>
         In my quest for weight loss, I resorted to quick solutions that didn't provide lasting
