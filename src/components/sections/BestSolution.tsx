@@ -61,13 +61,13 @@ export function BestSolution() {
       </SText>
 
       <SGrid columns={2}>
-        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-1.jpeg" />
-        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-2.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-1.jpg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-2.jpg" />
       </SGrid>
 
       <SGrid columns={2}>
-        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-3.jpeg" />
-        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-4.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-3.jpg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-ag-4.jpg" />
       </SGrid>
 
       <SItalicText>
@@ -111,8 +111,6 @@ export function BestSolution() {
         <StaticImage alt="weight before" src="../../images/scales-before.jpeg" />
         <StaticImage alt="weight after" src="../../images/scales-after.jpeg" />
       </SGrid>
-
-      <StaticImage alt="supplement" src="../../images/sup-ag-5.jpeg" />
 
       <SItalicText>
         Finally it's over! I found a sustainable weight management solution that prioritizes health
