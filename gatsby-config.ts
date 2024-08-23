@@ -10,7 +10,17 @@ const config: GatsbyConfig = {
   plugins: [
     "gatsby-plugin-emotion",
     "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
+
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          placeholder: `blurred`,
+          backgroundColor: `transparent`,
+        },
+      },
+    },
+
     "gatsby-transformer-sharp",
     "gatsby-plugin-tsconfig-paths",
 

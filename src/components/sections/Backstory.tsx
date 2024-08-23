@@ -41,7 +41,15 @@ export function Backstory() {
         from the endless loop of diet frustrations.
       </SText>
 
-      <StaticImage src="../../images/linda-in-garden.png" />
+      <SItalicText>
+        <SBoldText>During</SBoldText> my weight loss journey. <SBoldText>185 – 164 lbs</SBoldText>.
+        Mar. 1- Oct. 28 2023.
+      </SItalicText>
+
+      <SGrid columns={2}>
+        <StaticImage src="../../images/jen-4.jpg" alt="my weight loss progress" />
+        <StaticImage src="../../images/jen-3.jpg" alt="my weight loss progress" />
+      </SGrid>
     </Section>
   );
 }
