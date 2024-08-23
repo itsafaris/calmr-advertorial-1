@@ -107,9 +107,13 @@ export function Verdict() {
         <StaticImage
           height={700}
           alt="before weight loss journey"
-          src="../../images/me-before.jpg"
+          src="../../images/jen-before.jpg"
         />
-        <StaticImage height={700} alt="after weight loss journey" src="../../images/me-after.jpg" />
+        <StaticImage
+          height={700}
+          alt="after weight loss journey"
+          src="../../images/jen-after.jpg"
+        />
       </SGrid>
 
       <SItalicText>

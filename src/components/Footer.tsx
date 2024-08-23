@@ -8,7 +8,7 @@ import { Link } from "gatsby";
 
 export function Footer() {
   return (
-    <Stack backgroundColor={"teal.400"} py={10} mt={10}>
+    <Stack backgroundColor={"teal.400"} py={10} pb={20} mt={10}>
       <Container maxW={"container.md"}>
         <Stack alignItems={"center"} spacing={8}>
           <Stack spacing={6} direction={["column", "column", "row"]} align={"center"}>

@@ -7,7 +7,11 @@ import { Header } from "@components/Header";
 
 export function Hero() {
   return (
-    <Box mb={0} pb={4} bgGradient="linear(to-b, yellow.200, transparent)">
+    <Box
+      mb={0}
+      pb={4}
+      // bgGradient="linear(to-b, yellow.200, transparent)"
+    >
       <Header />
       <Container as={Flex} mt={3} flexDirection={"column"} alignItems={"center"}>
         <Heading fontFamily={"'EB Garamond Variable', serif"} textAlign={"center"}>
