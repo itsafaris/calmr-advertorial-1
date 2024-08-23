@@ -32,6 +32,7 @@ import { Footer } from "@components/Footer";
 import { productData } from "src/productData";
 import { FloatingBar } from "@components/FloatingBar";
 import { HeroOriginal } from "@components/sections/HeroOriginal";
+import { IntroOriginal } from "@components/sections/IntroOriginal";
 
 export const Head: HeadFC = () => {
   return (
@@ -48,7 +49,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <FloatingBar />
       <HeroOriginal />
       <Container maxW="container.md">
-        <Intro />
+        <IntroOriginal />
         <Backstory />
         <TestingMethodology />
         <SummaryComparisonChart />
