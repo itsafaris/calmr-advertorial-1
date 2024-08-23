@@ -15,16 +15,22 @@ import { Link } from "gatsby";
 export function Intro() {
   return (
     <Section>
-      <Box mb={10} mt={4}>
+      <Box mb={3} mt={4}>
         <Heading as="h2" my={2} fontSize={"2xl"}>
-          My 3-year long weight loss battle... And how I found my winner product
+          My 3-Year-Long Weight Loss Experiment: 10 Products and One Game-Changer
         </Heading>
 
         <Text fontSize={"sm"}>Updated by {siteConfig.personaName} 14 days ago</Text>
         <Flex gap={2} my={2} flexWrap={"wrap"}>
-          <Badge colorScheme="blue">#WeightLoss</Badge>
-          <Badge colorScheme="blue">#3-year-long experiment</Badge>
-          <Badge colorScheme="blue">#ProductComparison</Badge>
+          <Badge textTransform={"unset"} colorScheme="blue">
+            #WeightLoss
+          </Badge>
+          <Badge textTransform={"unset"} colorScheme="blue">
+            #3yearExperiment
+          </Badge>
+          <Badge textTransform={"unset"} colorScheme="blue">
+            #SuccessStory
+          </Badge>
         </Flex>
       </Box>
       <SGrid columns={2}>

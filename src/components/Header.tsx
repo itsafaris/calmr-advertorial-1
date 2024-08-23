@@ -5,7 +5,14 @@ import { Logo } from "./Logo";
 
 export function Header() {
   return (
-    <Flex as={Container} py={5} gap={4} alignItems={"center"} justifyContent={"space-between"}>
+    <Flex
+      as={Container}
+      p={5}
+      pb={2}
+      gap={4}
+      alignItems={"center"}
+      justifyContent={"space-between"}
+    >
       <Box width={"80px"}>
         <Logo />
       </Box>

@@ -1,4 +1,3 @@
-import { Section } from "@components/components";
 import { Box, Card, Container, Flex, Heading, Text } from "@chakra-ui/react";
 import { StaticImage } from "gatsby-plugin-image";
 import { siteConfig } from "src/conf";
@@ -8,9 +7,9 @@ import { Header } from "@components/Header";
 
 export function Hero() {
   return (
-    <Section mb={0} pb={10} bgGradient="linear(to-b, yellow.200, transparent)">
+    <Box mb={0} pb={4} bgGradient="linear(to-b, yellow.200, transparent)">
       <Header />
-      <Container as={Flex} flexDirection={"column"} alignItems={"center"}>
+      <Container as={Flex} mt={3} flexDirection={"column"} alignItems={"center"}>
         <Heading fontFamily={"'EB Garamond Variable', serif"} textAlign={"center"}>
           Hey! I'm {siteConfig.personaName}
         </Heading>
@@ -25,7 +24,7 @@ export function Hero() {
           />
         </Flex>
 
-        <Card mt={4} p={2} mx={2} maxWidth={["container.sm"]}>
+        <Card mt={2} p={2} mx={2} maxWidth={["container.sm"]}>
           <Text
             fontFamily={"'EB Garamond Variable', serif"}
             fontSize={"xl"}
@@ -36,6 +35,6 @@ export function Hero() {
           </Text>
         </Card>
       </Container>
-    </Section>
+    </Box>
   );
 }
