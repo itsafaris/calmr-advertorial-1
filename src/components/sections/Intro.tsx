@@ -17,16 +17,19 @@ export function Intro() {
     <Section>
       <Box mb={3} mt={4}>
         <Heading as="h2" my={2} fontSize={"2xl"}>
-          My 3-Year-Long Weight Loss Experiment: 10 Products and One Game-Changer
+          My Weight Loss Experiment: 10 Products and One Game-Changer
         </Heading>
 
         <Text fontSize={"sm"}>Updated by {siteConfig.personaName} 14 days ago</Text>
         <Flex gap={2} my={2} flexWrap={"wrap"}>
           <Badge textTransform={"unset"} colorScheme="blue">
+            #PersonalJourney
+          </Badge>
+          <Badge textTransform={"unset"} colorScheme="blue">
             #WeightLoss
           </Badge>
           <Badge textTransform={"unset"} colorScheme="blue">
-            #3yearExperiment
+            #3-years-of-research
           </Badge>
           <Badge textTransform={"unset"} colorScheme="blue">
             #SuccessStory
