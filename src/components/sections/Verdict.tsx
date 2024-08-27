@@ -99,8 +99,8 @@ export function Verdict() {
       </SGrid>
 
       <SGrid columns={2}>
-        <StaticImage height={400} alt="weight before" src="../../images/scales-before.jpeg" />
-        <StaticImage height={400} alt="weight after" src="../../images/scales-after.jpeg" />
+        <StaticImage height={400} alt="weight before" src="../../images/scales-before.jpg" />
+        <StaticImage height={400} alt="weight after" src="../../images/scales-after.jpg" />
       </SGrid>
 
       <SGrid columns={2}>

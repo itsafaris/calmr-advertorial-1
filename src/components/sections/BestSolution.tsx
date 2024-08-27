@@ -108,8 +108,8 @@ export function BestSolution() {
       </SGrid>
 
       <SGrid columns={2}>
-        <StaticImage alt="weight before" src="../../images/scales-before.jpeg" />
-        <StaticImage alt="weight after" src="../../images/scales-after.jpeg" />
+        <StaticImage alt="weight before" src="../../images/scales-before.jpg" />
+        <StaticImage alt="weight after" src="../../images/scales-after.jpg" />
       </SGrid>
 
       <SItalicText>
