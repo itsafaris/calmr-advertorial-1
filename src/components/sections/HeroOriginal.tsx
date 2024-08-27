@@ -9,7 +9,7 @@ import { FacebookLikeButton, FacebookShareButton, Span } from "@components/compo
 
 export function HeroOriginal() {
   return (
-    <Box mb={0} pb={4} bgGradient="linear(to-b, yellow.200, transparent)">
+    <Box mb={0} pb={4} bg="linear-gradient(180deg, #ffcd00, white)">
       <Header />
       <Container as={Flex} mt={3} flexDirection={"column"} alignItems={"center"}>
         <Flex flexWrap={"wrap"} alignItems={"center"} gap={4} my={2}>
@@ -25,7 +25,7 @@ export function HeroOriginal() {
           </Heading>
         </Flex>
 
-        <Card mt={2} p={2} px={4} fontSize={"sm"}>
+        <Card mt={2} p={2} px={4} fontSize={"sm"} bg="white">
           <Text>
             As a busy mom of three juggling the endless responsibilities of family life and my
             demanding role as a marketing manager, discovering a weight loss solution that could
