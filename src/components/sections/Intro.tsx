@@ -1,12 +1,4 @@
-import {
-  SBoldText,
-  Section,
-  SGrid,
-  SHeading,
-  SItalicText,
-  SLink,
-  SText,
-} from "@components/components";
+import { SBoldText, Section, SGrid, SItalicText, SLink, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
 import { Badge, Box, Flex, Heading, Stack, Text } from "@chakra-ui/react";
 import { siteConfig } from "src/conf";
@@ -15,13 +7,13 @@ import { Link } from "gatsby";
 export function Intro() {
   return (
     <Section>
-      <Box mb={3} mt={4}>
+      <Box>
         <Heading as="h2" my={2} fontSize={"2xl"}>
-          My Weight Loss Experiment: 10 Products and One Game-Changer
+          I tried 10 weight-loss products in my 3-year-long weight loss experiment
         </Heading>
 
         <Text fontSize={"sm"}>Updated by {siteConfig.personaName} 14 days ago</Text>
-        <Flex gap={2} my={2} flexWrap={"wrap"}>
+        <Flex gap={2} mt={2} flexWrap={"wrap"}>
           <Badge textTransform={"unset"} colorScheme="blue">
             #PersonalJourney
           </Badge>
@@ -36,54 +28,48 @@ export function Intro() {
           </Badge>
         </Flex>
       </Box>
+
+      <Box>
+        <SText>
+          Three years ago, after yet another failed attempt at losing weight, I decided it was time
+          to do things differently. From that moment on, I committed to meticulously{" "}
+          <SBoldText>documenting every detail of my weight-loss experiments</SBoldText>, determined
+          to find a product that truly works for me.
+        </SText>
+      </Box>
+
       <SGrid columns={2}>
         <Stack>
           <SItalicText>Before weight loss. 189 lbs. Feb 6, 2023</SItalicText>
           <StaticImage
-            height={700}
+            height={640}
             alt="before weight loss journey"
-            src="../../images/me-before.jpg"
+            src="../../images/jen-before.jpg"
+            style={{ height: "100%" }}
           />
         </Stack>
 
         <Stack>
           <SItalicText>After weight loss. 143 lbs. Mar 9, 2024</SItalicText>
           <StaticImage
-            height={700}
+            height={640}
             alt="after weight loss journey"
-            src="../../images/me-after.jpg"
+            src="../../images/jen-after.jpg"
+            style={{ height: "100%" }}
           />
         </Stack>
       </SGrid>
+
       <SText>
-        As a mother of two kids, navigating the constant demands of family life while transitioning
-        from my career as an elementary school teacher to a full-time wellness blogger, finding an
-        effective weight loss method that could seamlessly fit into my busy routine was no easy
-        task. The daily pressures of parenting, coupled with the challenges of maintaining a healthy
-        lifestyle amidst school runs, meal preps, and family commitments, made it difficult to stick
-        to any weight management plan.
-      </SText>
-      <SText>
-        Despite trying a variety of solutions—from diet plans to exercise routines and natural
-        supplements—nothing seemed to truly work.
-      </SText>
-      <SText>
-        But now, I'm thrilled to share that I've finally discovered a weight loss strategy that
-        genuinely works for me.
-      </SText>
-      " "
-      <SText>
-        <SBoldText>Want the quick summary?</SBoldText> I personally experimented with 10 distinct
-        solutions. The image below displays all of them{" "}
-        <SLink to="/#winner">
-          👉 Or... just skip to the most effective one that worked for me.
-        </SLink>
+        <SBoldText>Want the short answer?</SBoldText> I personally experimented with 10 distinct
+        solutions. The image below displays all of them.{" "}
+        <SLink to="/#winner">Go here to see the winner that worked for me.</SLink>
       </SText>
       <Box as={Link} to="/#winner" _hover={{ filter: "brightness(1.1)" }}>
         <StaticImage src="../../images/all-products.jpg" alt="all supplements" />
       </Box>
       <SItalicText>
-        After evaluating various methods, the{" "}
+        From the 10 products that I reviewed, the{" "}
         <SLink to="/#winner">Calmr - Sleep & Burn supplement</SLink> came out on top.
       </SItalicText>
     </Section>
