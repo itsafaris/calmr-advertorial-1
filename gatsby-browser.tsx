@@ -13,4 +13,6 @@ export const onClientEntry: GatsbyBrowser["onClientEntry"] = () => {
   getPosthog()?.register({
     frontend_version: pkgjson.version,
   });
+
+  getPosthog()?.featureFlags.override({ "linda-page-hero-section": "control" });
 };
