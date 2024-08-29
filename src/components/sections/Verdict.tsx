@@ -95,7 +95,7 @@ export function Verdict() {
 
       <SGrid columns={2}>
         <SItalicText>STARTING WEIGHT FEBRUARY 6TH, 2023</SItalicText>
-        <SItalicText>CURRENT WEIGHT MARCH 9TH, 2024</SItalicText>
+        <SItalicText>CURRENT WEIGHT MAY 9TH, 2024</SItalicText>
       </SGrid>
 
       <SGrid columns={2}>

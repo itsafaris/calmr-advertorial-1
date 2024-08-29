@@ -9,19 +9,19 @@ export function Intro() {
     <Section>
       <Box>
         <Heading as="h2" my={2} fontSize={"2xl"}>
-          I tried 10 weight-loss products in my 3-year-long weight loss experiment
+          I Tried 10 Weight-Loss Products - Here's My Top Pick for 2024
         </Heading>
 
         <Text fontSize={"sm"}>Updated by {siteConfig.personaName} 14 days ago</Text>
         <Flex gap={2} mt={2} flexWrap={"wrap"}>
           <Badge textTransform={"unset"} colorScheme="blue">
-            #PersonalJourney
+            #PersonalExperiment
           </Badge>
           <Badge textTransform={"unset"} colorScheme="blue">
             #WeightLoss
           </Badge>
           <Badge textTransform={"unset"} colorScheme="blue">
-            #3-years-of-research
+            #2024
           </Badge>
           <Badge textTransform={"unset"} colorScheme="blue">
             #SuccessStory
@@ -31,10 +31,10 @@ export function Intro() {
 
       <Box>
         <SText>
-          Three years ago, after yet another failed attempt at losing weight, I decided it was time
-          to do things differently. From that moment on, I committed to meticulously{" "}
-          <SBoldText>documenting every detail of my weight-loss experiments</SBoldText>, determined
-          to find a product that truly works for me.
+          Some time around April last year, after yet another failed attempt at losing weight, I
+          decided it was time to do things differently. From that moment on, I committed to
+          meticulously <SBoldText>documenting every detail of my weight-loss experiments</SBoldText>
+          , determined to find a product that truly works for me.
         </SText>
       </Box>
 
@@ -50,7 +50,7 @@ export function Intro() {
         </Stack>
 
         <Stack>
-          <SItalicText>After weight loss. 143 lbs. Mar 9, 2024</SItalicText>
+          <SItalicText>After weight loss. 143 lbs. May 9, 2024</SItalicText>
           <StaticImage
             height={640}
             alt="after weight loss journey"
