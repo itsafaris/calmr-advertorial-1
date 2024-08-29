@@ -28,7 +28,6 @@
     "gatsby-plugin-facebook-pixel": "^1.0.8",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
-    "gatsby-plugin-posthog": "^1.0.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
