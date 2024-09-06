@@ -14,7 +14,7 @@ export function TestingMethodology() {
         After experimenting with various weight loss methods and getting mixed results, I decided to
         take a more systematic approach to discover the best solution for myself. I invested over
         100+ hours in research and tested multiple strategies. This entire process spanned more than
-        10 months and involved extensive experimentation, trials, and learning from my mistakes as I
+        12 months and involved extensive experimentation, trials, and learning from my mistakes as I
         explored different weight loss options. My goal was to find sustainable weight loss
         practices that could improve my health without causing any negative side effects.
       </SText>
@@ -44,7 +44,7 @@ export function TestingMethodology() {
         alt="supplement comparison"
         src="../../images/comparison-methodology.jpg"
       />
-      <SItalicText>Comparing weight loss products - my 3+ year long experiment</SItalicText>
+      <SItalicText>Comparing weight loss products - my 1 year experiment</SItalicText>
     </Section>
   );
 }

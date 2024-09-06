@@ -9,11 +9,11 @@ export function ShortTermMethods() {
       <SHeading>Insights from Short-Term Weight Loss Methods</SHeading>
 
       <SText>
-        From the beginning, I tested various quick-fix solutions like fat burners and metabolism
-        boosters, including Hydroxycut Weight Loss Pills, Burn-XT Fat Burner, Stripfast 5000 Fire
-        Bullet Weight-Loss Supplement, Vitauthority Multi Collagen Burn, and NOW Foods
-        Acetyl-L-Carnitine. At first, these products seemed promising, providing a noticeable
-        increase in energy and faster fat loss.
+        From the beginning, I tested various quick-fix solutions like metabolism boosters, including
+        Hydroxycut Weight Loss Pills, Burn-XT Fat Burner, Stripfast 5000 Fire Bullet Weight-Loss
+        Supplement, Vitauthority Multi Collagen Burn, and NOW Foods Acetyl-L-Carnitine. At first,
+        these products seemed promising, providing a noticeable increase in energy and faster fat
+        loss.
       </SText>
 
       <SText>
@@ -24,12 +24,12 @@ export function ShortTermMethods() {
       </SText>
 
       <SText>
-        After understanding the true impact of these fat burners and metabolism boosters, it became
-        clear they weren't the long-term solution I had hoped for. I often ended up back where I
-        started, feeling worse both physically and mentally. It became evident that rapid weight
-        loss methods weren't worth compromising my health. Instead, I needed a sustainable, healthy
-        approach to weight loss that emphasized proper nutrition and consistent habits, rather than
-        relying on quick fixes that failed to deliver lasting results.
+        After understanding the true impact of these metabolism boosters, it became clear they
+        weren't the long-term solution I had hoped for. I often ended up back where I started,
+        feeling worse both physically and mentally. It became evident that rapid weight loss methods
+        weren't worth compromising my health. Instead, I needed a sustainable, healthy approach to
+        weight loss that emphasized proper nutrition and consistent habits, rather than relying on
+        quick fixes that failed to deliver lasting results.
       </SText>
 
       <StaticImage height={500} alt="supplement comparison" src="../../images/comparison-2.jpg" />

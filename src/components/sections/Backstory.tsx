@@ -29,9 +29,9 @@ export function Backstory() {
       </SText>
 
       <SText>
-        In moments of desperation, I've turned to quick-fix solutions—fat burners, appetite
-        suppressants, and even injections like Ozempic. Sure, I'd lose some weight and feel a brief
-        sense of achievement, but the weight always returned, sometimes even more than before.
+        In moments of desperation, I've turned to quick-fix solutions—appetite suppressants, and
+        even injections like Ozempic. Sure, I'd lose some weight and feel a brief sense of
+        achievement, but the weight always returned, sometimes even more than before.
       </SText>
 
       <SText>

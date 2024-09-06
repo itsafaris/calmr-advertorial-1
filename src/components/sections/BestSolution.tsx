@@ -38,7 +38,7 @@ export function BestSolution() {
 
       <SText>
         From the moment I started using Calmr - Sleep & Burn, I noticed a significant change—I lost
-        about 14 pounds in just the first month. It felt like my body had undergone a reset. After
+        about 12 pounds in just the first month. It felt like my body had undergone a reset. After
         that, I settled into a steady rhythm, consistently shedding around 2 pounds each week.
       </SText>
 
