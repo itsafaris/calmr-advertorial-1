@@ -118,7 +118,7 @@ export function Verdict() {
 
       <SItalicText>
         My transformation journey, where Calmr - Sleep & Burn was my trusted companion in losing 46
-        pounds over six months.
+        pounds.
       </SItalicText>
 
       <SText>
