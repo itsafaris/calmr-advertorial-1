@@ -19,8 +19,8 @@ export type Product = {
 
 export const mainProduct: Product & { shortTitle: string } = {
   shortTitle: "Calmr",
-  method: "Calmr - Sleep & Burn (with Ashwagandha)",
-  image: <StaticImage height={240} src="./images/sup-calmr-1.png" alt="Calmr - Sleep & Burn" />,
+  method: "Calmr - Sleep & Burn",
+  image: <StaticImage height={240} src="./images/sup-calmr-1.jpg" alt="Calmr - Sleep & Burn" />,
   initialWeightLoss: 5,
   weightMaintenance: 5,
   sideEffects: "None",
