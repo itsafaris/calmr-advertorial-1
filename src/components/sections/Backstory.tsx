@@ -54,23 +54,39 @@ export function Backstory() {
                 style={{ height: "100%" }}
               />
 
-              <Text
-                fontSize={["lg", "lg", "xl"]}
-                fontWeight={"bold"}
-                color="white"
-                backgroundColor="black"
-                bottom={"6px"}
-                left={"50%"}
-                transform={"translateX(-50%)"}
+              <Stack
+                bottom={0}
                 position={"absolute"}
-                py={1}
-                px={3}
-                width={"90%"}
-                textAlign={"center"}
-                lineHeight={1.2}
+                bgGradient={"linear(to-b, transparent, #000000b0)"}
+                height={"25%"}
+                width={"full"}
+                justifyContent={"flex-end"}
+                spacing={0}
               >
-                177 lbs
-              </Text>
+                <Text
+                  fontSize={["28px", "28px", "45px"]}
+                  fontWeight={"bold"}
+                  color="yellow.300"
+                  textShadow={"0 0 6px black"}
+                  width={"100%%"}
+                  textAlign={"center"}
+                  lineHeight={1.2}
+                >
+                  - 12lbs
+                </Text>
+                <Text
+                  fontSize={["18px", "18px", "25px"]}
+                  fontWeight={"bold"}
+                  color="white"
+                  textShadow={"0 0 6px black"}
+                  width={"100%%"}
+                  textAlign={"center"}
+                  lineHeight={1.2}
+                  mb={2}
+                >
+                  177lbs
+                </Text>
+              </Stack>
             </Stack>
 
             <Stack position={"relative"}>
@@ -81,39 +97,45 @@ export function Backstory() {
                 style={{ height: "100%" }}
               />
 
-              <Text
-                fontSize={["lg", "lg", "xl"]}
-                fontWeight={"bold"}
-                color="white"
-                backgroundColor="orange.400"
-                bottom={"6px"}
-                left={"50%"}
-                transform={"translateX(-50%)"}
+              <Stack
+                bottom={0}
                 position={"absolute"}
-                py={1}
-                px={3}
-                width={"90%"}
-                textAlign={"center"}
-                lineHeight={1.2}
+                bgGradient={"linear(to-b, transparent, #000000b0)"}
+                height={"25%"}
+                width={"full"}
+                justifyContent={"flex-end"}
+                spacing={0}
               >
-                164 lbs
-              </Text>
+                <Text
+                  fontSize={["28px", "28px", "45px"]}
+                  fontWeight={"bold"}
+                  color="yellow.300"
+                  textShadow={"0 0 6px black"}
+                  width={"100%%"}
+                  textAlign={"center"}
+                  lineHeight={1.2}
+                >
+                  - 25lbs
+                </Text>
+                <Text
+                  fontSize={["18px", "18px", "25px"]}
+                  fontWeight={"bold"}
+                  color="white"
+                  textShadow={"0 0 6px black"}
+                  width={"100%%"}
+                  textAlign={"center"}
+                  lineHeight={1.2}
+                  mb={2}
+                >
+                  164lbs
+                </Text>
+              </Stack>
             </Stack>
           </SGrid>
           <SGrid columns={2}>
-            <SItalicText>
-              <Text as="span" fontWeight={"bold"} color="black" fontSize={"md"}>
-                Week 5.
-              </Text>{" "}
-              Mar 6, 2023.
-            </SItalicText>
+            <SItalicText>Mar 6, 2023.</SItalicText>
 
-            <SItalicText>
-              <Text as="span" fontWeight={"bold"} color="black" fontSize={"md"}>
-                Week 28.
-              </Text>{" "}
-              Aug 6, 2023.
-            </SItalicText>
+            <SItalicText>Aug 6, 2023.</SItalicText>
           </SGrid>{" "}
         </Stack>
       </Stack>

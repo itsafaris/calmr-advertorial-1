@@ -27,7 +27,15 @@ export function SText(props: TextProps) {
 }
 
 export function SItalicText(props: TextProps) {
-  return <Text fontSize={["sm", "md"]} fontStyle={"italic"} color="gray.600" {...props} />;
+  return (
+    <Text
+      fontSize={["sm", "md"]}
+      fontStyle={"italic"}
+      color="gray.500"
+      fontWeight={"semibold"}
+      {...props}
+    />
+  );
 }
 
 export function SBoldText(props: TextProps) {

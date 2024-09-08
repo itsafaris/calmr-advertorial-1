@@ -58,19 +58,9 @@ export function BestSolution() {
         </SGrid>
 
         <SGrid columns={2}>
-          <SItalicText>
-            <Text as="span" fontWeight={"bold"} color="black" fontSize={"md"}>
-              Week 1.
-            </Text>{" "}
-            Feb 6, 2023.
-          </SItalicText>
+          <SItalicText>Feb 6, 2023.</SItalicText>
 
-          <SItalicText>
-            <Text as="span" fontWeight={"bold"} color="black" fontSize={"md"}>
-              Week 56
-            </Text>{" "}
-            May 9, 2024.
-          </SItalicText>
+          <SItalicText>May 9, 2024.</SItalicText>
         </SGrid>
       </Stack>
 

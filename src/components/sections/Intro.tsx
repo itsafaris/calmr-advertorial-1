@@ -10,7 +10,7 @@ export function Intro() {
   return (
     <Section>
       <Box>
-        <Heading as="h2" my={2} fontSize={"2xl"} fontWeight={"bold"}>
+        <Heading as="h2" my={2} fontSize={"2xl"} fontWeight={"black"}>
           I Tried 10 Weight-Loss Products - Here's My Top Pick for 2024
         </Heading>
 
@@ -29,23 +29,27 @@ export function Intro() {
               style={{ height: "100%" }}
             />
 
-            <Text
-              fontSize={["lg", "lg", "xl"]}
-              fontWeight={"bold"}
-              color="white"
-              backgroundColor="black"
-              bottom={"6px"}
-              left={"50%"}
-              transform={"translateX(-50%)"}
+            <Stack
+              bottom={0}
               position={"absolute"}
-              py={1}
-              px={3}
-              width={"90%"}
-              textAlign={"center"}
-              lineHeight={1.2}
+              bgGradient={"linear(to-b, transparent, #000000b0)"}
+              height={"25%"}
+              width={"full"}
+              justifyContent={"flex-end"}
             >
-              189 lbs
-            </Text>
+              <Text
+                fontSize={["18px", "18px", "25px"]}
+                fontWeight={"bold"}
+                color="white"
+                textShadow={"0 0 6px black"}
+                width={"100%%"}
+                textAlign={"center"}
+                lineHeight={1.2}
+                mb={2}
+              >
+                189lbs
+              </Text>
+            </Stack>
           </Stack>
 
           <Stack position={"relative"}>
@@ -56,40 +60,45 @@ export function Intro() {
               style={{ height: "100%" }}
             />
 
-            <Text
-              fontSize={["lg", "lg", "xl"]}
-              fontWeight={"bold"}
-              color="white"
-              backgroundColor="orange.400"
-              bottom={"6px"}
-              left={"50%"}
-              transform={"translateX(-50%)"}
+            <Stack
+              bottom={0}
               position={"absolute"}
-              py={1}
-              px={3}
-              width={"90%"}
-              textAlign={"center"}
-              lineHeight={1.2}
+              bgGradient={"linear(to-b, transparent, #000000b0)"}
+              height={"25%"}
+              width={"full"}
+              justifyContent={"flex-end"}
+              spacing={0}
             >
-              143 lbs
-            </Text>
+              <Text
+                fontSize={["28px", "28px", "45px"]}
+                fontWeight={"bold"}
+                color="yellow.300"
+                textShadow={"0 0 6px black"}
+                width={"100%%"}
+                textAlign={"center"}
+                lineHeight={1.2}
+              >
+                - 46lbs
+              </Text>
+              <Text
+                fontSize={["18px", "18px", "25px"]}
+                fontWeight={"bold"}
+                color="white"
+                textShadow={"0 0 6px black"}
+                width={"100%%"}
+                textAlign={"center"}
+                lineHeight={1.2}
+                mb={2}
+              >
+                143lbs
+              </Text>
+            </Stack>
           </Stack>
         </SGrid>
 
         <SGrid columns={2}>
-          <SItalicText>
-            <Text as="span" fontWeight={"bold"} color="black" fontSize={"md"}>
-              Week 1.
-            </Text>{" "}
-            Feb 6, 2023.
-          </SItalicText>
-
-          <SItalicText>
-            <Text as="span" fontWeight={"bold"} color="black" fontSize={"md"}>
-              Week 56.
-            </Text>{" "}
-            May 9, 2024.
-          </SItalicText>
+          <SItalicText>Feb 6, 2023.</SItalicText>
+          <SItalicText>May 9, 2024.</SItalicText>
         </SGrid>
       </Stack>
 
