@@ -23,6 +23,7 @@ export const onClientEntry: GatsbyBrowser["onClientEntry"] = () => {
     bootstrap: {
       featureFlags: {
         "linda-page-hero-section": "control",
+        "linda-page-structure-2": "control",
       },
     },
   });
