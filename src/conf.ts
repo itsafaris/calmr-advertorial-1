@@ -16,7 +16,7 @@ export type SiteConfig = {
 };
 
 export const siteConfig: SiteConfig = {
-  personaName: "Linda",
+  personaName: "Linda Harper",
   brandName: "Linda's Adventures",
   version: pkgjson.version,
   email: "lindaharperblog@gmail.com",

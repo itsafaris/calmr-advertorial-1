@@ -26,15 +26,7 @@ export function SText(props: TextProps) {
 }
 
 export function SItalicText(props: TextProps) {
-  return (
-    <Text
-      fontSize={"md"}
-      fontWeight={"semibold"}
-      fontStyle={"italic"}
-      color="gray.500"
-      {...props}
-    />
-  );
+  return <Text fontSize={["sm", "md"]} fontStyle={"italic"} color="gray.600" {...props} />;
 }
 
 export function SBoldText(props: TextProps) {
@@ -44,13 +36,13 @@ export function SBoldText(props: TextProps) {
 export function SLink({ to, ...rest }: TextProps & { to: string }) {
   return (
     <Link to={to}>
-      <Text as="span" fontWeight={"bold"} textDecoration={"underline"} {...rest} />
+      <Text as="span" color="pink.600" fontWeight={"bold"} textDecoration={"underline"} {...rest} />
     </Link>
   );
 }
 
 export function SGrid(props: SimpleGridProps) {
-  return <SimpleGrid gap={6} {...props} />;
+  return <SimpleGrid gap={3} {...props} />;
 }
 
 export function Section(props: StackProps) {

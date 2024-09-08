@@ -22,6 +22,7 @@ export function FloatingBar(props: IFloatingBarProps) {
       boxShadow={"2xl"}
       borderTop={"1px solid"}
       borderColor={"blackAlpha.100"}
+      color={"pink.600"}
     >
       Go to winner
     </Flex>
