@@ -19,7 +19,7 @@ const sectionID = "winner-section";
 export function BestSolution() {
   return (
     <Section id="winner">
-      <SHeading mb={4}>🏆 Results After 14 Months of Testing: </SHeading>
+      <SHeading mb={4}>🏆 The Best Weight-Loss Solution For Me:</SHeading>
 
       <ProductCard
         bannerText="🏆 The Winner 🏆"

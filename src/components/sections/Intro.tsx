@@ -10,7 +10,7 @@ export function Intro() {
   return (
     <Section>
       <Box>
-        <Heading as="h2" my={2} fontSize={"2xl"} fontWeight={"black"}>
+        <Heading as="h2" my={2} fontSize={"2xl"} fontWeight={"bold"}>
           I Tried 10 Weight-Loss Products - Here's My Top Pick for 2024
         </Heading>
 
