@@ -3,6 +3,7 @@ import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@compon
 import { StaticImage } from "gatsby-plugin-image";
 import { ProductCard } from "@components/ProductCard";
 import { productData } from "src/productData";
+import { Stack } from "@chakra-ui/react";
 
 export function SupContrave() {
   return (
@@ -67,14 +68,16 @@ export function SupContrave() {
 
       <StaticImage height={200} alt="supplement" src="../../images/sup-contrave-1.jpg" />
 
-      <SGrid columns={2}>
-        <StaticImage height={350} alt="supplement" src="../../images/sup-contrave-2.jpg" />
-        <StaticImage height={350} alt="supplement" src="../../images/sup-contrave-3.jpg" />
-      </SGrid>
+      <Stack>
+        <SGrid columns={2}>
+          <StaticImage height={350} alt="supplement" src="../../images/sup-contrave-2.jpg" />
+          <StaticImage height={350} alt="supplement" src="../../images/sup-contrave-3.jpg" />
+        </SGrid>
 
-      <SItalicText>
-        Here's how my schedule looked like for taking Contrave Weight Loss Pills
-      </SItalicText>
+        <SItalicText>
+          Here's how my schedule looked like for taking Contrave Weight Loss Pills
+        </SItalicText>
+      </Stack>
 
       <SText>
         <SBoldText>Summing-up:</SBoldText>

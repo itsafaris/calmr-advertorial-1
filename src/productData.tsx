@@ -35,19 +35,19 @@ export const mainProduct: Product & { shortTitle: string } = {
       text: "I lost an amazing 12 pounds in my first month of using Calmr, all while enjoying better sleep. It's been a game-changer for me!",
     },
     {
-      title: "Two-in-One Solution",
-      text: "I love how Calmr tackles both my weight issues and sleep problems. It's like getting two supplements in one, which is incredibly convenient.",
+      title: "Affordable",
+      text: "Calmr is incredibly affordable, especially with the subscription option. It's a small investment for such a significant improvement in my overall well-being!",
     },
     {
       title: "Sleep Like a Baby",
-      text: "The Mood and Sleep Blend in Calmr has transformed my nights. I'm falling asleep faster and waking up feeling refreshed like never before.",
+      text: "The Sleep Blend in Calmr has transformed my nights. I'm falling asleep faster and waking up feeling refreshed like never before.",
     },
     {
-      title: "Stress? What Stress?",
+      title: "Stress reduced significanlty",
       text: "Since starting Calmr, I've noticed a significant drop in my stress and anxiety levels. I feel more relaxed and composed throughout the day.",
     },
     {
-      title: "Gentle on My System",
+      title: "No side effects",
       text: "Unlike other supplements I've tried, Calmr hasn't given me any nasty side effects. It's been smooth sailing from day one.",
     },
     {

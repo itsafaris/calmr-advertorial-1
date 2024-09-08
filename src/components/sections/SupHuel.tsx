@@ -3,6 +3,7 @@ import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@compon
 import { StaticImage } from "gatsby-plugin-image";
 import { productData } from "src/productData";
 import { ProductCard } from "@components/ProductCard";
+import { Stack } from "@chakra-ui/react";
 
 export function SupHuel() {
   return (
@@ -47,12 +48,14 @@ export function SupHuel() {
         protein bar.
       </SText>
 
-      <SGrid columns={2}>
-        <StaticImage height={400} alt="supplement" src="../../images/sup-huel-1.jpeg" />
-        <StaticImage height={400} alt="supplement" src="../../images/sup-huel-2.jpeg" />
-      </SGrid>
+      <Stack>
+        <SGrid columns={2}>
+          <StaticImage height={400} alt="supplement" src="../../images/sup-huel-1.jpeg" />
+          <StaticImage height={400} alt="supplement" src="../../images/sup-huel-2.jpeg" />
+        </SGrid>
 
-      <StaticImage height={400} alt="supplement" src="../../images/sup-huel-3.jpeg" />
+        <StaticImage height={400} alt="supplement" src="../../images/sup-huel-3.jpeg" />
+      </Stack>
 
       <SItalicText>
         The Huel Original Complete Meal Shake only needs water, allowing me to have my lunch
@@ -77,12 +80,14 @@ export function SupHuel() {
         otherwise, you might end up gaining weight instead of losing it.
       </SText>
 
-      <StaticImage height={500} alt="supplement" src="../../images/sup-huel-4.jpeg" />
+      <Stack>
+        <StaticImage height={500} alt="supplement" src="../../images/sup-huel-4.jpeg" />
 
-      <SItalicText>
-        I’m still researching and evaluating Huel shakes to determine the best weight loss approach
-        for me.
-      </SItalicText>
+        <SItalicText>
+          I’m still researching and evaluating Huel shakes to determine the best weight loss
+          approach for me.
+        </SItalicText>
+      </Stack>
     </Section>
   );
 }

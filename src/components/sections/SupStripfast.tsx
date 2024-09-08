@@ -3,6 +3,7 @@ import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@compon
 import { StaticImage } from "gatsby-plugin-image";
 import { ProductCard } from "@components/ProductCard";
 import { productData } from "src/productData";
+import { Stack } from "@chakra-ui/react";
 
 export function SupStripfast() {
   return (
@@ -64,15 +65,17 @@ export function SupStripfast() {
         loss goals while also improving my overall fitness.
       </SText>
 
-      <SGrid columns={2}>
-        <StaticImage height={400} alt="supplement" src="../../images/sup-stripf-1.jpeg" />
-        <StaticImage height={400} alt="supplement" src="../../images/sup-stripf-2.jpeg" />
-      </SGrid>
+      <Stack>
+        <SGrid columns={2}>
+          <StaticImage height={400} alt="supplement" src="../../images/sup-stripf-1.jpeg" />
+          <StaticImage height={400} alt="supplement" src="../../images/sup-stripf-2.jpeg" />
+        </SGrid>
 
-      <SItalicText>
-        One tablet in the morning and another in the early afternoon: my Stripfast5000 routine led
-        to increased thirst and boosted my water intake.
-      </SItalicText>
+        <SItalicText>
+          One tablet in the morning and another in the early afternoon: my Stripfast5000 routine led
+          to increased thirst and boosted my water intake.
+        </SItalicText>
+      </Stack>
 
       <SText>
         <SBoldText>Summing-up:</SBoldText>

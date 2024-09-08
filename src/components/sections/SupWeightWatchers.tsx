@@ -3,11 +3,13 @@ import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@compon
 import { StaticImage } from "gatsby-plugin-image";
 import { ProductCard } from "@components/ProductCard";
 import { productData } from "src/productData";
+import { Stack } from "@chakra-ui/react";
 
 export function SupWeightWatchers() {
   return (
     <Section>
       <ProductCard
+        bannerColor="gray.600"
         bannerText="🥈 Runner Up 🥈"
         productTitle={productData[1].method}
         productImage={productData[1].image}
@@ -44,14 +46,16 @@ export function SupWeightWatchers() {
         flexibility of the Points system.
       </SText>
 
-      <SGrid columns={2}>
-        <StaticImage height={400} alt="supplement" src="../../images/sup-wwapp-2.jpg" />
-        <StaticImage height={400} alt="supplement" src="../../images/sup-wwapp-3.jpg" />
-      </SGrid>
+      <Stack>
+        <SGrid columns={2}>
+          <StaticImage height={400} alt="supplement" src="../../images/sup-wwapp-2.jpg" />
+          <StaticImage height={400} alt="supplement" src="../../images/sup-wwapp-3.jpg" />
+        </SGrid>
 
-      <SItalicText>
-        Here's a quick example of what I was eating in a day on WeightWatchers
-      </SItalicText>
+        <SItalicText>
+          Here's a quick example of what I was eating in a day on WeightWatchers
+        </SItalicText>
+      </Stack>
 
       <SText>
         <SBoldText>Summing-up:</SBoldText>

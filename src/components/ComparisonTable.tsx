@@ -26,7 +26,7 @@ export function ComparisonTable({ data }: { data: TableData }) {
         <Thead>
           <Tr>
             <Th width={widths[0]} whiteSpace={"pre-line"}>
-              Weight Loss Method
+              Weight Loss Product
             </Th>
             <Th width={widths[1]} whiteSpace={"pre-line"}>
               Initial Weight Loss

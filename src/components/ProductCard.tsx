@@ -4,6 +4,8 @@ import { FaBan, FaCheckCircle, FaRegStar, FaStar, FaStarHalfAlt } from "react-ic
 import { SBoldText, Span } from "./components";
 import { Link } from "gatsby";
 import { siteConfig } from "src/conf";
+import { FaArrowRight } from "react-icons/fa";
+import { trackPosthogEvent } from "src/tracking";
 
 export interface IProductCardProps {
   bannerText?: string;
@@ -12,6 +14,7 @@ export interface IProductCardProps {
   rating: number;
   positives: Array<{ title: string; text: string }>;
   negatives: Array<{ title: string; text: string }>;
+  bannerColor?: string;
 }
 
 export function ProductCard({
@@ -21,6 +24,7 @@ export function ProductCard({
   rating,
   positives,
   negatives,
+  bannerColor,
 }: IProductCardProps) {
   return (
     <Card
@@ -31,8 +35,8 @@ export function ProductCard({
       transition={"all 0.2s"}
     >
       {bannerText && (
-        <Box bg="green.600" p={4}>
-          <Text color="white" textAlign={"center"} fontWeight={"bold"}>
+        <Box bg={bannerColor ?? "green.600"} p={4}>
+          <Text color="white" textAlign={"center"} fontWeight={"bold"} fontSize={"lg"}>
             {bannerText}
           </Text>
         </Box>
@@ -53,6 +57,16 @@ export function ProductCard({
               fontWeight={"bold"}
               maxW={340}
               mx="auto"
+              size={"lg"}
+              rightIcon={<Icon as={FaArrowRight} />}
+              onClick={() => {
+                trackPosthogEvent({
+                  name: "external-link-clicked",
+                  properties: {
+                    sectionID: { productTitle },
+                  },
+                });
+              }}
             >
               Check Availability
             </Button>

@@ -12,13 +12,14 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "gatsby";
 import { FaRegThumbsUp } from "react-icons/fa";
+import { trackPosthogEvent } from "src/tracking";
 
 export function Span(props: TextProps) {
   return <Text as="span" {...props} />;
 }
 
 export function SHeading(props: HeadingProps) {
-  return <Heading {...props} />;
+  return <Heading {...props} fontSize={"2xl"} />;
 }
 
 export function SText(props: TextProps) {
@@ -33,10 +34,26 @@ export function SBoldText(props: TextProps) {
   return <Text as="span" fontWeight={"bold"} {...props} />;
 }
 
-export function SLink({ to, ...rest }: TextProps & { to: string }) {
+export function SLink({ to, sectionID, ...rest }: TextProps & { to: string; sectionID: string }) {
   return (
-    <Link to={to}>
-      <Text as="span" color="pink.600" fontWeight={"bold"} textDecoration={"underline"} {...rest} />
+    <Link
+      to={to}
+      onClick={() => {
+        trackPosthogEvent({
+          name: "internal-link-clicked",
+          properties: {
+            sectionID,
+          },
+        });
+      }}
+    >
+      <Text
+        as="span"
+        color="orange.500"
+        fontWeight={"bold"}
+        textDecoration={"underline"}
+        {...rest}
+      />
     </Link>
   );
 }

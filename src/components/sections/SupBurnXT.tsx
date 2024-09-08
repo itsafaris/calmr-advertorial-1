@@ -3,6 +3,7 @@ import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@compon
 import { StaticImage } from "gatsby-plugin-image";
 import { productData } from "src/productData";
 import { ProductCard } from "@components/ProductCard";
+import { Stack } from "@chakra-ui/react";
 
 export function SupBurnXT() {
   return (
@@ -56,15 +57,17 @@ export function SupBurnXT() {
         expectations, offering steady progress without being overly drastic.
       </SText>
 
-      <SGrid columns={2}>
-        <StaticImage height={400} alt="supplement" src="../../images/sup-burnxt-1.jpeg" />
-        <StaticImage height={400} alt="supplement" src="../../images/sup-burnxt-2.jpeg" />
-      </SGrid>
+      <Stack>
+        <SGrid columns={2}>
+          <StaticImage height={400} alt="supplement" src="../../images/sup-burnxt-1.jpeg" />
+          <StaticImage height={400} alt="supplement" src="../../images/sup-burnxt-2.jpeg" />
+        </SGrid>
 
-      <SItalicText>
-        Burn-XT Fat Burner capsules reduced my hunger and boosted my energy, but made it difficult
-        to sleep.
-      </SItalicText>
+        <SItalicText>
+          Burn-XT Fat Burner capsules reduced my hunger and boosted my energy, but made it difficult
+          to sleep.
+        </SItalicText>
+      </Stack>
 
       <SText>
         <SBoldText>Summing-up:</SBoldText>

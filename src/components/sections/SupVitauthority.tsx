@@ -3,6 +3,7 @@ import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@compon
 import { StaticImage } from "gatsby-plugin-image";
 import { ProductCard } from "@components/ProductCard";
 import { productData } from "src/productData";
+import { Stack } from "@chakra-ui/react";
 
 export function SupVitauthority() {
   return (
@@ -47,11 +48,13 @@ export function SupVitauthority() {
         <StaticImage height={400} alt="supplement" src="../../images/sup-vitout-2.jpeg" />
       </SGrid>
 
-      <StaticImage height={400} alt="supplement" src="../../images/sup-vitout-3.jpeg" />
+      <Stack>
+        <StaticImage height={400} alt="supplement" src="../../images/sup-vitout-3.jpeg" />
 
-      <SItalicText>
-        I usually mixed Vitauthority Multi Collagen Burn into my morning coffee.
-      </SItalicText>
+        <SItalicText>
+          I usually mixed Vitauthority Multi Collagen Burn into my morning coffee.
+        </SItalicText>
+      </Stack>
 
       <SText>
         <SBoldText>Summing-up:</SBoldText>

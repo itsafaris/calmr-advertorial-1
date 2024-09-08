@@ -5,11 +5,9 @@ import { SEO } from "@components/SEO";
 import { Box, Container } from "@chakra-ui/react";
 import { siteConfig } from "src/conf";
 
-import { Section } from "@components/components";
-
 import { FullComparisonChart } from "@components/sections/FullComparisonChart";
 import { Verdict } from "@components/sections/Verdict";
-import { SupNOW } from "@components/sections/SupNOW";
+
 import { SupVitauthority } from "@components/sections/SupVitauthority";
 import { SupStripfast } from "@components/sections/SupStripfast";
 import { SupBurnXT } from "@components/sections/SupBurnXT";
@@ -26,12 +24,11 @@ import { TestingMethodology } from "@components/sections/TestingMethodology";
 import { Backstory } from "@components/sections/Backstory";
 import { Intro } from "@components/sections/Intro";
 
-import ComparisonTable from "@components/ComparisonTable";
-
 import { Footer } from "@components/Footer";
-import { productData } from "src/productData";
 import { FloatingBar } from "@components/FloatingBar";
 import { Hero } from "@components/sections/Hero";
+import { JumpToSection } from "@components/sections/JumpToSection";
+import { SHeading } from "@components/components";
 
 export const Head: HeadFC = () => {
   return (
@@ -49,6 +46,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <Hero />
       <Container maxW="container.md">
         <Intro />
+        <JumpToSection />
         <Backstory />
         <TestingMethodology />
         <SummaryComparisonChart />
@@ -56,6 +54,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <TenMethods />
 
         <BestSolution />
+        <SHeading mb={8}>Other Products </SHeading>
         <SupWeightWatchers />
         <SupHuel />
         <SupContrave />
@@ -64,14 +63,9 @@ const IndexPage: React.FC<PageProps> = () => {
         <SupBurnXT />
         <SupStripfast />
         <SupVitauthority />
-        {/* <SupNOW /> */}
 
         <Verdict />
         <FullComparisonChart />
-
-        <Section>
-          <ComparisonTable data={productData} />
-        </Section>
       </Container>
 
       <Footer />

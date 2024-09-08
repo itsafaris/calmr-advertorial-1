@@ -4,8 +4,8 @@ import { productData } from "src/productData";
 
 export function SummaryComparisonChart() {
   return (
-    <Section>
-      <SHeading>All results summarized 👇</SHeading>
+    <Section id="results-summarized-section">
+      <SHeading>All Results Summarized 👇</SHeading>
 
       <SText>
         After experimenting with numerous weight loss methods and experiencing a variety of

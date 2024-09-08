@@ -3,6 +3,7 @@ import { SBoldText, Section, SGrid, SHeading, SItalicText, SText } from "@compon
 import { StaticImage } from "gatsby-plugin-image";
 import { ProductCard } from "@components/ProductCard";
 import { productData } from "src/productData";
+import { Stack } from "@chakra-ui/react";
 
 export function SupHydroxycut() {
   return (
@@ -50,12 +51,14 @@ export function SupHydroxycut() {
         <StaticImage height={400} alt="supplement" src="../../images/sup-Hydroxycut-2.jpeg" />
       </SGrid>
 
-      <StaticImage height={500} alt="supplement" src="../../images/sup-Hydroxycut-3.jpeg" />
+      <Stack>
+        <StaticImage height={500} alt="supplement" src="../../images/sup-Hydroxycut-3.jpeg" />
 
-      <SItalicText>
-        Hydroxycut + Women: Suppressed my appetite effectively, but the high caffeine content made
-        consistent use challenging.
-      </SItalicText>
+        <SItalicText>
+          Hydroxycut + Women: Suppressed my appetite effectively, but the high caffeine content made
+          consistent use challenging.
+        </SItalicText>
+      </Stack>
 
       <SText>
         <SBoldText>Summing-up:</SBoldText>

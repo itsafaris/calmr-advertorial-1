@@ -6,38 +6,35 @@ import { Flex, Stack } from "@chakra-ui/react";
 export function ShortTermMethods() {
   return (
     <Section>
-      <SHeading>Insights from Short-Term Weight Loss Methods</SHeading>
+      <SHeading>Why Popular Weight-Loss Products Failed Me</SHeading>
 
       <SText>
-        From the beginning, I tested various quick-fix solutions like metabolism boosters, including
-        Hydroxycut Weight Loss Pills, Burn-XT Fat Burner, Stripfast 5000 Fire Bullet Weight-Loss
-        Supplement, Vitauthority Multi Collagen Burn, and NOW Foods Acetyl-L-Carnitine. At first,
-        these products seemed promising, providing a noticeable increase in energy and faster fat
-        loss.
+        Initially, I tried various metabolism boosters and weight loss supplements, which seemed
+        promising with their quick energy boosts and apparent fat loss. However, these benefits were
+        short-lived and often accompanied by negative side effects like jitteriness and potential
+        heart health risks.
       </SText>
 
       <SText>
-        However, the initial benefits were overshadowed by less favorable effects. The energy boost
-        from these pills often left me feeling jittery and uncomfortable, with some even posing
-        potential risks to heart health. Over time, I realized that while they might speed up fat
-        loss, they also led to unsustainable results and possible health concerns.
+        Over time, I realized these products led to unsustainable results and possible health
+        concerns. I'd often regain the lost weight, feeling worse both physically and mentally. It
+        became clear that these quick fixes weren't worth compromising my health.
       </SText>
 
       <SText>
-        After understanding the true impact of these metabolism boosters, it became clear they
-        weren't the long-term solution I had hoped for. I often ended up back where I started,
-        feeling worse both physically and mentally. It became evident that rapid weight loss methods
-        weren't worth compromising my health. Instead, I needed a sustainable, healthy approach to
-        weight loss that emphasized proper nutrition and consistent habits, rather than relying on
-        quick fixes that failed to deliver lasting results.
+        Ultimately, I understood that a sustainable, healthy approach focusing on proper nutrition
+        and consistent habits was necessary for lasting weight loss, rather than relying on rapid,
+        potentially harmful methods.
       </SText>
 
-      <StaticImage height={500} alt="supplement comparison" src="../../images/comparison-2.jpg" />
+      <Stack>
+        <StaticImage height={500} alt="supplement comparison" src="../../images/comparison-2.jpg" />
 
-      <SItalicText>
-        In my quest for weight loss, I resorted to quick solutions that didn't provide lasting
-        results.
-      </SItalicText>
+        <SItalicText>
+          In my quest for weight loss, I resorted to quick solutions that didn't provide lasting
+          results.
+        </SItalicText>
+      </Stack>
     </Section>
   );
 }

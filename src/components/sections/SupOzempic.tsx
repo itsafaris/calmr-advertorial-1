@@ -2,6 +2,7 @@ import { SBoldText, Section, SItalicText, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
 import { productData } from "src/productData";
 import { ProductCard } from "@components/ProductCard";
+import { Stack } from "@chakra-ui/react";
 
 export function SupOzempic() {
   return (
@@ -41,12 +42,14 @@ export function SupOzempic() {
         these hurdles, the steady weight loss and improved health markers kept me motivated.
       </SText>
 
-      <StaticImage height={500} alt="supplement" src="../../images/sup-ozempic-1.jpg" />
+      <Stack>
+        <StaticImage height={500} alt="supplement" src="../../images/sup-ozempic-1.jpg" />
 
-      <SItalicText>
-        On April 11 2023 I began my weight loss journey using Ozempic. As on June 22 2023 I’m
-        officially down 18 pounds.
-      </SItalicText>
+        <SItalicText>
+          On April 11 2023 I began my weight loss journey using Ozempic. As on June 22 2023 I’m
+          officially down 18 pounds.
+        </SItalicText>
+      </Stack>
 
       <SText>
         <SBoldText>Summing-up:</SBoldText>

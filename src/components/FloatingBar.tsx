@@ -1,5 +1,6 @@
 import { Flex } from "@chakra-ui/react";
 import { Link } from "gatsby";
+import { trackPosthogEvent } from "src/tracking";
 
 export interface IFloatingBarProps {}
 
@@ -22,7 +23,15 @@ export function FloatingBar(props: IFloatingBarProps) {
       boxShadow={"2xl"}
       borderTop={"1px solid"}
       borderColor={"blackAlpha.100"}
-      color={"pink.600"}
+      color={"orange.600"}
+      onClick={() => {
+        trackPosthogEvent({
+          name: "internal-link-clicked",
+          properties: {
+            sectionID: "floating-bar",
+          },
+        });
+      }}
     >
       Go to winner
     </Flex>
