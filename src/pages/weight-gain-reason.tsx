@@ -1,13 +1,15 @@
 import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
+import { Link, type HeadFC, type PageProps } from "gatsby";
 import { SEO } from "@components/SEO";
-import { Box, Container, Heading, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, Heading, Icon, Stack, Text } from "@chakra-ui/react";
 import { siteConfig } from "src/conf";
 import { Footer } from "@components/Footer";
-import { FloatingBar } from "@components/FloatingBar";
 import { Hero } from "@components/sections/Hero";
 import { SBoldText, Section, SGrid, SItalicText, SLink, SText } from "@components/components";
 import { StaticImage } from "gatsby-plugin-image";
+import { IoMdFemale } from "react-icons/io";
+import { IoMdMale } from "react-icons/io";
+import { FaArrowRight } from "react-icons/fa6";
 
 export const Head: HeadFC = () => {
   return (
@@ -27,8 +29,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <Section>
           <Box>
             <Heading as="h2" my={2} fontSize={["2xl", "3xl"]} fontWeight={"bold"} lineHeight={1.3}>
-              Results of My Weight Loss Journey: This Could Be Why Most Women Are Struggling to Lose
-              Weight in 2024
+              My Weight Loss Journey: A Discovery That Helped Me Lose Weight and Could Help You Too
             </Heading>
 
             <Text fontSize={["xs", "sm"]} fontWeight={"semibold"} mt={4}>
@@ -119,71 +120,89 @@ const IndexPage: React.FC<PageProps> = () => {
             </SGrid>
           </Stack>
 
-          <Box>
-            <SText>
-              <SBoldText>
-                Around April of last year, after yet another failed attempt at losing weight, I
-                decided it was time to approach things differently.
-              </SBoldText>{" "}
-              From that moment on, I committed to experimenting with various products and
-              meticulously documenting every detail of my weight-loss progress.
-            </SText>
-          </Box>
+          <SText>
+            Last April, frustrated with my weight loss struggles, I decided to take a different
+            approach. I began experimenting with various methods, meticulously documenting my
+            progress.{" "}
+            <SBoldText>
+              What I discovered surprised me - there was a hidden factor affecting my weight that
+              I'd never considered before.
+            </SBoldText>
+          </SText>
 
-          <Box>
-            <SText>
-              A detailed explanation will be published soon, but in the meantime, I truly want to
-              share with you the main outcome of my experiment.{" "}
-              <SBoldText>
-                To my surprise, I discovered both the reason for and the solution to my weight gain.
-              </SBoldText>
-            </SText>
-          </Box>
-
-          <Stack _hover={{ filter: "brightness(1.1)" }}>
+          <Stack>
             <StaticImage
               src="../images/comparison-1.jpg"
               alt="Trying out different weight loss supplements"
             />
             <SItalicText>
-              From the 10 products that I reviewed, one product came out on top.
+              One of the supplements helped me discover the root cause of my weight gain issues.
             </SItalicText>
           </Stack>
 
-          <Box>
-            <SText>
-              The world we're living in today is moving at a breakneck pace. Between juggling work,
-              family, and everything else life throws our way, it's no wonder we're all feeling a
-              bit frazzled. What many of us don't realize is how this constant hustle and bustle
-              might be affecting our waistlines.
-            </SText>
-          </Box>
+          <SText>
+            I'm excited to share my full findings soon, but in the meantime, I couldn't keep this
+            revelation to myself. If you've been struggling with your own weight loss journey, you
+            might be wondering if this hidden factor is affecting you too.{" "}
+            <SBoldText>
+              To find out, take a simple test that can help you identify if you're facing similar
+              obstacles.
+            </SBoldText>{" "}
+            It could be the first step towards understanding your unique weight loss challenges and
+            finding a solution that truly works for you 🙏
+          </SText>
 
-          <Box>
-            <SText>
-              It's not just about diet and exercise anymore; there's something else at play that's
-              making weight loss an uphill battle for so many of us.{" "}
-              <SBoldText>
-                If you're curious about whether this hidden factor or others might be impacting your
-                own weight loss journey, I encourage you to take{" "}
-                <SLink to="https://trycalmr.com/quiz-2" sectionID="">
-                  THIS TEST
-                </SLink>{" "}
-                and find out for yourself.
-              </SBoldText>
-            </SText>
-          </Box>
+          <Stack py={8}>
+            <Text fontWeight={"bold"} mb={4} textAlign={"center"} fontSize={"lg"}>
+              Take a test to find the reason for and solution to your weight gain:
+            </Text>
 
-          <SLink to="https://trycalmr.com/quiz-2" sectionID="">
-            Find the reason for and solution to your weight gain
-          </SLink>
+            <Flex gap={2} width={"100%"}>
+              <Button
+                borderRadius={"full"}
+                as={Link}
+                size={"lg"}
+                py={7}
+                flex={1}
+                color={"white"}
+                backgroundColor={"#20BF8E"}
+                _hover={{
+                  backgroundColor: "#168f6a",
+                }}
+                _focus={{
+                  backgroundColor: "#20BF8E",
+                }}
+                to={"https://trycalmr.com"}
+              >
+                <Stack direction={"row"} alignItems={"center"} spacing={2}>
+                  <Text lineHeight={1}>For Male</Text>
+                  <Icon as={FaArrowRight} />
+                </Stack>
+              </Button>
 
-          <Box>
-            <SText>
-              {" "}
-              <SBoldText>I'd love to hear if this helped you as well! 🙏</SBoldText>
-            </SText>
-          </Box>
+              <Button
+                borderRadius={"full"}
+                as={Link}
+                flex={1}
+                size={"lg"}
+                py={7}
+                to={"https://trycalmr.com"}
+                color={"white"}
+                backgroundColor={"#C88AB8"}
+                _hover={{
+                  backgroundColor: "#a16a93",
+                }}
+                _focus={{
+                  backgroundColor: "#C88AB8",
+                }}
+              >
+                <Stack direction={"row"} alignItems={"center"} spacing={2}>
+                  <Text lineHeight={1}>For Female</Text>
+                  <Icon as={FaArrowRight} />
+                </Stack>
+              </Button>
+            </Flex>
+          </Stack>
         </Section>
       </Container>
 
