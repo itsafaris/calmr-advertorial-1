@@ -8,30 +8,30 @@ import { Link } from "gatsby";
 
 export function Footer() {
   return (
-    <Stack backgroundColor={"teal.400"} py={10} pb={20} mt={10}>
+    <Stack bgGradient="linear(to-t, yellow.200, transparent)" py={10} pb={20} mt={10}>
       <Container maxW={"container.md"}>
         <Stack alignItems={"center"} spacing={8}>
           <Stack spacing={6} direction={["column", "column", "row"]} align={"center"}>
             <Link to="#">
-              <Text color="white" fontSize={"sm"} fontWeight={"semibold"}>
+              <Text color="black" fontSize={"sm"} fontWeight={"semibold"}>
                 Blog
               </Text>
             </Link>
 
             <Link to="#">
-              <Text color="white" fontSize={"sm"} fontWeight={"semibold"}>
+              <Text color="black" fontSize={"sm"} fontWeight={"semibold"}>
                 About me
               </Text>
             </Link>
 
             <Link to="#">
-              <Text color="white" fontSize={"sm"} fontWeight={"semibold"}>
+              <Text color="black" fontSize={"sm"} fontWeight={"semibold"}>
                 Contact me
               </Text>
             </Link>
 
             <Link to="#">
-              <Text color="white" fontSize={"sm"} fontWeight={"semibold"}>
+              <Text color="black" fontSize={"sm"} fontWeight={"semibold"}>
                 Privacy Policy
               </Text>
             </Link>
@@ -39,11 +39,11 @@ export function Footer() {
 
           <Stack spacing={6} direction={"row"} align={"center"}>
             <Link to="#">
-              <Icon color="white" boxSize={7} as={FaFacebook} />
+              <Icon color="black" boxSize={7} as={FaFacebook} />
             </Link>
 
             <Link to="#">
-              <Icon color="white" boxSize={7} as={FaInstagramSquare} />
+              <Icon color="black" boxSize={7} as={FaInstagramSquare} />
             </Link>
           </Stack>
         </Stack>
