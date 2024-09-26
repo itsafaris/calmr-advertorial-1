@@ -173,7 +173,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 _focus={{
                   backgroundColor: "#20BF8E",
                 }}
-                to={"https://trycalmr.com/quiz-1/quiz/?slideid=goals"}
+                to={siteConfig.linkToMainProduct()}
               >
                 <Stack direction={"row"} alignItems={"center"} spacing={2}>
                   <Text lineHeight={1}>For Male</Text>
@@ -187,7 +187,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 flex={1}
                 size={"lg"}
                 py={7}
-                to={"https://trycalmr.com/quiz-1/quiz/?slideid=goals"}
+                to={siteConfig.linkToMainProduct()}
                 color={"white"}
                 backgroundColor={"#C88AB8"}
                 _hover={{

@@ -30,6 +30,6 @@ export const siteConfig: SiteConfig = {
   linkToMainProduct: () => {
     const userid = posthog.get_distinct_id();
     const hash = userid ? `#userid=${userid}` : "";
-    return `https://trycalmr.com/sleep-and-burn/${hash}`;
+    return `https://trycalmr.com/quiz-1/quiz/?slideid=goals${hash}`;
   },
 };
