@@ -23,7 +23,7 @@ export function SHeading(props: HeadingProps) {
 }
 
 export function SText(props: TextProps) {
-  return <Text fontSize={"sm"} fontWeight={"regular"} {...props} />;
+  return <Text fontSize={"md"} lineHeight={1.7} fontWeight={"regular"} {...props} />;
 }
 
 export function SItalicText(props: TextProps) {
